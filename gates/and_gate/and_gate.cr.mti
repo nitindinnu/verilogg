@@ -1,0 +1,8 @@
+D:/Obsi/verilogg/gates/and_gate/and_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\gates\and_gate\and_dut.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module and_dut
+
+Top level modules:
+	and_dut
+
+} {} {}}
