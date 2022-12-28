@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1672248105
+Vb2gcWOPoOLz=?HaU60;o>2
+04 7 4 work tb_nand fast 0
+=1-50814090a273-63ac7b29-1f-3884
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1672248458
+V[f][nUX=kS8YHLeI`@dKL0
+04 6 4 work tb_nor fast 0
+=1-50814090a273-63ac7c8a-2da-1e1c
+R1
+R2
+n@_opt1
+R3
+vnor_gate
+Z4 !s110 1672248446
+!i10b 1
+!s100 X<>>X4CUMjF><7`N3[6BR2
+IG<Q56SToaOSf5H:m8@E?d0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/gates/nor_gate
+w1672248427
+8D:\Obsi\verilogg\gates\nor_gate\nor_dut.v
+FD:\Obsi\verilogg\gates\nor_gate\nor_dut.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1672248446.000000
+!s107 D:\Obsi\verilogg\gates\nor_gate\nor_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gates\nor_gate\nor_dut.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_nor
+R4
+!i10b 1
+!s100 Tf^2DEW?7LD68<b<8m8`W3
+I;iA^3@FzC03Jc8nE22zBK0
+R5
+R6
+w1672248298
+8D:\Obsi\verilogg\gates\nor_gate\nor_tb.v
+FD:\Obsi\verilogg\gates\nor_gate\nor_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\Obsi\verilogg\gates\nor_gate\nor_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gates\nor_gate\nor_tb.v|
+!i113 0
+R9
+R2
