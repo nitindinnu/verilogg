@@ -1,0 +1,80 @@
+WindowType FullviewSchematic /fa
+DesignChecksum zbT21>2``GUmC\]NoH2YR=1
+RoutedNets {}
+RoutedInst {/fa/#ASSIGN#6/__6 1 /fa/#ASSIGN#5/__3 1 /fa/#ASSIGN#6 1}
+WindowPreferences {showhierarchy 1 showacttime 1 inoutlocation 1 selequivnets 0 hidebuffers 0 hidecells 1 hideinverters 0 selectenv 1 autowave 1 lognets 1 popupenabled 1 mouseoverenabled 1 showdunames 0 showinstnames 1 shownetnames 0 shownetnamestyle corner shownetstate 0 showpinnames 1 showripindices 1 showvalues 1 verticaltext 1 netxFollowsControlLogic 0 netxMaxGates 1024 netxMaxLevels 32 use_code_preview 1 time0_warning 1 depth_warning 1 add_error_warning 1 diverge_warning 1}
+EndOfStateInfo
+# File saved with Nlview version 6.6.36_0 (04/08/25-18:45:38 bk=1.779)
+#
+property -reset
+property autobundle 20
+property boxcolor0 #00ffff
+property boxcolor1 #999999
+property boxinstcolor #ffffff
+property boxpincolor #00ffff
+property buscolor #ffff00
+property closeenough 3
+property enablebufferchaincollapsing 1
+property enablescrollrect 1
+property evaluateattrvalue 1
+property extractsequentiallogic 2
+property gatepinname 1
+property incrementmode 2
+property inferbundlename 1
+property instattrmax 50
+property objecthighlight3 #008000
+property objecthighlight4 #ff00ff
+property objecthighlight5 #ffd700
+property objecthighlight6 #0000ff
+property objecthighlight9 #fa8072
+property outboxcolor1 #a52a2a
+property outboxcolor2 #000000
+property outboxcolor4 #000000
+property outfblevel 10
+property picksubnet 1
+property pinattrmax 50
+property pinorder 1
+property questalayoutimprovement 1
+property recursivecallerrorlen 10
+property searchvisibleobjects 1
+property selectbycolor9 1
+property showcellname 0
+property showmarks 1
+property shownetattr 4
+property showripindex 3
+property timelimit 50
+
+module new v {} -nosplit
+load symbol /fa/#ASSIGN#6 v HIERGEN port c input.left port b input.left port a input.left port carry output.right
+load symbol /fa/#ASSIGN#5/__3_1 v XOR port _internal_3_0 output port a input port b input
+load symbol /fa/#ASSIGN#6/__6_1 v AND port _internal_6_0 output port a input port _internal_6_1 input
+load symbol /fa/#ASSIGN#6/__6_2 v XOR port _internal_6_1 output port b input port b#1 input
+load symbol /fa/#ASSIGN#6/__6_3 v XOR port _internal_6_2 output port c input port c#1 input
+load symbol /fa/#ASSIGN#5/__3 v XOR port sum output port _internal_3_0 input port c input
+load symbol /fa/#ASSIGN#6/__6 v AND port carry output port _internal_6_0 input port _internal_6_2 input
+load port /fa/a input -pg 1
+load port /fa/b input -pg 1
+load port /fa/c input -pg 1
+load port /fa/sum output -pg 1
+load port /fa/carry output -pg 1
+load inst /fa/#ASSIGN#6 /fa/#ASSIGN#6 v -unfold -autohide -attr @cell {} -attr acc {} -attr @name #ASSIGN#6 -attr @abstract_id 5 -attr @block_filled 1 -x 351 -y 110 -pg 1
+load inst /fa/#ASSIGN#5/__3_1 /fa/#ASSIGN#5/__3_1 v -attr @cell {} -attr acc {} -attr @name {} -pinAttr _internal_3_0 @name {} -x 173 -y 80 -pg 1
+load inst /fa/#ASSIGN#6/__6 /fa/#ASSIGN#6/__6 v -hier /fa/#ASSIGN#6 -attr @cell {} -attr acc {} -attr @name {} -pinAttr _internal_6_0 @name {} -pinAttr _internal_6_2 @name {} -x 414 -y 40 -pg 1
+load inst /fa/#ASSIGN#6/__6_1 /fa/#ASSIGN#6/__6_1 v -hier /fa/#ASSIGN#6 -attr @cell {} -attr acc {} -attr @name {} -pinAttr _internal_6_0 @name {} -pinAttr _internal_6_1 @name {} -x 278 -y 30 -pg 1
+load inst /fa/#ASSIGN#6/__6_2 /fa/#ASSIGN#6/__6_2 v -hier /fa/#ASSIGN#6 -attr @cell {} -attr acc {} -attr @name {} -pinAttr _internal_6_1 @name {} -x 113 -y 80 -pg 1
+load inst /fa/#ASSIGN#6/__6_3 /fa/#ASSIGN#6/__6_3 v -hier /fa/#ASSIGN#6 -attr @cell {} -attr acc {} -attr @name {} -pinAttr _internal_6_2 @name {} -x 278 -y 80 -pg 1
+load inst /fa/#ASSIGN#5/__3 /fa/#ASSIGN#5/__3 v -attr @cell {} -attr acc {} -attr @name {} -pinAttr _internal_3_0 @name {} -x 351 -y 30 -pg 1
+load net /fa/carry -attr @name carry -attr @simnet 9 -attr @attrvalue 1'hx -attr @attr 1'hx -pin /fa/#ASSIGN#6 carry -hierPin /fa/#ASSIGN#6 carry -pin /fa/#ASSIGN#6/__6 carry -port /fa/carry
+load net /fa/a -attr @simnet 5 -attr @name a -attr @attrvalue 1'hz -attr @attr 1'hz -pin /fa/#ASSIGN#5/__3_1 a -pin /fa/#ASSIGN#6 a -hierPin /fa/#ASSIGN#6 a -pin /fa/#ASSIGN#6/__6_1 a -port /fa/a
+load net /fa/b -attr @simnet 6 -attr @name b -attr @attrvalue 1'hz -attr @attr 1'hz -pin /fa/#ASSIGN#5/__3_1 b -pin /fa/#ASSIGN#6 b -hierPin /fa/#ASSIGN#6 b -pin /fa/#ASSIGN#6/__6_2 b -pin /fa/#ASSIGN#6/__6_2 b#1 -port /fa/b
+load net /fa/c -attr @simnet 8 -attr @name c -attr @attrvalue 1'hz -attr @attr 1'hz -pin /fa/#ASSIGN#5/__3 c -pin /fa/#ASSIGN#6 c -hierPin /fa/#ASSIGN#6 c -pin /fa/#ASSIGN#6/__6_3 c -pin /fa/#ASSIGN#6/__6_3 c#1 -port /fa/c
+load net /fa/sum -attr @simnet 7 -attr @name sum -attr @attrvalue 1'hx -attr @attr 1'hx -pin /fa/#ASSIGN#5/__3 sum -port /fa/sum
+load net /fa/#ASSIGN#6/_internal_6_0 -attr @name {} -attr @attr X -pin /fa/#ASSIGN#6/__6 _internal_6_0 -pin /fa/#ASSIGN#6/__6_1 _internal_6_0
+load net /fa/#ASSIGN#6/_internal_6_1 -attr @name {} -attr @attr X -pin /fa/#ASSIGN#6/__6_1 _internal_6_1 -pin /fa/#ASSIGN#6/__6_2 _internal_6_1
+load net /fa/#ASSIGN#6/_internal_6_2 -attr @name {} -attr @attr X -pin /fa/#ASSIGN#6/__6 _internal_6_2 -pin /fa/#ASSIGN#6/__6_3 _internal_6_2
+load net /fa/#ASSIGN#5/_internal_3_0 -attr @name {} -attr @attr X -pin /fa/#ASSIGN#5/__3 _internal_3_0 -pin /fa/#ASSIGN#5/__3_1 _internal_3_0
+greymode off
+show 1
+zoom 0.675651
+scrollpos 0 -145
+

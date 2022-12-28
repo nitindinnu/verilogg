@@ -1,0 +1,76 @@
+WindowType FullviewSchematic /mux4x1_using_mux2x1
+DesignChecksum {R;4Go=7F2T3M4LdTooQUh0}
+RoutedNets {}
+RoutedInst {/mux4x1_using_mux2x1/#ASSIGN#7/__9 1 /mux4x1_using_mux2x1/#ASSIGN#6/__6 1 /mux4x1_using_mux2x1/#ASSIGN#5/__3 1}
+WindowPreferences {showhierarchy 1 showacttime 1 inoutlocation 1 selequivnets 0 hidebuffers 0 hidecells 1 hideinverters 0 selectenv 1 autowave 1 lognets 1 popupenabled 1 mouseoverenabled 1 showdunames 0 showinstnames 1 shownetnames 0 shownetnamestyle corner shownetstate 0 showpinnames 1 showripindices 1 showvalues 1 verticaltext 1 netxFollowsControlLogic 0 netxMaxGates 1024 netxMaxLevels 32 use_code_preview 1 time0_warning 1 depth_warning 1 add_error_warning 1 diverge_warning 1}
+EndOfStateInfo
+# File saved with Nlview version 6.6.36_0 (04/08/25-18:45:38 bk=1.779)
+#
+property -reset
+property autobundle 20
+property boxcolor0 #00ffff
+property boxcolor1 #999999
+property boxinstcolor #ffffff
+property boxpincolor #00ffff
+property buscolor #ffff00
+property closeenough 3
+property enablebufferchaincollapsing 1
+property enablescrollrect 1
+property evaluateattrvalue 1
+property extractsequentiallogic 2
+property gatepinname 1
+property incrementmode 2
+property inferbundlename 1
+property instattrmax 50
+property objecthighlight3 #008000
+property objecthighlight4 #ff00ff
+property objecthighlight5 #ffd700
+property objecthighlight6 #0000ff
+property objecthighlight9 #fa8072
+property outboxcolor1 #a52a2a
+property outboxcolor2 #000000
+property outboxcolor4 #000000
+property outfblevel 10
+property picksubnet 1
+property pinattrmax 50
+property pinorder 1
+property questalayoutimprovement 1
+property recursivecallerrorlen 10
+property searchvisibleobjects 1
+property selectbycolor9 1
+property showcellname 0
+property showmarks 1
+property shownetattr 4
+property showripindex 3
+property timelimit 50
+
+module new v {} -nosplit
+load symbol /mux4x1_using_mux2x1/#ASSIGN#5/__3 v MUX port y1 output.right port i0 input.left port i1 input.left port s0 input.bot
+load symbol /mux4x1_using_mux2x1/#ASSIGN#6/__6 v MUX port y2 output.right port i2 input.left port i3 input.left port s0 input.bot
+load symbol /mux4x1_using_mux2x1/#ASSIGN#7/__9 v MUX port y3 output.right port y1 input.left port y2 input.left port s1 input.bot
+load port /mux4x1_using_mux2x1/s0 input -pg 1
+load port /mux4x1_using_mux2x1/s1 input -pg 1
+load port /mux4x1_using_mux2x1/y1 output -pg 1
+load port /mux4x1_using_mux2x1/y2 output -pg 1
+load port /mux4x1_using_mux2x1/i0 input -pg 1
+load port /mux4x1_using_mux2x1/y3 output -pg 1
+load port /mux4x1_using_mux2x1/i1 input -pg 1
+load port /mux4x1_using_mux2x1/i2 input -pg 1
+load port /mux4x1_using_mux2x1/i3 input -pg 1
+load inst /mux4x1_using_mux2x1/#ASSIGN#6/__6 /mux4x1_using_mux2x1/#ASSIGN#6/__6 v -attr @cell {} -attr acc {} -attr @name {} -pinAttr i2 @innername 1 -pinAttr i3 @innername 0 -x 307 -y 150 -pg 1
+load inst /mux4x1_using_mux2x1/#ASSIGN#7/__9 /mux4x1_using_mux2x1/#ASSIGN#7/__9 v -attr @cell {} -attr acc {} -attr @name {} -pinAttr y1 @innername 1 -pinAttr y2 @innername 0 -x 481 -y 170 -pg 1
+load inst /mux4x1_using_mux2x1/#ASSIGN#5/__3 /mux4x1_using_mux2x1/#ASSIGN#5/__3 v -attr @cell {} -attr acc {} -attr @name {} -pinAttr i0 @innername 1 -pinAttr i1 @innername 0 -x 307 -y 40 -pg 1
+load net /mux4x1_using_mux2x1/s1 -attr @simnet 9 -attr @name s1 -attr @attrvalue 1'hz -attr @attr 1'hz -pin /mux4x1_using_mux2x1/#ASSIGN#7/__9 s1 -port /mux4x1_using_mux2x1/s1
+load net /mux4x1_using_mux2x1/y1 -attr @simnet 1 -attr @name y1 -attr @attrvalue 1'hx -attr @attr 1'hx -pin /mux4x1_using_mux2x1/#ASSIGN#5/__3 y1 -pin /mux4x1_using_mux2x1/#ASSIGN#7/__9 y1 -port /mux4x1_using_mux2x1/y1
+load net /mux4x1_using_mux2x1/y2 -attr @simnet 5 -attr @name y2 -attr @attrvalue 1'hx -attr @attr 1'hx -pin /mux4x1_using_mux2x1/#ASSIGN#6/__6 y2 -pin /mux4x1_using_mux2x1/#ASSIGN#7/__9 y2 -port /mux4x1_using_mux2x1/y2
+load net /mux4x1_using_mux2x1/y3 -attr @simnet 8 -attr @name y3 -attr @attrvalue 1'hx -attr @attr 1'hx -pin /mux4x1_using_mux2x1/#ASSIGN#7/__9 y3 -port /mux4x1_using_mux2x1/y3
+load net /mux4x1_using_mux2x1/i0 -attr @simnet 2 -attr @name i0 -attr @attrvalue 1'hz -attr @attr 1'hz -pin /mux4x1_using_mux2x1/#ASSIGN#5/__3 i0 -port /mux4x1_using_mux2x1/i0
+load net /mux4x1_using_mux2x1/i1 -attr @simnet 3 -attr @name i1 -attr @attrvalue 1'hz -attr @attr 1'hz -pin /mux4x1_using_mux2x1/#ASSIGN#5/__3 i1 -port /mux4x1_using_mux2x1/i1
+load net /mux4x1_using_mux2x1/i2 -attr @simnet 6 -attr @name i2 -attr @attrvalue 1'hz -attr @attr 1'hz -pin /mux4x1_using_mux2x1/#ASSIGN#6/__6 i2 -port /mux4x1_using_mux2x1/i2
+load net /mux4x1_using_mux2x1/i3 -attr @simnet 7 -attr @name i3 -attr @attrvalue 1'hz -attr @attr 1'hz -pin /mux4x1_using_mux2x1/#ASSIGN#6/__6 i3 -port /mux4x1_using_mux2x1/i3
+load net /mux4x1_using_mux2x1/s0 -attr @simnet 4 -attr @name s0 -attr @attrvalue 1'hz -attr @attr 1'hz -pin /mux4x1_using_mux2x1/#ASSIGN#5/__3 s0 -pin /mux4x1_using_mux2x1/#ASSIGN#6/__6 s0 -port /mux4x1_using_mux2x1/s0
+greymode off
+show 1
+zoom 0.916772
+scrollpos 0 -99
+

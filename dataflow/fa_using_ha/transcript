@@ -1,0 +1,157 @@
+# Reading C:/questasim64_10.7c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile D:/Obsi/verilogg/dataflow/fa_using_ha/fa_using_ha.mpf
+# Loading project fa_using_ha
+# Compile of fa_using_ha_dut.v was successful.
+# Compile of fa_using_ha_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_fa_using_ha
+# vsim -gui work.tb_fa_using_ha 
+# Start time: 17:23:03 on Dec 28,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_fa_using_ha(fast)
+quit -sim
+# End time: 17:23:19 on Dec 28,2022, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0
+# Compile of fa_using_ha_dut.v was successful.
+# Compile of fa_using_ha_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_fa_using_ha
+# vsim -voptargs="+acc" work.tb_fa_using_ha 
+# Start time: 17:23:35 on Dec 28,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_fa_using_ha(fast)
+# Loading work.fa_using_ha(fast)
+add wave -position insertpoint  \
+sim:/tb_fa_using_ha/a \
+sim:/tb_fa_using_ha/b \
+sim:/tb_fa_using_ha/c \
+sim:/tb_fa_using_ha/w1 \
+sim:/tb_fa_using_ha/w2 \
+sim:/tb_fa_using_ha/w3 \
+sim:/tb_fa_using_ha/sum \
+sim:/tb_fa_using_ha/carry
+run
+quit -sim
+# End time: 17:24:44 on Dec 28,2022, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 0
+# reading C:/questasim64_10.7c/win64/../modelsim.ini
+# Loading project mux4x1_using_mux2x1
+# Compile of mux4x1_using_mux2x1_dut.v failed with 3 errors.
+# Compile of mux4x1_using_mux2x1_tb.v was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of mux4x1_using_mux2x1_dut.v was successful.
+# Compile of mux4x1_using_mux2x1_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_mux4x1_using_mux2x1 -novopt
+# vsim -voptargs="+acc" work.tb_mux4x1_using_mux2x1 -novopt 
+# Start time: 17:40:33 on Dec 28,2022
+# ** Error (suppressible): (vsim-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Error loading design
+# End time: 17:40:34 on Dec 28,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# Compile of mux4x1_using_mux2x1_dut.v was successful.
+# Compile of mux4x1_using_mux2x1_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_mux4x1_using_mux2x1
+# vsim -voptargs="+acc" work.tb_mux4x1_using_mux2x1 
+# Start time: 17:40:59 on Dec 28,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_mux4x1_using_mux2x1(fast)
+# Loading work.mux4x1_using_mux2x1(fast)
+add wave -position insertpoint  \
+sim:/tb_mux4x1_using_mux2x1/i0 \
+sim:/tb_mux4x1_using_mux2x1/i1 \
+sim:/tb_mux4x1_using_mux2x1/i2 \
+sim:/tb_mux4x1_using_mux2x1/i3 \
+sim:/tb_mux4x1_using_mux2x1/s0 \
+sim:/tb_mux4x1_using_mux2x1/s1 \
+sim:/tb_mux4x1_using_mux2x1/y1 \
+sim:/tb_mux4x1_using_mux2x1/y2 \
+sim:/tb_mux4x1_using_mux2x1/y3
+run
+quit -sim
+# End time: 17:43:52 on Dec 28,2022, Elapsed time: 0:02:53
+# Errors: 0, Warnings: 0
+# Compile of mux4x1_using_mux2x1_dut.v was successful.
+# Compile of mux4x1_using_mux2x1_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of mux4x1_using_mux2x1_dut.v was successful.
+# Compile of mux4x1_using_mux2x1_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_mux4x1_using_mux2x1
+# vsim -voptargs="+acc" work.tb_mux4x1_using_mux2x1 
+# Start time: 17:44:51 on Dec 28,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_mux4x1_using_mux2x1(fast)
+# Loading work.mux4x1_using_mux2x1(fast)
+add wave -position insertpoint  \
+sim:/tb_mux4x1_using_mux2x1/i0 \
+sim:/tb_mux4x1_using_mux2x1/i1 \
+sim:/tb_mux4x1_using_mux2x1/i2 \
+sim:/tb_mux4x1_using_mux2x1/i3 \
+sim:/tb_mux4x1_using_mux2x1/s0 \
+sim:/tb_mux4x1_using_mux2x1/s1 \
+sim:/tb_mux4x1_using_mux2x1/y1 \
+sim:/tb_mux4x1_using_mux2x1/y2 \
+sim:/tb_mux4x1_using_mux2x1/y3
+run
+quit -sim
+# End time: 17:48:20 on Dec 28,2022, Elapsed time: 0:03:29
+# Errors: 0, Warnings: 0
+# Compile of mux4x1_using_mux2x1_dut.v was successful.
+# Compile of mux4x1_using_mux2x1_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_mux4x1_using_mux2x1
+# vsim work.tb_mux4x1_using_mux2x1 
+# Start time: 17:49:13 on Dec 28,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_mux4x1_using_mux2x1(fast)
+quit -sim
+# End time: 17:49:25 on Dec 28,2022, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_mux4x1_using_mux2x1
+# vsim -voptargs="+acc" work.tb_mux4x1_using_mux2x1 
+# Start time: 17:49:32 on Dec 28,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_mux4x1_using_mux2x1(fast)
+# Loading work.mux4x1_using_mux2x1(fast)
+add wave -position insertpoint  \
+sim:/tb_mux4x1_using_mux2x1/i0 \
+sim:/tb_mux4x1_using_mux2x1/i1 \
+sim:/tb_mux4x1_using_mux2x1/i2 \
+sim:/tb_mux4x1_using_mux2x1/i3 \
+sim:/tb_mux4x1_using_mux2x1/s0 \
+sim:/tb_mux4x1_using_mux2x1/s1 \
+sim:/tb_mux4x1_using_mux2x1/y1 \
+sim:/tb_mux4x1_using_mux2x1/y2 \
+sim:/tb_mux4x1_using_mux2x1/y3
+run
+vsim -debugDB mux4x1_using_mux2x1
+# End time: 17:52:57 on Dec 28,2022, Elapsed time: 0:03:25
+# Errors: 0, Warnings: 0
+# vsim -debugDB mux4x1_using_mux2x1 
+# Start time: 17:52:57 on Dec 28,2022
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.mux4x1_using_mux2x1(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+quit -sim
+# End time: 17:54:03 on Dec 28,2022, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 2
+# reading C:/questasim64_10.7c/win64/../modelsim.ini

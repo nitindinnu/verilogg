@@ -1,0 +1,15 @@
+D:/Obsi/verilogg/dataflow/mux4x1_using_mux2x1/mux4x1_using_mux2x1_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\mux4x1_using_mux2x1\mux4x1_using_mux2x1_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_mux4x1_using_mux2x1
+
+Top level modules:
+	tb_mux4x1_using_mux2x1
+
+} {} {}} D:/Obsi/verilogg/dataflow/mux4x1_using_mux2x1/mux4x1_using_mux2x1_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\mux4x1_using_mux2x1\mux4x1_using_mux2x1_dut.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux4x1_using_mux2x1
+
+Top level modules:
+	mux4x1_using_mux2x1
+
+} {} {}}

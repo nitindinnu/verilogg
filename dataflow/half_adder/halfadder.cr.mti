@@ -1,0 +1,15 @@
+D:/Obsi/verilogg/dataflow/half_adder/halfadder_dut.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/half_adder/halfadder_dut.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module ha
+
+Top level modules:
+	ha
+
+} {} {}} D:/Obsi/verilogg/dataflow/half_adder/halfadder_tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/half_adder/halfadder_tb.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_ha
+
+Top level modules:
+	tb_ha
+
+} {} {}}

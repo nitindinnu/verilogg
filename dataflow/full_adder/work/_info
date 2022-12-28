@@ -1,0 +1,72 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Obsi/verilogg/dataflow/half_adder
+T_opt
+!s110 1672226191
+V:1Hz@MmdjFNCmi2Z?P_Ui0
+04 5 4 work tb_fa fast 0
+=1-50814090a273-63ac258e-383-c98
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+Z2 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1672221741
+V1bz2CB4[@64MB3A@L>:If3
+04 2 4 work fa fast 0
+=1-50814090a273-63ac142d-190-4464
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R1
+n@_opt1
+R2
+R0
+vfa
+Z3 !s110 1672226483
+!i10b 1
+!s100 `e0O7j1;:62e21VX<]^]_3
+IJkk1<1>_J6RoP[8zSLe:13
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dD:/Obsi/verilogg/dataflow/full_adder
+w1672225279
+8D:/Obsi/verilogg/dataflow/full_adder/fa_dut.v
+FD:/Obsi/verilogg/dataflow/full_adder/fa_dut.v
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1672226483.000000
+!s107 D:/Obsi/verilogg/dataflow/full_adder/fa_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/full_adder/fa_dut.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb_fa
+R3
+!i10b 1
+!s100 GZm2OUBQL[NPz8KgXK=;>0
+I3dXW6mC]zoKB2dkk7@_Gi0
+R4
+R5
+w1672226445
+8D:/Obsi/verilogg/dataflow/full_adder/fa_tb.v
+FD:/Obsi/verilogg/dataflow/full_adder/fa_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Obsi/verilogg/dataflow/full_adder/fa_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/full_adder/fa_tb.v|
+!i113 0
+R8
+R1

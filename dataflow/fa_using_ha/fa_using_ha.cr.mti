@@ -1,0 +1,15 @@
+D:/Obsi/verilogg/dataflow/fa_using_ha/fa_using_ha_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\fa_using_ha\fa_using_ha_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_fa_using_ha
+
+Top level modules:
+	tb_fa_using_ha
+
+} {} {}} D:/Obsi/verilogg/dataflow/fa_using_ha/fa_using_ha_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\fa_using_ha\fa_using_ha_dut.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module fa_using_ha
+
+Top level modules:
+	fa_using_ha
+
+} {} {}}

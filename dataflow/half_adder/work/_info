@@ -1,0 +1,81 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Obsi/verilogg/dataflow/mux
+T_opt
+!s110 1672220942
+Vi>:_3eGAYZ^g?Qn;HIjE81
+Z1 04 5 4 work tb_ha fast 0
+=1-50814090a273-63ac110d-3b6-3830
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1672220911
+V`MXQiHE4>=TYW]hlZY9PP2
+R1
+=1-50814090a273-63ac10ee-392-3774
+o-quiet -auto_acc_if_foreign -work work
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1672221097
+VzbT21>2``GUmC]NoH2YR=1
+04 2 4 work ha fast 0
+=1-50814090a273-63ac11a9-13c-2c0c
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt2
+R3
+vha
+Z4 !s110 1672220936
+!i10b 1
+!s100 l@aI`?n=ZE@<m5^cW?z2X1
+I=]<U34NHRT^`HimFNeYe`1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/dataflow/half_adder
+w1672220531
+8D:/Obsi/verilogg/dataflow/half_adder/halfadder_dut.v
+FD:/Obsi/verilogg/dataflow/half_adder/halfadder_dut.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1672220936.000000
+!s107 D:/Obsi/verilogg/dataflow/half_adder/halfadder_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/half_adder/halfadder_dut.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_ha
+R4
+!i10b 1
+!s100 oDWGSROkU7H5=6b:Y0l7o1
+ITenjASoC5bfB8P_Sbd]I40
+R5
+R6
+w1672220858
+8D:/Obsi/verilogg/dataflow/half_adder/halfadder_tb.v
+FD:/Obsi/verilogg/dataflow/half_adder/halfadder_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/dataflow/half_adder/halfadder_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/half_adder/halfadder_tb.v|
+!i113 0
+R9
+R2
