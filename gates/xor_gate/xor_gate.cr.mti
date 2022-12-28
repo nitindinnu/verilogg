@@ -1,0 +1,15 @@
+D:/Obsi/verilogg/gates/xor_gate/xor_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\gates\xor_gate\xor_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module xor_tb
+
+Top level modules:
+	xor_tb
+
+} {} {}} D:/Obsi/verilogg/gates/xor_gate/xor_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\gates\xor_gate\xor_dut.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module xor_dut
+
+Top level modules:
+	xor_dut
+
+} {} {}}
