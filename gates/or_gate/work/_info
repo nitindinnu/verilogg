@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Obsi/verilogg/gates/and_gate
+T_opt
+!s110 1672245838
+V6^0ez;;:40JN:dO7381JW0
+04 5 4 work or_tb fast 0
+=1-50814090a273-63ac724e-33a-3924
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+Z2 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1672245983
+VNR5a3WN6Picnz:3[]kaK10
+04 6 4 work or_dut fast 0
+=1-50814090a273-63ac72df-231-2078
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R1
+n@_opt1
+R2
+vor_dut
+Z3 !s110 1672245817
+!i10b 1
+!s100 UH4D>OJ>zZI0^@VOhZz4f1
+I>kLje5BS_HFSl=hToaOU03
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dD:/Obsi/verilogg/gates/or_gate
+w1672245513
+8D:\Obsi\verilogg\gates\or_gate\or_dut.v
+FD:\Obsi\verilogg\gates\or_gate\or_dut.v
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1672245817.000000
+!s107 D:\Obsi\verilogg\gates\or_gate\or_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gates\or_gate\or_dut.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vor_tb
+R3
+!i10b 1
+!s100 21Li3g6]`C<>iYE9_W?^T3
+IL4LGl28HSJB3BzTNIG<S]2
+R4
+R5
+w1672245782
+8D:\Obsi\verilogg\gates\or_gate\or_tb.v
+FD:\Obsi\verilogg\gates\or_gate\or_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:\Obsi\verilogg\gates\or_gate\or_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gates\or_gate\or_tb.v|
+!i113 0
+R8
+R1

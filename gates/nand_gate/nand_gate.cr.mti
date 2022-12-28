@@ -1,0 +1,8 @@
+D:/Obsi/verilogg/gates/nand_gate/nand_gate_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\gates\nand_gate\nand_gate_dut.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module nand_gate
+
+Top level modules:
+	nand_gate
+
+} {} {}}
