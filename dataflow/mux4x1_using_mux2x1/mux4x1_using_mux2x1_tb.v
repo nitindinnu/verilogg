@@ -11,6 +11,7 @@ initial begin
 end
 always #2 s1=~s1;
 always #4 s0=~s0;
+
 always #2 i3=~i3;
 always #4 i2=~i2;
 always #8 i1=~i1;

@@ -1,0 +1,129 @@
+# Reading C:/questasim64_10.7c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile D:/Obsi/verilogg/dataflow/half_subtractor/hs_fs.mpf
+# Loading project hs_fs
+# Compile of hs_tb.v failed with 1 errors.
+# Compile of hs_dut.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of hs_tb.v failed with 1 errors.
+# Compile of hs_dut.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of hs_tb.v failed with 1 errors.
+# Compile of hs_dut.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of hs_tb.v failed with 1 errors.
+# Compile of hs_dut.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of hs_tb.v was successful.
+# Compile of hs_dut.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of hs_tb.v was successful.
+# Compile of hs_dut.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_hs
+# vsim -voptargs="+acc" work.tb_hs 
+# Start time: 15:14:14 on Dec 29,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_hs(fast)
+# Loading work.hs_dut(fast)
+add wave -position insertpoint  \
+sim:/tb_hs/a \
+sim:/tb_hs/b \
+sim:/tb_hs/diff \
+sim:/tb_hs/ba
+run
+quit -sim
+# End time: 15:15:12 on Dec 29,2022, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 0
+# Compile of hs_tb.v was successful.
+# Compile of hs_dut.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_hs
+# vsim -voptargs="+acc" work.tb_hs 
+# Start time: 15:15:25 on Dec 29,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_hs(fast)
+# Loading work.hs_dut(fast)
+run
+# ** Note: $stop    : D:/Obsi/verilogg/dataflow/half_subtractor/hs_tb.v(14)
+#    Time: 45 ns  Iteration: 0  Instance: /tb_hs
+# Break in Module tb_hs at D:/Obsi/verilogg/dataflow/half_subtractor/hs_tb.v line 14
+run
+quit -sim
+# End time: 15:15:56 on Dec 29,2022, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# Compile of hs_tb.v was successful.
+# Compile of hs_dut.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_hs
+# vsim -voptargs="+acc" work.tb_hs 
+# Start time: 15:16:12 on Dec 29,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb_hs(fast)
+# Loading work.hs_dut(fast)
+add wave -position insertpoint  \
+sim:/tb_hs/a \
+sim:/tb_hs/b \
+sim:/tb_hs/diff \
+sim:/tb_hs/ba
+run
+# ** Note: $stop    : D:/Obsi/verilogg/dataflow/half_subtractor/hs_tb.v(14)
+#    Time: 45 ns  Iteration: 0  Instance: /tb_hs
+# Break in Module tb_hs at D:/Obsi/verilogg/dataflow/half_subtractor/hs_tb.v line 14
+quit -sim
+# End time: 15:29:18 on Dec 29,2022, Elapsed time: 0:13:06
+# Errors: 0, Warnings: 0
+# Compile of hs_tb.v was successful.
+# Compile of hs_dut.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of hs_tb.v was successful.
+# Compile of hs_dut.v was successful.
+# Compile of fs_dut.v failed with 4 errors.
+# Compile of fs_tb.v failed with 1 errors.
+# 4 compiles, 2 failed with 5 errors.
+# Compile of hs_tb.v was successful.
+# Compile of hs_dut.v was successful.
+# Compile of fs_dut.v failed with 1 errors.
+# Compile of fs_tb.v failed with 1 errors.
+# 4 compiles, 2 failed with 2 errors.
+# Compile of hs_tb.v was successful.
+# Compile of hs_dut.v was successful.
+# Compile of fs_dut.v failed with 1 errors.
+# Compile of fs_tb.v failed with 1 errors.
+# 4 compiles, 2 failed with 2 errors.
+# Compile of hs_tb.v was successful.
+# Compile of hs_dut.v was successful.
+# Compile of fs_dut.v failed with 1 errors.
+# Compile of fs_tb.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of hs_tb.v was successful.
+# Compile of hs_dut.v was successful.
+# Compile of fs_dut.v was successful.
+# Compile of fs_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_fs
+# vsim -voptargs="+acc" work.tb_fs 
+# Start time: 16:01:26 on Dec 29,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_fs(fast)
+# Loading work.fs_dut(fast)
+add wave -position insertpoint  \
+sim:/tb_fs/a \
+sim:/tb_fs/b \
+sim:/tb_fs/c \
+sim:/tb_fs/diff \
+sim:/tb_fs/barr
+run
