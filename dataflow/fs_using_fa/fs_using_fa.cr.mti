@@ -1,0 +1,15 @@
+D:/Obsi/verilogg/dataflow/fs_using_fa/fs_using_fa_tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/fs_using_fa/fs_using_fa_tb.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module fs_using_fa_tb
+
+Top level modules:
+	fs_using_fa_tb
+
+} {} {}} D:/Obsi/verilogg/dataflow/fs_using_fa/fs_using_fa_dut.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/fs_using_fa/fs_using_fa_dut.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module fs_using_fa_dut
+
+Top level modules:
+	fs_using_fa_dut
+
+} {} {}}

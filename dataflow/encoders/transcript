@@ -1,0 +1,249 @@
+# Reading C:/questasim64_10.7c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile D:/Obsi/verilogg/dataflow/encoders/encoders.mpf
+# Loading project encoders
+# Compile of encoder4to2.v was successful.
+# Compile of encoder4to2_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.encoder4to2_tb
+# vsim -voptargs="+acc" work.encoder4to2_tb 
+# Start time: 15:36:49 on Dec 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.encoder4to2_tb(fast)
+# Loading work.encoder4to2_dut(fast)
+add wave -position insertpoint  \
+sim:/encoder4to2_tb/i \
+sim:/encoder4to2_tb/a
+run
+quit -sim
+# End time: 15:38:39 on Dec 31,2022, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.encoder4to2_tb
+# vsim -voptargs="+acc" work.encoder4to2_tb 
+# Start time: 15:38:44 on Dec 31,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.encoder4to2_tb(fast)
+# Loading work.encoder4to2_dut(fast)
+add wave -position insertpoint  \
+sim:/encoder4to2_tb/i \
+{sim:/encoder4to2_tb/i[3]} \
+{sim:/encoder4to2_tb/i[2]} \
+{sim:/encoder4to2_tb/i[1]} \
+{sim:/encoder4to2_tb/i[0]} \
+sim:/encoder4to2_tb/a \
+{sim:/encoder4to2_tb/a[1]} \
+{sim:/encoder4to2_tb/a[0]}
+run
+# Causality operation skipped due to absence of debug database file
+# Compile of encoder4to2.v was successful.
+# Compile of encoder4to2_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.encoder4to2_tb
+# End time: 15:43:23 on Dec 31,2022, Elapsed time: 0:04:39
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.encoder4to2_tb 
+# Start time: 15:43:23 on Dec 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.encoder4to2_tb(fast)
+# Loading work.encoder4to2_dut(fast)
+add wave -position insertpoint  \
+sim:/encoder4to2_tb/i \
+sim:/encoder4to2_tb/a
+run
+# Compile of encoder4to2.v was successful.
+# Compile of encoder4to2_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.encoder4to2_tb
+# End time: 15:45:07 on Dec 31,2022, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.encoder4to2_tb 
+# Start time: 15:45:07 on Dec 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.encoder4to2_tb(fast)
+# Loading work.encoder4to2_dut(fast)
+add wave -position insertpoint  \
+sim:/encoder4to2_tb/i \
+sim:/encoder4to2_tb/a
+run
+# Compile of encoder4to2.v was successful.
+# Compile of encoder4to2_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.encoder4to2_tb
+# End time: 15:47:11 on Dec 31,2022, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.encoder4to2_tb 
+# Start time: 15:47:11 on Dec 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.encoder4to2_tb(fast)
+# Loading work.encoder4to2_dut(fast)
+add wave -position insertpoint  \
+sim:/encoder4to2_tb/i \
+sim:/encoder4to2_tb/a
+run
+# Compile of encoder4to2.v was successful.
+# Compile of encoder4to2_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.encoder4to2_tb
+# End time: 15:53:15 on Dec 31,2022, Elapsed time: 0:06:04
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.encoder4to2_tb 
+# Start time: 15:53:15 on Dec 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.encoder4to2_tb(fast)
+# Loading work.encoder4to2_dut(fast)
+add wave -position insertpoint  \
+sim:/encoder4to2_tb/i \
+sim:/encoder4to2_tb/a
+run
+# Compile of encoder4to2.v was successful.
+# Compile of encoder4to2_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.encoder4to2_tb
+# End time: 15:54:41 on Dec 31,2022, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.encoder4to2_tb 
+# Start time: 15:54:41 on Dec 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.encoder4to2_tb(fast)
+# Loading work.encoder4to2_dut(fast)
+add wave -position insertpoint  \
+sim:/encoder4to2_tb/i \
+sim:/encoder4to2_tb/a
+run
+# Compile of encoder4to2.v was successful.
+# Compile of encoder4to2_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.encoder4to2_tb
+# End time: 15:56:15 on Dec 31,2022, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.encoder4to2_tb 
+# Start time: 15:56:15 on Dec 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.encoder4to2_tb(fast)
+# Loading work.encoder4to2_dut(fast)
+add wave -position insertpoint  \
+sim:/encoder4to2_tb/i \
+sim:/encoder4to2_tb/a
+run
+# ** Note: $stop    : D:/Obsi/verilogg/dataflow/encoders/encoder4to2_tb.v(15)
+#    Time: 50 ns  Iteration: 0  Instance: /encoder4to2_tb
+# Break in Module encoder4to2_tb at D:/Obsi/verilogg/dataflow/encoders/encoder4to2_tb.v line 15
+quit -sim
+# End time: 15:59:33 on Dec 31,2022, Elapsed time: 0:03:18
+# Errors: 0, Warnings: 0
+# reading C:/questasim64_10.7c/win64/../modelsim.ini
+# Loading project decooders
+# Compile of decoder2to4.v was successful.
+# Compile of decoder2to4_tb.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of decoder2to4.v was successful.
+# Compile of decoder2to4_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.encoder4to2_dut
+# vsim -voptargs="+acc" work.encoder4to2_dut 
+# Start time: 16:23:32 on Dec 31,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.encoder4to2_dut(fast)
+add wave -position insertpoint  \
+sim:/encoder4to2_dut/e \
+sim:/encoder4to2_dut/b \
+sim:/encoder4to2_dut/a \
+sim:/encoder4to2_dut/d
+run
+run -all
+# Compile of decoder2to4.v was successful.
+# Compile of decoder2to4_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.encoder4to2_dut
+# End time: 16:25:36 on Dec 31,2022, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.encoder4to2_dut 
+# Start time: 16:25:36 on Dec 31,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.encoder4to2_dut(fast)
+add wave -position insertpoint  \
+sim:/encoder4to2_dut/e \
+sim:/encoder4to2_dut/b \
+sim:/encoder4to2_dut/a \
+sim:/encoder4to2_dut/d
+run
+# Compile of decoder2to4.v was successful.
+# Compile of decoder2to4_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.decoder2to4_tb
+# End time: 16:29:49 on Dec 31,2022, Elapsed time: 0:04:13
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.decoder2to4_tb 
+# Start time: 16:29:49 on Dec 31,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.decoder2to4_tb(fast)
+# Loading work.decoder2to4_dut(fast)
+add wave -position insertpoint  \
+sim:/decoder2to4_tb/e \
+sim:/decoder2to4_tb/b \
+sim:/decoder2to4_tb/a \
+sim:/decoder2to4_tb/d
+run
+# Compile of decoder2to4.v was successful.
+# Compile of decoder2to4_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.decoder2to4_tb
+# End time: 16:45:39 on Dec 31,2022, Elapsed time: 0:15:50
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.decoder2to4_tb 
+# Start time: 16:45:39 on Dec 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.decoder2to4_tb(fast)
+# Loading work.decoder2to4_dut(fast)
+add wave -position insertpoint  \
+sim:/decoder2to4_tb/e \
+sim:/decoder2to4_tb/b \
+sim:/decoder2to4_tb/a \
+sim:/decoder2to4_tb/d
+run
+quit -sim
+# End time: 16:46:42 on Dec 31,2022, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 0
+# Compile of decoder2to4.v was successful.
+# Compile of decoder2to4_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.decoder2to4_tb
+# vsim -voptargs="+acc" work.decoder2to4_tb 
+# Start time: 16:47:23 on Dec 31,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: D:\Obsi\verilogg\dataflow\decoder\decoder2to4_tb.v(7): Module 'encoder4to2_dut' is not defined.
+# Optimization failed
+# Error loading design
+# End time: 16:47:23 on Dec 31,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of decoder2to4.v was successful.
+# Compile of decoder2to4_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.decoder2to4_tb
+# vsim -voptargs="+acc" work.decoder2to4_tb 
+# Start time: 16:48:31 on Dec 31,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.decoder2to4_tb(fast)
+# Loading work.decoder2to4_dut(fast)
+add wave -position insertpoint  \
+sim:/decoder2to4_tb/e \
+sim:/decoder2to4_tb/b \
+sim:/decoder2to4_tb/a \
+sim:/decoder2to4_tb/d
+run
+quit -sim
+# End time: 09:56:31 on Jan 01,2023, Elapsed time: 17:08:00
+# Errors: 0, Warnings: 0

@@ -1,0 +1,15 @@
+D:/Obsi/verilogg/dataflow/decoder/decoder2to4.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\decoder\decoder2to4.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module decoder2to4_dut
+
+Top level modules:
+	decoder2to4_dut
+
+} {} {}} D:/Obsi/verilogg/dataflow/decoder/decoder2to4_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\decoder\decoder2to4_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module decoder2to4_tb
+
+Top level modules:
+	decoder2to4_tb
+
+} {} {}}

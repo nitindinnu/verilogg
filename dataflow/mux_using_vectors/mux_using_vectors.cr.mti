@@ -1,0 +1,32 @@
+D:/Obsi/verilogg/dataflow/mux_using_vectors/mux8x1_using_4x1_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\mux_using_vectors\mux8x1_using_4x1_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux8x1_using_4x1_tb
+
+Top level modules:
+	mux8x1_using_4x1_tb
+
+} {} {}} D:/Obsi/verilogg/dataflow/mux_using_vectors/mux16x1_dut.v {0 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\mux_using_vectors\mux16x1_dut.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux16x1_dut
+** Error: (vlog-13069) D:\Obsi\verilogg\dataflow\mux_using_vectors\mux16x1_dut.v(5): near "input": syntax error, unexpected input, expecting IDENTIFIER.
+** Error: D:\Obsi\verilogg\dataflow\mux_using_vectors\mux16x1_dut.v(1): (vlog-2730) Undefined variable: 's'.
+** Error: D:\Obsi\verilogg\dataflow\mux_using_vectors\mux16x1_dut.v(1): (vlog-13294) Identifier must be declared with a port mode: s.
+
+} {4.0 7.0} {}} D:/Obsi/verilogg/dataflow/mux_using_vectors/mux4x1_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\mux_using_vectors\mux4x1_dut.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux4x1_dut_vectors
+
+Top level modules:
+	mux4x1_dut_vectors
+
+} {} {}} D:/Obsi/verilogg/dataflow/mux_using_vectors/tb_mux16x1.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\mux_using_vectors\tb_mux16x1.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+
+} {} {}} D:/Obsi/verilogg/dataflow/mux_using_vectors/mux4x1_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\mux_using_vectors\mux4x1_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux4x1_tb_vectors
+
+Top level modules:
+	mux4x1_tb_vectors
+
+} {} {}}

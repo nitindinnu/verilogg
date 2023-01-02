@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Obsi/verilogg/dataflow/mux_using_vectors
+T_opt
+!s110 1672478366
+VkXf6NIna8=fPIFZl4=IC`2
+04 24 4 work fafs_using_mux_vector_tb fast 0
+=1-50814090a273-63affe9d-377-124
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vfafs_using_mux_vector
+Z1 !s110 1672478350
+!i10b 1
+!s100 [ljCC07@YNU1?WMZ`fz=A0
+Ifo@GQ]ImI]QE=dUBc25<33
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Obsi/verilogg/dataflow/fafs_using_mux
+w1672472195
+8D:\Obsi\verilogg\dataflow\fafs_using_mux\fafs_using_mux_dut.v
+FD:\Obsi\verilogg\dataflow\fafs_using_mux\fafs_using_mux_dut.v
+L0 1
+Z4 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1672478349.000000
+!s107 D:\Obsi\verilogg\dataflow\fafs_using_mux\fafs_using_mux_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\fafs_using_mux\fafs_using_mux_dut.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vfafs_using_mux_vector_tb
+R1
+!i10b 1
+!s100 LD2ZhVSBf=ddoiYmI8mC90
+I1aSBA?1YCa?z2RVoB;z:H3
+R2
+R3
+w1672478314
+8D:\Obsi\verilogg\dataflow\fafs_using_mux\fafs_using_mux_tb.v
+FD:\Obsi\verilogg\dataflow\fafs_using_mux\fafs_using_mux_tb.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1672478350.000000
+!s107 D:\Obsi\verilogg\dataflow\fafs_using_mux\fafs_using_mux_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\fafs_using_mux\fafs_using_mux_tb.v|
+!i113 0
+R5
+R0
