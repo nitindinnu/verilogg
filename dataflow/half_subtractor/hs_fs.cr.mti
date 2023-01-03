@@ -12,13 +12,6 @@ QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
 Top level modules:
 	hs_dut
 
-} {} {}} D:/Obsi/verilogg/dataflow/half_subtractor/fs_using_hs_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\half_subtractor\fs_using_hs_dut.v}
-QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
--- Compiling module fs_using_hs_dut
-
-Top level modules:
-	fs_using_hs_dut
-
 } {} {}} D:/Obsi/verilogg/dataflow/half_subtractor/hs_tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/half_subtractor/hs_tb.v
 QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
 -- Compiling module tb_hs
@@ -26,12 +19,12 @@ QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
 Top level modules:
 	tb_hs
 
-} {} {}} D:/Obsi/verilogg/dataflow/half_subtractor/fs_using_hs_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\half_subtractor\fs_using_hs_tb.v}
+} {} {}} D:/Obsi/verilogg/dataflow/half_subtractor/fs_using_hs_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\half_subtractor\fs_using_hs_dut.v}
 QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
--- Compiling module fs_using_hs_tb
+-- Compiling module fs_using_hs_dut
 
 Top level modules:
-	fs_using_hs_tb
+	fs_using_hs_dut
 
 } {} {}} D:/Obsi/verilogg/dataflow/half_subtractor/fs_dut.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/half_subtractor/fs_dut.v
 QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
@@ -39,5 +32,12 @@ QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
 
 Top level modules:
 	fs_dut
+
+} {} {}} D:/Obsi/verilogg/dataflow/half_subtractor/fs_using_hs_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\half_subtractor\fs_using_hs_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module fs_using_hs_tb
+
+Top level modules:
+	fs_using_hs_tb
 
 } {} {}}

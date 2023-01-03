@@ -1,0 +1,8 @@
+D:/Obsi/verilogg/dataflow/fa_using_mux/fa_using_mux_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\fa_using_mux\fa_using_mux_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module fa_implementation_in_mux_tb
+
+Top level modules:
+	fa_implementation_in_mux_tb
+
+} {} {}}

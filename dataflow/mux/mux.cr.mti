@@ -1,30 +1,23 @@
-D:/Obsi/verilogg/dataflow/mux/mux8x1dut.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/mux/mux8x1dut.v
+D:/Obsi/verilogg/dataflow/mux/mux5x1_using_2x1.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\mux\mux5x1_using_2x1.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux5x1using2x1_dut
+
+Top level modules:
+	mux5x1using2x1_dut
+
+} {} {}} D:/Obsi/verilogg/dataflow/mux/mux5x1_using_2x1_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\mux\mux5x1_using_2x1_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux5x1using2x1_tb
+
+Top level modules:
+	mux5x1using2x1_tb
+
+} {} {}} D:/Obsi/verilogg/dataflow/mux/mux8x1dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\mux\mux8x1dut.v}
 QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
 -- Compiling module mux8x1_dut
 
 Top level modules:
 	mux8x1_dut
-
-} {} {}} D:/Obsi/verilogg/dataflow/mux/mux4x1_using_terinary_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\mux\mux4x1_using_terinary_dut.v}
-QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
--- Compiling module mux4x1_using_terinary_dut
-
-Top level modules:
-	mux4x1_using_terinary_dut
-
-} {} {}} D:/Obsi/verilogg/dataflow/mux/mux8x1always_tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/mux/mux8x1always_tb.v
-QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
--- Compiling module mux8x1always_tb
-
-Top level modules:
-	mux8x1always_tb
-
-} {} {}} D:/Obsi/verilogg/dataflow/mux/mux8x1tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/mux/mux8x1tb.v
-QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
--- Compiling module mux8x1_tb
-
-Top level modules:
-	mux8x1_tb
 
 } {} {}} D:/Obsi/verilogg/dataflow/mux/mux2x1_dut.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/mux/mux2x1_dut.v
 QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
@@ -33,12 +26,26 @@ QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
 Top level modules:
 	mux2x1
 
-} {} {}} D:/Obsi/verilogg/dataflow/mux/mux4x1_using_terinary_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\mux\mux4x1_using_terinary_tb.v}
+} {} {}} D:/Obsi/verilogg/dataflow/mux/mux8x1tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/mux/mux8x1tb.v
 QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
--- Compiling module mux4x1_terenary
+-- Compiling module mux8x1_tb
 
 Top level modules:
-	mux4x1_terenary
+	mux8x1_tb
+
+} {} {}} D:/Obsi/verilogg/dataflow/mux/mux8x1always_tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/mux/mux8x1always_tb.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux8x1always_tb
+
+Top level modules:
+	mux8x1always_tb
+
+} {} {}} D:/Obsi/verilogg/dataflow/mux/mux4x1_using_terinary_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\mux\mux4x1_using_terinary_dut.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux4x1_using_terinary_dut
+
+Top level modules:
+	mux4x1_using_terinary_dut
 
 } {} {}} D:/Obsi/verilogg/dataflow/mux/mux2x1_tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/mux/mux2x1_tb.v
 QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
@@ -46,5 +53,12 @@ QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
 
 Top level modules:
 	tb_2x1mux
+
+} {} {}} D:/Obsi/verilogg/dataflow/mux/mux4x1_using_terinary_tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/mux/mux4x1_using_terinary_tb.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux4x1_terenary
+
+Top level modules:
+	mux4x1_terenary
 
 } {} {}}

@@ -7,9 +7,11 @@ module decoder2to4_tb (
     decoder2to4_dut a1(e,b,a,d);
 
     initial begin
-        #10;
-        e=0;b=1'bx;a=1'bx;#10;
-        e=1;b=0;a=0;
+        // #5;
+        // e=0;b=1'bx;a=1'bx; 
+        // #10;
+        e=1;a=0;b=0;
+        
     end
 
     always #5 a=~a;

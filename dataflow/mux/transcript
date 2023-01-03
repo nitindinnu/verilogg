@@ -15,3 +15,217 @@
 # //
 # OpenFile D:/Obsi/verilogg/dataflow/mux/mux.mpf
 # Loading project mux
+# Compile of mux2x1_dut.v was successful.
+# Compile of mux2x1_tb.v was successful.
+# Compile of mux8x1dut.v was successful.
+# Compile of mux8x1tb.v was successful.
+# Compile of mux8x1always_tb.v was successful.
+# Compile of mux4x1_using_terinary_dut.v was successful.
+# Compile of mux4x1_using_terinary_tb.v was successful.
+# Compile of mux5x1_using_2x1.v failed with 4 errors.
+# Compile of mux5x1_using_2x1_tb.v failed with 1 errors.
+# 9 compiles, 2 failed with 5 errors.
+# Compile of mux2x1_dut.v was successful.
+# Compile of mux2x1_tb.v was successful.
+# Compile of mux8x1dut.v was successful.
+# Compile of mux8x1tb.v was successful.
+# Compile of mux8x1always_tb.v was successful.
+# Compile of mux4x1_using_terinary_dut.v was successful.
+# Compile of mux4x1_using_terinary_tb.v was successful.
+# Compile of mux5x1_using_2x1.v was successful.
+# Compile of mux5x1_using_2x1_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.mux5x1using2x1_tb
+# vsim -voptargs="+acc" work.mux5x1using2x1_tb 
+# Start time: 10:47:51 on Jan 03,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mux5x1using2x1_tb(fast)
+# Loading work.mux5x1using2x1_dut(fast)
+add wave -position insertpoint  \
+sim:/mux5x1using2x1_tb/n \
+sim:/mux5x1using2x1_tb/i \
+sim:/mux5x1using2x1_tb/s \
+sim:/mux5x1using2x1_tb/y \
+sim:/mux5x1using2x1_tb/Y
+run
+# Compile of mux2x1_dut.v was successful.
+# Compile of mux2x1_tb.v was successful.
+# Compile of mux8x1dut.v was successful.
+# Compile of mux8x1tb.v was successful.
+# Compile of mux8x1always_tb.v was successful.
+# Compile of mux4x1_using_terinary_dut.v was successful.
+# Compile of mux4x1_using_terinary_tb.v was successful.
+# Compile of mux5x1_using_2x1.v was successful.
+# Compile of mux5x1_using_2x1_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.mux5x1using2x1_tb
+# End time: 10:50:20 on Jan 03,2023, Elapsed time: 0:02:29
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.mux5x1using2x1_tb 
+# Start time: 10:50:20 on Jan 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux5x1using2x1_tb(fast)
+# Loading work.mux5x1using2x1_dut(fast)
+add wave -position insertpoint  \
+sim:/mux5x1using2x1_tb/i \
+sim:/mux5x1using2x1_tb/s \
+sim:/mux5x1using2x1_tb/y \
+sim:/mux5x1using2x1_tb/Y
+run
+# Compile of mux2x1_dut.v was successful.
+# Compile of mux2x1_tb.v was successful.
+# Compile of mux8x1dut.v was successful.
+# Compile of mux8x1tb.v was successful.
+# Compile of mux8x1always_tb.v was successful.
+# Compile of mux4x1_using_terinary_dut.v was successful.
+# Compile of mux4x1_using_terinary_tb.v was successful.
+# Compile of mux5x1_using_2x1.v was successful.
+# Compile of mux5x1_using_2x1_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.mux5x1using2x1_tb
+# End time: 10:52:17 on Jan 03,2023, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.mux5x1using2x1_tb 
+# Start time: 10:52:17 on Jan 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux5x1using2x1_tb(fast)
+# Loading work.mux5x1using2x1_dut(fast)
+add wave -position insertpoint  \
+sim:/mux5x1using2x1_tb/i \
+sim:/mux5x1using2x1_tb/s \
+sim:/mux5x1using2x1_tb/y \
+sim:/mux5x1using2x1_tb/Y
+run
+# Compile of mux2x1_dut.v was successful.
+# Compile of mux2x1_tb.v was successful.
+# Compile of mux8x1dut.v was successful.
+# Compile of mux8x1tb.v was successful.
+# Compile of mux8x1always_tb.v was successful.
+# Compile of mux4x1_using_terinary_dut.v was successful.
+# Compile of mux4x1_using_terinary_tb.v was successful.
+# Compile of mux5x1_using_2x1.v was successful.
+# Compile of mux5x1_using_2x1_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.mux5x1using2x1_tb
+# End time: 10:53:44 on Jan 03,2023, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.mux5x1using2x1_tb 
+# Start time: 10:53:44 on Jan 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux5x1using2x1_tb(fast)
+# Loading work.mux5x1using2x1_dut(fast)
+add wave -position insertpoint  \
+sim:/mux5x1using2x1_tb/i \
+sim:/mux5x1using2x1_tb/s \
+sim:/mux5x1using2x1_tb/y \
+sim:/mux5x1using2x1_tb/Y
+run
+# Compile of mux2x1_dut.v was successful.
+# Compile of mux2x1_tb.v was successful.
+# Compile of mux8x1dut.v was successful.
+# Compile of mux8x1tb.v was successful.
+# Compile of mux8x1always_tb.v was successful.
+# Compile of mux4x1_using_terinary_dut.v was successful.
+# Compile of mux4x1_using_terinary_tb.v was successful.
+# Compile of mux5x1_using_2x1.v was successful.
+# Compile of mux5x1_using_2x1_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.mux5x1using2x1_tb
+# End time: 10:55:05 on Jan 03,2023, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.mux5x1using2x1_tb 
+# Start time: 10:55:05 on Jan 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux5x1using2x1_tb(fast)
+# Loading work.mux5x1using2x1_dut(fast)
+add wave -position insertpoint  \
+sim:/mux5x1using2x1_tb/i \
+sim:/mux5x1using2x1_tb/s \
+sim:/mux5x1using2x1_tb/y \
+sim:/mux5x1using2x1_tb/Y
+run
+# Compile of mux2x1_dut.v was successful.
+# Compile of mux2x1_tb.v was successful.
+# Compile of mux8x1dut.v was successful.
+# Compile of mux8x1tb.v was successful.
+# Compile of mux8x1always_tb.v was successful.
+# Compile of mux4x1_using_terinary_dut.v was successful.
+# Compile of mux4x1_using_terinary_tb.v was successful.
+# Compile of mux5x1_using_2x1.v was successful.
+# Compile of mux5x1_using_2x1_tb.v was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.mux5x1using2x1_tb
+# End time: 11:26:13 on Jan 03,2023, Elapsed time: 0:31:08
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.mux5x1using2x1_tb 
+# Start time: 11:26:13 on Jan 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux5x1using2x1_tb(fast)
+# Loading work.mux5x1using2x1_dut(fast)
+add wave -position insertpoint  \
+sim:/mux5x1using2x1_tb/i \
+sim:/mux5x1using2x1_tb/s \
+sim:/mux5x1using2x1_tb/y \
+sim:/mux5x1using2x1_tb/Y
+run
+# ** Note: $stop    : D:/Obsi/verilogg/dataflow/mux/mux5x1_using_2x1_tb.v(20)
+#    Time: 50 ns  Iteration: 0  Instance: /mux5x1using2x1_tb
+# Break in Module mux5x1using2x1_tb at D:/Obsi/verilogg/dataflow/mux/mux5x1_using_2x1_tb.v line 20
+# End time: 11:29:30 on Jan 03,2023, Elapsed time: 0:03:17
+# Errors: 0, Warnings: 0
+# Closing project D:/Obsi/verilogg/dataflow/mux/mux.mpf
+# reading C:/questasim64_10.7c/win64/../modelsim.ini
+# Loading project mux7x1using2x1
+# Compile of mux7x1using2x1_dut.v failed with 1 errors.
+# Compile of mux7x1using2x1_tb.v failed with 2 errors.
+# 2 compiles, 2 failed with 3 errors.
+# Compile of mux7x1using2x1_dut.v failed with 1 errors.
+# Compile of mux7x1using2x1_tb.v failed with 2 errors.
+# 2 compiles, 2 failed with 3 errors.
+# Compile of mux7x1using2x1_dut.v was successful.
+# Compile of mux7x1using2x1_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.mux5x1using2x1_tb
+# vsim -voptargs="+acc" work.mux5x1using2x1_tb 
+# Start time: 11:44:52 on Jan 03,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: D:\Obsi\verilogg\dataflow\mux7x1using2x1\mux7x1using2x1_tb.v(10): Module 'mux5x1using2x1_dut' is not defined.
+# Optimization failed
+# Error loading design
+# End time: 11:44:53 on Jan 03,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# Compile of mux7x1using2x1_dut.v was successful.
+# Compile of mux7x1using2x1_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.mux7x1using2x1_dut
+# vsim -voptargs="+acc" work.mux7x1using2x1_dut 
+# Start time: 11:46:04 on Jan 03,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mux7x1using2x1_dut(fast)
+add wave -position insertpoint  \
+sim:/mux7x1using2x1_dut/i \
+sim:/mux7x1using2x1_dut/s \
+sim:/mux7x1using2x1_dut/y \
+sim:/mux7x1using2x1_dut/Y
+run
+vsim -voptargs=+acc work.mux7x1using2x1_tb
+# End time: 14:09:47 on Jan 03,2023, Elapsed time: 2:23:43
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.mux7x1using2x1_tb 
+# Start time: 14:09:47 on Jan 03,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mux7x1using2x1_tb(fast)
+# Loading work.mux7x1using2x1_dut(fast)
+add wave -position insertpoint  \
+sim:/mux7x1using2x1_tb/i \
+sim:/mux7x1using2x1_tb/s \
+sim:/mux7x1using2x1_tb/y \
+sim:/mux7x1using2x1_tb/Y
+run
+# ** Note: $stop    : D:/Obsi/verilogg/dataflow/mux7x1using2x1/mux7x1using2x1_tb.v(23)
+#    Time: 80 ns  Iteration: 0  Instance: /mux7x1using2x1_tb
+# Break in Module mux7x1using2x1_tb at D:/Obsi/verilogg/dataflow/mux7x1using2x1/mux7x1using2x1_tb.v line 23
+# End time: 14:40:32 on Jan 03,2023, Elapsed time: 0:30:45
+# Errors: 0, Warnings: 0
+# Closing project D:/Obsi/verilogg/dataflow/mux7x1using2x1/mux7x1using2x1.mpf
+# reading C:/questasim64_10.7c/win64/../modelsim.ini

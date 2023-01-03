@@ -15,24 +15,10 @@
 # //
 # OpenFile D:/Obsi/verilogg/dataflow/half_adder/halfadder.mpf
 # Loading project halfadder
-# Compile of halfadder_dut.v was successful.
-# Compile of halfadder_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.tb_ha
-# vsim work.tb_ha 
-# Start time: 15:18:30 on Dec 28,2022
-# ** Note: (vsim-3812) Design is being optimized...
-# Loading work.tb_ha(fast)
-quit -sim
-# End time: 15:18:51 on Dec 28,2022, Elapsed time: 0:00:21
-# Errors: 0, Warnings: 0
-# Compile of halfadder_dut.v was successful.
-# Compile of halfadder_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
 vsim -voptargs=+acc work.tb_ha
 # vsim -voptargs="+acc" work.tb_ha 
-# Start time: 15:19:01 on Dec 28,2022
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Start time: 17:23:54 on Jan 02,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading work.tb_ha(fast)
 # Loading work.ha(fast)
 add wave -position insertpoint  \
@@ -40,127 +26,10 @@ sim:/tb_ha/a \
 sim:/tb_ha/b \
 sim:/tb_ha/y \
 sim:/tb_ha/c
+run -continue
 run
 # ** Note: $stop    : D:/Obsi/verilogg/dataflow/half_adder/halfadder_tb.v(10)
 #    Time: 20 ns  Iteration: 0  Instance: /tb_ha
 # Break in Module tb_ha at D:/Obsi/verilogg/dataflow/half_adder/halfadder_tb.v line 10
-vsim -debugDB halfadder_dut.v
-# OpenFile halfadder_dut.v
-OpenFile halfadder_dut
-# Error opening D:/Obsi/verilogg/dataflow/half_adder/halfadder_dut
-# Path name 'D:/Obsi/verilogg/dataflow/half_adder/halfadder_dut' doesn't exist.
-vsim -debugDB ha
-# End time: 15:21:36 on Dec 28,2022, Elapsed time: 0:02:35
-# Errors: 1, Warnings: 0
-# vsim -debugDB ha 
-# Start time: 15:21:36 on Dec 28,2022
-# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Note: (vsim-8611) Generating debug db.
-# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
-# Loading work.ha(fast)
-# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
-quit -sim
-# End time: 15:23:27 on Dec 28,2022, Elapsed time: 0:01:51
-# Errors: 0, Warnings: 2
-# reading C:/questasim64_10.7c/win64/../modelsim.ini
-# Loading project full_adder
-# Compile of fa_dut.v was successful.
-# Compile of fa_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -voptargs=+acc work.tb_fa
-# vsim -voptargs="+acc" work.tb_fa 
-# Start time: 15:30:27 on Dec 28,2022
-# ** Note: (vsim-3812) Design is being optimized...
-# Loading work.tb_fa(fast)
-run
-# ** Note: $stop    : D:/Obsi/verilogg/dataflow/full_adder/fa_tb.v(16)
-#    Time: 40 ns  Iteration: 0  Instance: /tb_fa
-# Break in Module tb_fa at D:/Obsi/verilogg/dataflow/full_adder/fa_tb.v line 16
-quit -sim
-# End time: 15:31:07 on Dec 28,2022, Elapsed time: 0:00:40
+# End time: 17:25:31 on Jan 02,2023, Elapsed time: 0:01:37
 # Errors: 0, Warnings: 0
-vsim -voptargs=+acc work.tb_fa
-# vsim -voptargs="+acc" work.tb_fa 
-# Start time: 15:31:19 on Dec 28,2022
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# Loading work.tb_fa(fast)
-add wave -position insertpoint  \
-sim:/tb_fa/a \
-sim:/tb_fa/b \
-sim:/tb_fa/c \
-sim:/tb_fa/sum \
-sim:/tb_fa/carry
-run
-# ** Note: $stop    : D:/Obsi/verilogg/dataflow/full_adder/fa_tb.v(16)
-#    Time: 40 ns  Iteration: 0  Instance: /tb_fa
-# Break in Module tb_fa at D:/Obsi/verilogg/dataflow/full_adder/fa_tb.v line 16
-vsim -debugDB fa
-# End time: 15:32:20 on Dec 28,2022, Elapsed time: 0:01:01
-# Errors: 0, Warnings: 0
-# vsim -debugDB fa 
-# Start time: 15:32:21 on Dec 28,2022
-# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Note: (vsim-8611) Generating debug db.
-# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
-# Loading work.fa(fast)
-# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
-quit -sim
-# End time: 15:34:00 on Dec 28,2022, Elapsed time: 0:01:39
-# Errors: 0, Warnings: 2
-# reading C:/questasim64_10.7c/win64/../modelsim.ini
-# Loading project fa_using_ha
-# Compile of fa_using_ha_dut.v was successful.
-# Compile of fa_using_ha_tb.v failed with 2 errors.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of fa_using_ha_dut.v was successful.
-# Compile of fa_using_ha_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -voptargs=+acc work.tb_fa_using_ha
-# vsim -voptargs="+acc" work.tb_fa_using_ha 
-# Start time: 16:03:14 on Dec 28,2022
-# ** Note: (vsim-3812) Design is being optimized...
-# Loading work.tb_fa_using_ha(fast)
-# Loading work.fa_using_ha(fast)
-add wave -position insertpoint  \
-sim:/tb_fa_using_ha/a \
-sim:/tb_fa_using_ha/b \
-sim:/tb_fa_using_ha/c \
-sim:/tb_fa_using_ha/w1 \
-sim:/tb_fa_using_ha/w2 \
-sim:/tb_fa_using_ha/w3 \
-sim:/tb_fa_using_ha/sum \
-sim:/tb_fa_using_ha/carry
-run
-quit -sim
-# End time: 16:04:52 on Dec 28,2022, Elapsed time: 0:01:38
-# Errors: 0, Warnings: 0
-vsim -voptargs=+acc work.tb_fa_using_ha
-# vsim -voptargs="+acc" work.tb_fa_using_ha 
-# Start time: 16:04:54 on Dec 28,2022
-# ** Note: (vsim-8009) Loading existing optimized design _opt
-# Loading work.tb_fa_using_ha(fast)
-# Loading work.fa_using_ha(fast)
-quit -sim
-# End time: 16:05:05 on Dec 28,2022, Elapsed time: 0:00:11
-# Errors: 0, Warnings: 0
-# Compile of fa_using_ha_dut.v was successful.
-# Compile of fa_using_ha_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -voptargs=+acc work.tb_fa_using_ha
-# vsim -voptargs="+acc" work.tb_fa_using_ha 
-# Start time: 16:05:24 on Dec 28,2022
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading work.tb_fa_using_ha(fast)
-# Loading work.fa_using_ha(fast)
-# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'w1'.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fa_using_ha/test File: D:/Obsi/verilogg/dataflow/fa_using_ha/fa_using_ha_tb.v Line: 5
-# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'w2'.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fa_using_ha/test File: D:/Obsi/verilogg/dataflow/fa_using_ha/fa_using_ha_tb.v Line: 5
-# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'w3'.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fa_using_ha/test File: D:/Obsi/verilogg/dataflow/fa_using_ha/fa_using_ha_tb.v Line: 5
-# Error loading design
-# End time: 16:05:25 on Dec 28,2022, Elapsed time: 0:00:01
-# Errors: 3, Warnings: 0
-# reading C:/questasim64_10.7c/win64/../modelsim.ini

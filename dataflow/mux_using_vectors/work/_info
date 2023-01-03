@@ -27,6 +27,7 @@ R1
 R2
 n@_opt1
 R3
+R0
 T_opt2
 !s110 1672398897
 VzGHlfegd35Bf`E?GX^28O1
@@ -38,23 +39,23 @@ n@_opt2
 R3
 R0
 vmux4x1_dut_vectors
-Z4 !s110 1672398888
+Z4 !s110 1672662106
 !i10b 1
 !s100 NU940i^Od6J`zCiBLKjo_2
-IZRKShnB_71a:JS4m5;;Hl0
+I>o@:c_:b`Ei`eRF1Sd2gn3
 Z5 VDg1SIo80bB@j0V0VzS_@n1
 Z6 dD:/Obsi/verilogg/dataflow/mux_using_vectors
 w1672396949
-8D:\Obsi\verilogg\dataflow\mux_using_vectors\mux4x1_dut.v
-FD:\Obsi\verilogg\dataflow\mux_using_vectors\mux4x1_dut.v
+8D:/Obsi/verilogg/dataflow/mux_using_vectors/mux4x1_dut.v
+FD:/Obsi/verilogg/dataflow/mux_using_vectors/mux4x1_dut.v
 L0 1
 Z7 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z8 !s108 1672398888.000000
-!s107 D:\Obsi\verilogg\dataflow\mux_using_vectors\mux4x1_dut.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\mux_using_vectors\mux4x1_dut.v|
+Z8 !s108 1672662106.000000
+!s107 D:/Obsi/verilogg/dataflow/mux_using_vectors/mux4x1_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/mux_using_vectors/mux4x1_dut.v|
 !i113 0
 Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
@@ -62,83 +63,83 @@ vmux4x1_tb_vectors
 R4
 !i10b 1
 !s100 ni5<hNMU6gdaVAK<f04GU2
-IAGXClUbmD9MURI>_2B;1E0
+IYJP7Dm2kcSj;RhABeC4k;2
 R5
 R6
 w1672398749
-8D:\Obsi\verilogg\dataflow\mux_using_vectors\mux4x1_tb.v
-FD:\Obsi\verilogg\dataflow\mux_using_vectors\mux4x1_tb.v
+8D:/Obsi/verilogg/dataflow/mux_using_vectors/mux4x1_tb.v
+FD:/Obsi/verilogg/dataflow/mux_using_vectors/mux4x1_tb.v
 L0 1
 R7
 r1
 !s85 0
 31
 R8
-!s107 D:\Obsi\verilogg\dataflow\mux_using_vectors\mux4x1_tb.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\mux_using_vectors\mux4x1_tb.v|
+!s107 D:/Obsi/verilogg/dataflow/mux_using_vectors/mux4x1_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/mux_using_vectors/mux4x1_tb.v|
 !i113 0
 R9
 R2
 vmux8x1_using_4x1_dut
-Z10 !s110 1672402276
+R4
 !i10b 1
-!s100 dZa66oN2K`ZQT<8_:[I2o2
-IhJV`CH0^>Fcho?RFg[;2J2
+!s100 hZ:A]HKUVTf^aeR^H:d7S1
+I@19^9`IncMbc`=]QP6XiI3
 R5
 R6
-w1672402227
-8D:\Obsi\verilogg\dataflow\mux_using_vectors\mux8x1_using_2x1_dut.v
-FD:\Obsi\verilogg\dataflow\mux_using_vectors\mux8x1_using_2x1_dut.v
+w1672402341
+8D:/Obsi/verilogg/dataflow/mux_using_vectors/mux8x1_using_2x1_dut.v
+FD:/Obsi/verilogg/dataflow/mux_using_vectors/mux8x1_using_2x1_dut.v
 L0 1
 R7
 r1
 !s85 0
 31
-Z11 !s108 1672402276.000000
-!s107 D:\Obsi\verilogg\dataflow\mux_using_vectors\mux8x1_using_2x1_dut.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\mux_using_vectors\mux8x1_using_2x1_dut.v|
+R8
+!s107 D:/Obsi/verilogg/dataflow/mux_using_vectors/mux8x1_using_2x1_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/mux_using_vectors/mux8x1_using_2x1_dut.v|
 !i113 0
 R9
 R2
 vmux8x1_using_4x1_tb
-R10
+R4
 !i10b 1
 !s100 D7c45M:2HmFcTS>>8^IM`0
-IGLfgo>@cC^;dz0[IDYBL]0
+IL]<O0@aGK2[?XiF=j`ogj0
 R5
 R6
 w1672402264
-8D:\Obsi\verilogg\dataflow\mux_using_vectors\mux8x1_using_4x1_tb.v
-FD:\Obsi\verilogg\dataflow\mux_using_vectors\mux8x1_using_4x1_tb.v
+8D:/Obsi/verilogg/dataflow/mux_using_vectors/mux8x1_using_4x1_tb.v
+FD:/Obsi/verilogg/dataflow/mux_using_vectors/mux8x1_using_4x1_tb.v
 L0 1
 R7
 r1
 !s85 0
 31
-R11
-!s107 D:\Obsi\verilogg\dataflow\mux_using_vectors\mux8x1_using_4x1_tb.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\mux_using_vectors\mux8x1_using_4x1_tb.v|
+R8
+!s107 D:/Obsi/verilogg/dataflow/mux_using_vectors/mux8x1_using_4x1_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/mux_using_vectors/mux8x1_using_4x1_tb.v|
 !i113 0
 R9
 R2
 vstring_print
-!s110 1672402710
+R4
 !i10b 1
-!s100 bXcfRoKakNFfQ6kYV<Fg^0
-IA6_o4aigK0Ae;F@8L39lN1
+!s100 U0X4]6@75g9IBk;_;Tk4I0
+INzz>iV1iCTYZz97IU1mQ53
 R5
 R6
-w1672402701
-8D:\Obsi\verilogg\dataflow\mux_using_vectors\string_print_dut.v
-FD:\Obsi\verilogg\dataflow\mux_using_vectors\string_print_dut.v
+w1672480241
+8D:/Obsi/verilogg/dataflow/mux_using_vectors/string_print_dut.v
+FD:/Obsi/verilogg/dataflow/mux_using_vectors/string_print_dut.v
 L0 1
 R7
 r1
 !s85 0
 31
-!s108 1672402710.000000
-!s107 D:\Obsi\verilogg\dataflow\mux_using_vectors\string_print_dut.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\mux_using_vectors\string_print_dut.v|
+R8
+!s107 D:/Obsi/verilogg/dataflow/mux_using_vectors/string_print_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/mux_using_vectors/string_print_dut.v|
 !i113 0
 R9
 R2

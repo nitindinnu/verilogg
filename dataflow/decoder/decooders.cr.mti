@@ -1,4 +1,4 @@
-D:/Obsi/verilogg/dataflow/decoder/decoder2to4.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\decoder\decoder2to4.v}
+D:/Obsi/verilogg/dataflow/decoder/decoder2to4.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/decoder/decoder2to4.v
 QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
 -- Compiling module decoder2to4_dut
 

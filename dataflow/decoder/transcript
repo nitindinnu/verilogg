@@ -1,0 +1,226 @@
+# Reading C:/questasim64_10.7c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile D:/Obsi/verilogg/dataflow/decoder/comparator_3bit.mpf
+# Loading project comparator_3bit
+# Compile of comparator_3bit_dut.v was successful.
+# Compile of comparator_3bit_tb.v was successful.
+# Compile of comparator_1bit_dut.v was successful.
+# Compile of comparator_1bit_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.comparator_3bit_tb
+# vsim -voptargs="+acc" work.comparator_3bit_tb 
+# Start time: 14:40:56 on Jan 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.comparator_3bit_tb(fast)
+# Loading work.comparator_3bit_dut(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'L'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'G'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'E'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+add wave -position insertpoint  \
+sim:/comparator_3bit_tb/a \
+sim:/comparator_3bit_tb/b \
+sim:/comparator_3bit_tb/Lesser \
+sim:/comparator_3bit_tb/Greater \
+sim:/comparator_3bit_tb/Equal \
+sim:/comparator_3bit_tb/L \
+sim:/comparator_3bit_tb/G \
+sim:/comparator_3bit_tb/E
+run
+#     A=xx1    B=xx1   Lesser=0     Greater=0    Equal=1   
+#     A=x11    B=x11   Lesser=0     Greater=0    Equal=1   
+#     A=111    B=111   Lesser=0     Greater=0    Equal=1   
+# ** Note: $stop    : D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v(24)
+#    Time: 30 ns  Iteration: 0  Instance: /comparator_3bit_tb
+# Break in Module comparator_3bit_tb at D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v line 24
+# Compile of comparator_3bit_dut.v was successful.
+# Compile of comparator_3bit_tb.v was successful.
+# Compile of comparator_1bit_dut.v was successful.
+# Compile of comparator_1bit_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.comparator_3bit_tb
+# End time: 14:43:19 on Jan 03,2023, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.comparator_3bit_tb 
+# Start time: 14:43:19 on Jan 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.comparator_3bit_tb(fast)
+# Loading work.comparator_3bit_dut(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'L'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'G'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'E'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+add wave -position insertpoint  \
+sim:/comparator_3bit_tb/a \
+sim:/comparator_3bit_tb/b \
+sim:/comparator_3bit_tb/Lesser \
+sim:/comparator_3bit_tb/Greater \
+sim:/comparator_3bit_tb/Equal \
+sim:/comparator_3bit_tb/L \
+sim:/comparator_3bit_tb/G \
+sim:/comparator_3bit_tb/E
+run
+#     A=xx1    B=xx1   Lesser=0     Greater=0    Equal=1   
+#     A=x11    B=x11   Lesser=0     Greater=0    Equal=1   
+# ** Note: $stop    : D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v(24)
+#    Time: 20 ns  Iteration: 0  Instance: /comparator_3bit_tb
+# Break in Module comparator_3bit_tb at D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v line 24
+run
+#     A=111    B=111   Lesser=0     Greater=0    Equal=1   
+run
+# Compile of comparator_3bit_dut.v was successful.
+# Compile of comparator_3bit_tb.v was successful.
+# Compile of comparator_1bit_dut.v was successful.
+# Compile of comparator_1bit_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.comparator_3bit_tb
+# End time: 14:45:51 on Jan 03,2023, Elapsed time: 0:02:32
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.comparator_3bit_tb 
+# Start time: 14:45:51 on Jan 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.comparator_3bit_tb(fast)
+# Loading work.comparator_3bit_dut(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'L'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'G'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'E'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+add wave -position insertpoint  \
+sim:/comparator_3bit_tb/a \
+sim:/comparator_3bit_tb/b \
+sim:/comparator_3bit_tb/Lesser \
+sim:/comparator_3bit_tb/Greater \
+sim:/comparator_3bit_tb/Equal \
+sim:/comparator_3bit_tb/L \
+sim:/comparator_3bit_tb/G \
+sim:/comparator_3bit_tb/E
+run
+#     A=101    B=101   Lesser=0     Greater=0    Equal=1   
+#     A=111    B=101   Lesser=0     Greater=0    Equal=1   
+#     A=101    B=111   Lesser=0     Greater=0    Equal=1   
+# Compile of comparator_3bit_dut.v was successful.
+# Compile of comparator_3bit_tb.v was successful.
+# Compile of comparator_1bit_dut.v was successful.
+# Compile of comparator_1bit_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.comparator_3bit_tb
+# End time: 15:04:02 on Jan 03,2023, Elapsed time: 0:18:11
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.comparator_3bit_tb 
+# Start time: 15:04:03 on Jan 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.comparator_3bit_tb(fast)
+# Loading work.comparator_3bit_dut(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'L'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'G'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'E'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+add wave -position insertpoint  \
+sim:/comparator_3bit_tb/a \
+sim:/comparator_3bit_tb/b \
+sim:/comparator_3bit_tb/Lesser \
+sim:/comparator_3bit_tb/Greater \
+sim:/comparator_3bit_tb/Equal \
+sim:/comparator_3bit_tb/L \
+sim:/comparator_3bit_tb/G \
+sim:/comparator_3bit_tb/E
+run
+#     A=xx1    B=xx1   Lesser=0     Greater=0    Equal=1   
+#     A=x11    B=x11   Lesser=0     Greater=0    Equal=1   
+#     A=111    B=111   Lesser=0     Greater=0    Equal=1   
+# ** Note: $stop    : D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v(24)
+#    Time: 30 ns  Iteration: 0  Instance: /comparator_3bit_tb
+# Break in Module comparator_3bit_tb at D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v line 24
+# Compile of comparator_3bit_dut.v was successful.
+# Compile of comparator_3bit_tb.v was successful.
+# Compile of comparator_1bit_dut.v was successful.
+# Compile of comparator_1bit_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.comparator_3bit_tb
+# End time: 15:06:23 on Jan 03,2023, Elapsed time: 0:02:20
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.comparator_3bit_tb 
+# Start time: 15:06:23 on Jan 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.comparator_3bit_tb(fast)
+# Loading work.comparator_3bit_dut(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'L'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'G'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'E'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+add wave -position insertpoint  \
+sim:/comparator_3bit_tb/a \
+sim:/comparator_3bit_tb/b \
+sim:/comparator_3bit_tb/Lesser \
+sim:/comparator_3bit_tb/Greater \
+sim:/comparator_3bit_tb/Equal \
+sim:/comparator_3bit_tb/L \
+sim:/comparator_3bit_tb/G \
+sim:/comparator_3bit_tb/E
+run
+#     A=xx1    B=xx1   Lesser=0     Greater=0    Equal=1   
+#     A=x11    B=x11   Lesser=0     Greater=0    Equal=1   
+#     A=111    B=111   Lesser=0     Greater=0    Equal=1   
+# Compile of comparator_3bit_dut.v was successful.
+# Compile of comparator_3bit_tb.v was successful.
+# Compile of comparator_1bit_dut.v was successful.
+# Compile of comparator_1bit_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.comparator_3bit_tb
+# End time: 15:08:06 on Jan 03,2023, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.comparator_3bit_tb 
+# Start time: 15:08:06 on Jan 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.comparator_3bit_tb(fast)
+# Loading work.comparator_3bit_dut(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'L'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'G'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'E'. The port definition is at: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /comparator_3bit_tb/a1 File: D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v Line: 8
+add wave -position insertpoint  \
+sim:/comparator_3bit_tb/a \
+sim:/comparator_3bit_tb/b \
+sim:/comparator_3bit_tb/Lesser \
+sim:/comparator_3bit_tb/Greater \
+sim:/comparator_3bit_tb/Equal \
+sim:/comparator_3bit_tb/L \
+sim:/comparator_3bit_tb/G \
+sim:/comparator_3bit_tb/E
+run
+#     A=xxx    B=xxx   Lesser=x     Greater=x    Equal=x   
+#     A=xx1    B=xx1   Lesser=0     Greater=0    Equal=1   
+#     A=x11    B=x11   Lesser=0     Greater=0    Equal=1   
+#     A=111    B=111   Lesser=0     Greater=0    Equal=1   
+# ** Note: $stop    : D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v(20)
+#    Time: 50 ns  Iteration: 0  Instance: /comparator_3bit_tb
+# Break in Module comparator_3bit_tb at D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v line 20
+# End time: 15:10:45 on Jan 03,2023, Elapsed time: 0:02:39
+# Errors: 0, Warnings: 3
+# Closing project D:/Obsi/verilogg/dataflow/decoder/comparator_3bit.mpf
+# reading C:/questasim64_10.7c/win64/../modelsim.ini

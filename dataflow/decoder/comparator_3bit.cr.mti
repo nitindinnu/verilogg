@@ -1,0 +1,29 @@
+D:/Obsi/verilogg/dataflow/decoder/comparator_1bit_dut.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/decoder/comparator_1bit_dut.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module comparator_1bit_dut
+
+Top level modules:
+	comparator_1bit_dut
+
+} {} {}} D:/Obsi/verilogg/dataflow/decoder/comparator_1bit_tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/decoder/comparator_1bit_tb.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module comparator_1bit_tb
+
+Top level modules:
+	comparator_1bit_tb
+
+} {} {}} D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\decoder\comparator_3bit_dut.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module comparator_3bit_dut
+
+Top level modules:
+	comparator_3bit_dut
+
+} {} {}} D:/Obsi/verilogg/dataflow/decoder/comparator_3bit_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\decoder\comparator_3bit_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module comparator_3bit_tb
+
+Top level modules:
+	comparator_3bit_tb
+
+} {} {}}

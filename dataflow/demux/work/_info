@@ -1,0 +1,113 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1672741635
+V`h2kmmA:`Kl46BcBX1;kc2
+04 12 4 work demux1to2_tb fast 0
+=1-50814090a273-63b40303-258-38e0
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1672743718
+V=^Q3dePi^WPEXVPWA3;bX0
+04 12 4 work demux1to4_tb fast 0
+=1-50814090a273-63b40b26-c4-3b0c
+R1
+R2
+n@_opt1
+R3
+vdemux1to2_dut
+!s110 1672743711
+!i10b 1
+!s100 c:JO[z2eQ3K6XZjXNSbZ>3
+IP>G@5;CGNlPk<eRg3Pb4V0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dD:/Obsi/verilogg/dataflow/demux
+w1672741682
+8D:\Obsi\verilogg\dataflow\demux\demux1to2_dut.v
+FD:\Obsi\verilogg\dataflow\demux\demux1to2_dut.v
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1672743711.000000
+!s107 D:\Obsi\verilogg\dataflow\demux\demux1to2_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\demux\demux1to2_dut.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vdemux1to2_tb
+Z9 !s110 1672743712
+!i10b 1
+!s100 GW[@g<MAENDZkdg;OhR5g1
+Ij7eJnRZhigKon<_iFkEjH1
+R4
+R5
+w1672741692
+8D:\Obsi\verilogg\dataflow\demux\demux1to2_tb.v
+FD:\Obsi\verilogg\dataflow\demux\demux1to2_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:\Obsi\verilogg\dataflow\demux\demux1to2_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\demux\demux1to2_tb.v|
+!i113 0
+R8
+R2
+vdemux1to4_dut
+R9
+!i10b 1
+!s100 ?[kaIeQXD_cfz2BhT`:SG2
+I@Q64@39PH8SRN?07>8h6I0
+R4
+R5
+w1672743667
+8D:\Obsi\verilogg\dataflow\demux\demux1to4_dut.v
+FD:\Obsi\verilogg\dataflow\demux\demux1to4_dut.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z10 !s108 1672743712.000000
+!s107 D:\Obsi\verilogg\dataflow\demux\demux1to4_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\demux\demux1to4_dut.v|
+!i113 0
+R8
+R2
+vdemux1to4_tb
+R9
+!i10b 1
+!s100 gCfcf802V?hH@bilXNQS:1
+IKa2`REkmo;4ZFi35CUMmW3
+R4
+R5
+w1672743704
+8D:\Obsi\verilogg\dataflow\demux\demux1to4_tb.v
+FD:\Obsi\verilogg\dataflow\demux\demux1to4_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R10
+!s107 D:\Obsi\verilogg\dataflow\demux\demux1to4_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\demux\demux1to4_tb.v|
+!i113 0
+R8
+R2

@@ -15,102 +15,9 @@
 # //
 # OpenFile D:/Obsi/verilogg/dataflow/full_adder/full_adder.mpf
 # Loading project full_adder
-# Compile of fa_dut.v was successful.
-# Compile of fa_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
 vsim -voptargs=+acc work.tb_fa
 # vsim -voptargs="+acc" work.tb_fa 
-# Start time: 16:20:44 on Dec 28,2022
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading work.tb_fa(fast)
-add wave -position insertpoint  \
-sim:/tb_fa/a \
-sim:/tb_fa/b \
-sim:/tb_fa/c \
-sim:/tb_fa/sum \
-sim:/tb_fa/carry
-run
-# ** Note: $stop    : D:/Obsi/verilogg/dataflow/full_adder/fa_tb.v(16)
-#    Time: 40 ns  Iteration: 0  Instance: /tb_fa
-# Break in Module tb_fa at D:/Obsi/verilogg/dataflow/full_adder/fa_tb.v line 16
-quit -sim
-# End time: 16:25:53 on Dec 28,2022, Elapsed time: 0:05:09
-# Errors: 0, Warnings: 0
-# Compile of fa_dut.v was successful.
-# Compile of fa_tb.v failed with 2 errors.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of fa_dut.v was successful.
-# Compile of fa_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -voptargs=+acc work.tb_fa
-# vsim -voptargs="+acc" work.tb_fa 
-# Start time: 16:27:35 on Dec 28,2022
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading work.tb_fa(fast)
-# Loading work.fa(fast)
-add wave -position insertpoint  \
-sim:/tb_fa/a \
-sim:/tb_fa/b \
-sim:/tb_fa/c \
-sim:/tb_fa/sum \
-sim:/tb_fa/carry
-run
-# ** Note: $stop    : D:/Obsi/verilogg/dataflow/full_adder/fa_tb.v(16)
-#    Time: 40 ns  Iteration: 0  Instance: /tb_fa
-# Break in Module tb_fa at D:/Obsi/verilogg/dataflow/full_adder/fa_tb.v line 16
-quit -sim
-# End time: 16:36:16 on Dec 28,2022, Elapsed time: 0:08:41
-# Errors: 0, Warnings: 0
-# Compile of fa_dut.v was successful.
-# Compile of fa_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -voptargs=+acc work.tb_fa
-# vsim -voptargs="+acc" work.tb_fa 
-# Start time: 16:36:42 on Dec 28,2022
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading work.tb_fa(fast)
-# Loading work.fa(fast)
-add wave -position insertpoint  \
-sim:/tb_fa/a \
-sim:/tb_fa/b \
-sim:/tb_fa/c \
-sim:/tb_fa/sum \
-sim:/tb_fa/carry
-run
-quit -sim
-# End time: 16:46:14 on Dec 28,2022, Elapsed time: 0:09:32
-# Errors: 0, Warnings: 0
-# Compile of fa_dut.v was successful.
-# Compile of fa_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -voptargs=+acc work.tb_fa
-# vsim -voptargs="+acc" work.tb_fa 
-# Start time: 16:46:30 on Dec 28,2022
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading work.tb_fa(fast)
-# Loading work.fa(fast)
-add wave -position insertpoint  \
-sim:/tb_fa/a \
-sim:/tb_fa/b \
-sim:/tb_fa/c \
-sim:/tb_fa/sum \
-sim:/tb_fa/carry
-run
-quit -sim
-# End time: 16:47:43 on Dec 28,2022, Elapsed time: 0:01:13
-# Errors: 0, Warnings: 0
-# Compile of fa_dut.v was successful.
-# Compile of fa_tb.v failed with 1 errors.
-# 2 compiles, 1 failed with 1 error.
-# Compile of fa_dut.v was successful.
-# Compile of fa_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-# Compile of fa_dut.v was successful.
-# Compile of fa_tb.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -voptargs=+acc work.tb_fa
-# vsim -voptargs="+acc" work.tb_fa 
-# Start time: 16:51:33 on Dec 28,2022
+# Start time: 17:17:01 on Jan 02,2023
 # ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading work.tb_fa(fast)
 # Loading work.fa(fast)
@@ -121,8 +28,5 @@ sim:/tb_fa/c \
 sim:/tb_fa/sum \
 sim:/tb_fa/carry
 run
-run
-quit -sim
-# End time: 16:55:44 on Dec 28,2022, Elapsed time: 0:04:11
+# End time: 17:21:23 on Jan 02,2023, Elapsed time: 0:04:22
 # Errors: 0, Warnings: 0
-# reading C:/questasim64_10.7c/win64/../modelsim.ini

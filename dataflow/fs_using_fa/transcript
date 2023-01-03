@@ -1,0 +1,38 @@
+# Reading C:/questasim64_10.7c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile D:/Obsi/verilogg/dataflow/fs_using_fa/fs_using_fa.mpf
+# Loading project fs_using_fa
+vsim -voptargs=+acc work.fs_using_fa_tb
+# vsim -voptargs="+acc" work.fs_using_fa_tb 
+# Start time: 17:47:50 on Jan 02,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.fs_using_fa_tb(fast)
+# Loading work.fs_using_fa_dut(fast)
+add wave -position insertpoint  \
+sim:/fs_using_fa_tb/a \
+sim:/fs_using_fa_tb/b \
+sim:/fs_using_fa_tb/c \
+sim:/fs_using_fa_tb/diff \
+sim:/fs_using_fa_tb/FSCout \
+sim:/fs_using_fa_tb/w1 \
+sim:/fs_using_fa_tb/w2 \
+sim:/fs_using_fa_tb/w3 \
+sim:/fs_using_fa_tb/w4 \
+sim:/fs_using_fa_tb/w5 \
+sim:/fs_using_fa_tb/w6
+run
+# End time: 17:58:28 on Jan 02,2023, Elapsed time: 0:10:38
+# Errors: 0, Warnings: 0

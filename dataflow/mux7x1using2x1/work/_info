@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Obsi/verilogg/dataflow/mux
+T_opt
+!s110 1672726565
+VlXQF4XbY>EgkgFWR^ZVDE3
+04 18 4 work mux7x1using2x1_dut fast 0
+=1-50814090a273-63b3c825-16d-31c8
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1672735187
+V?mm_UK;M24[in<Q7MmE2l0
+04 17 4 work mux7x1using2x1_tb fast 0
+=1-50814090a273-63b3e9d3-2c1-9a0
+R1
+R2
+n@_opt1
+R3
+vmux7x1using2x1_dut
+Z4 !s110 1672726554
+!i10b 1
+!s100 5ZIj3_=kaWDFBk9>iiMgE3
+I9MZ^3WW[JoTM@MR2W0G]E1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/dataflow/mux7x1using2x1
+w1672726403
+8D:\Obsi\verilogg\dataflow\mux7x1using2x1\mux7x1using2x1_dut.v
+FD:\Obsi\verilogg\dataflow\mux7x1using2x1\mux7x1using2x1_dut.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1672726553.000000
+!s107 D:\Obsi\verilogg\dataflow\mux7x1using2x1\mux7x1using2x1_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\mux7x1using2x1\mux7x1using2x1_dut.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vmux7x1using2x1_tb
+R4
+!i10b 1
+!s100 D]FKUL7n]@;MEFjH]TbjI3
+IA;[Na6cQi[5cQmN:KkTCJ0
+R5
+R6
+w1672726544
+8D:\Obsi\verilogg\dataflow\mux7x1using2x1\mux7x1using2x1_tb.v
+FD:\Obsi\verilogg\dataflow\mux7x1using2x1\mux7x1using2x1_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1672726554.000000
+!s107 D:\Obsi\verilogg\dataflow\mux7x1using2x1\mux7x1using2x1_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\mux7x1using2x1\mux7x1using2x1_tb.v|
+!i113 0
+R8
+R2
