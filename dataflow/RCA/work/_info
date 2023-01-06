@@ -1,0 +1,72 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Obsi/verilogg/dataflow/comparator
+T_opt
+!s110 1672985599
+V^gN0=19V83IY1;^16jc]80
+04 11 4 work tb_rca_4bit fast 0
+=1-50814090a273-63b7bbff-2eb-4670
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+Z2 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1672985850
+Vi:b;K6WIZnK[306`TUHFO1
+04 12 4 work dut_rca_4bit fast 0
+=1-50814090a273-63b7bcfa-319-13f0
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R1
+n@_opt1
+R2
+R0
+vdut_rca_4bit
+Z3 !s110 1672986895
+!i10b 1
+!s100 X[@nNSV1O2Zm6AS=mng1B2
+I^12mUlm=BibXKbOaBmel63
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dD:/Obsi/verilogg/dataflow/RCA
+w1672985407
+8D:\Obsi\verilogg\dataflow\RCA\dut_rca_4bit.v
+FD:\Obsi\verilogg\dataflow\RCA\dut_rca_4bit.v
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1672986895.000000
+!s107 D:\Obsi\verilogg\dataflow\RCA\dut_rca_4bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\RCA\dut_rca_4bit.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb_rca_4bit
+R3
+!i10b 1
+!s100 :V5NGmSM4=m<V28fjL[K62
+ILTm2jT;Jj_IHeY]JCPVoM0
+R4
+R5
+w1672985438
+8D:\Obsi\verilogg\dataflow\RCA\tb_rca_4bit.v
+FD:\Obsi\verilogg\dataflow\RCA\tb_rca_4bit.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:\Obsi\verilogg\dataflow\RCA\tb_rca_4bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\RCA\tb_rca_4bit.v|
+!i113 0
+R8
+R1

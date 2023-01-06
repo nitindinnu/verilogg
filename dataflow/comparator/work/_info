@@ -1,0 +1,228 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1672904090
+V5kjH4W`k;7gd6ZF@Dn?8L3
+04 18 4 work comparator_3bit_tb fast 0
+=1-50814090a273-63b67d9a-dc-2b18
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1672912474
+V:GKX4Zk>Z5PQh3:AbLGFz3
+04 18 4 work comparator_4bit_tb fast 0
+=1-50814090a273-63b69e5a-2c0-550
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1672980728
+V4AbcLjfO0CIE9>OG^doa]0
+04 19 4 work tb_comp_4bit_u_2bit fast 0
+=1-50814090a273-63b7a8f7-3a6-3d60
+R1
+R2
+n@_opt2
+R3
+vcomparator_1bit_dut
+Z4 !s110 1672980720
+!i10b 1
+!s100 5[g7M98`B>j<1b7bDH`8D1
+IJB;kWoJ2?mhLL5iS9e6g:3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/dataflow/comparator
+w1672898896
+8D:/Obsi/verilogg/dataflow/comparator/dut_comparator_1bit.v
+FD:/Obsi/verilogg/dataflow/comparator/dut_comparator_1bit.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1672980720.000000
+!s107 D:/Obsi/verilogg/dataflow/comparator/dut_comparator_1bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/comparator/dut_comparator_1bit.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vcomparator_1bit_tb
+R4
+!i10b 1
+!s100 R5lPi::U>F7HWbH`f`UQ]3
+I9K5fRnM<Z<M@UAbIPA=^13
+R5
+R6
+w1672898996
+8D:/Obsi/verilogg/dataflow/comparator/tb_comparator_1bit.v
+FD:/Obsi/verilogg/dataflow/comparator/tb_comparator_1bit.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/dataflow/comparator/tb_comparator_1bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/comparator/tb_comparator_1bit.v|
+!i113 0
+R9
+R2
+vcomparator_3bit_dut
+R4
+!i10b 1
+!s100 ZUmW7RTmOmg>2[<LGFHVX1
+I`P7BDO]T?:X23[8fL7LlZ2
+R5
+R6
+w1672899073
+8D:/Obsi/verilogg/dataflow/comparator/dut_comparator_3bit.v
+FD:/Obsi/verilogg/dataflow/comparator/dut_comparator_3bit.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/dataflow/comparator/dut_comparator_3bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/comparator/dut_comparator_3bit.v|
+!i113 0
+R9
+R2
+vcomparator_3bit_tb
+R4
+!i10b 1
+!s100 Fd6mA<F?DiX2ZFzIoOQj22
+IhWbiDmkPzTe0i=R>1TUiA0
+R5
+R6
+w1672904214
+8D:/Obsi/verilogg/dataflow/comparator/tb_comparator_3bit.v
+FD:/Obsi/verilogg/dataflow/comparator/tb_comparator_3bit.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/dataflow/comparator/tb_comparator_3bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/comparator/tb_comparator_3bit.v|
+!i113 0
+R9
+R2
+vcomparator_4bit_tb
+R4
+!i10b 1
+!s100 jD?jZ?60ocmmbX>PLKBhc3
+ISZQTWz5EfEQZWf[KfaQ:o2
+R5
+R6
+w1672912144
+8D:\Obsi\verilogg\dataflow\comparator\tb_comparator_4bit.v
+FD:\Obsi\verilogg\dataflow\comparator\tb_comparator_4bit.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\Obsi\verilogg\dataflow\comparator\tb_comparator_4bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\comparator\tb_comparator_4bit.v|
+!i113 0
+R9
+R2
+vdut_4bit_u_2bit
+!s110 1672914300
+!i10b 1
+!s100 @ifKnN;WPdl>9T>g7S[2X3
+I2nK1L>BLm1lYIV4U;=a7[2
+R5
+R6
+w1672914295
+Z10 8D:\Obsi\verilogg\dataflow\comparator\dut_comp_4bit_u_2bit.v
+Z11 FD:\Obsi\verilogg\dataflow\comparator\dut_comp_4bit_u_2bit.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1672914300.000000
+Z12 !s107 D:\Obsi\verilogg\dataflow\comparator\dut_comp_4bit_u_2bit.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\comparator\dut_comp_4bit_u_2bit.v|
+!i113 0
+R9
+R2
+vdut_comp_4bit_u_2bit
+Z14 !s110 1672980721
+!i10b 1
+!s100 1P=D@`72iW>NQY6^1Y?D^2
+IJZ2XiCZc2gcc9IS:MRK?V2
+R5
+R6
+w1672980562
+R10
+R11
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R12
+R13
+!i113 0
+R9
+R2
+vdut_comparator_4bit
+R4
+!i10b 1
+!s100 6<1OadH2]OBN3Va4Lf7c63
+I<HO1JXn54Ancf_l[j>A2g0
+R5
+R6
+w1672980638
+8D:\Obsi\verilogg\dataflow\comparator\dut_comparator_4bit.v
+FD:\Obsi\verilogg\dataflow\comparator\dut_comparator_4bit.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\Obsi\verilogg\dataflow\comparator\dut_comparator_4bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\comparator\dut_comparator_4bit.v|
+!i113 0
+R9
+R2
+vtb_comp_4bit_u_2bit
+R14
+!i10b 1
+!s100 gZWW[[J9z@G1V6ZjE`He=0
+I9[6K;QaekM^Y^DRI8^]nz1
+R5
+R6
+w1672980713
+8D:\Obsi\verilogg\dataflow\comparator\tb_comp_4bit_u_2bit.v
+FD:\Obsi\verilogg\dataflow\comparator\tb_comp_4bit_u_2bit.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1672980721.000000
+!s107 D:\Obsi\verilogg\dataflow\comparator\tb_comp_4bit_u_2bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\comparator\tb_comp_4bit_u_2bit.v|
+!i113 0
+R9
+R2

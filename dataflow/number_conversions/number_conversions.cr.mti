@@ -1,0 +1,66 @@
+D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_4bit_tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_4bit_tb.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module binary_to_gray_4bit_tb
+
+Top level modules:
+	binary_to_gray_4bit_tb
+
+} {} {}} D:/Obsi/verilogg/dataflow/number_conversions/logicgates_using_mux_dut.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/number_conversions/logicgates_using_mux_dut.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module all_gates_from_2x1mux_dut
+
+Top level modules:
+	all_gates_from_2x1mux_dut
+
+} {} {}} D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module binary_to_gray_dut
+
+Top level modules:
+	binary_to_gray_dut
+
+} {} {}} D:/Obsi/verilogg/dataflow/number_conversions/logicgates_using_mux_tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/number_conversions/logicgates_using_mux_tb.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module all_gates_from_2x1mux_tb
+
+Top level modules:
+	all_gates_from_2x1mux_tb
+
+} {} {}} D:/Obsi/verilogg/dataflow/number_conversions/mux_as_fs_dut.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/number_conversions/mux_as_fs_dut.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module fs_implementation_in_mux_dut
+
+Top level modules:
+	fs_implementation_in_mux_dut
+
+} {} {}} D:/Obsi/verilogg/dataflow/number_conversions/dec_to_binary.v {0 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/number_conversions/dec_to_binary.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module dec_to_bin
+** Error (suppressible): D:/Obsi/verilogg/dataflow/number_conversions/dec_to_binary.v(4): (vlog-2388) 'dec' already declared in this scope (dec_to_bin).
+** Error: D:/Obsi/verilogg/dataflow/number_conversions/dec_to_binary.v(5): (vlog-13161) unexpected '$display'
+
+} {5.0 6.0} {}} D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_tb.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module binary_to_gray_tb
+
+Top level modules:
+	binary_to_gray_tb
+
+} {} {}} D:/Obsi/verilogg/dataflow/number_conversions/mux_as_fs_tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/number_conversions/mux_as_fs_tb.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module fs_implementation_in_mux_tb
+
+Top level modules:
+	fs_implementation_in_mux_tb
+
+} {} {}} D:/Obsi/verilogg/dataflow/number_conversions/dec_to_binary_tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/number_conversions/dec_to_binary_tb.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+
+} {} {}} D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_4bit_dut.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_4bit_dut.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module binary_to_gray_4bit_dut
+
+Top level modules:
+	binary_to_gray_4bit_dut
+
+} {} {}}

@@ -1,0 +1,36 @@
+# Reading C:/questasim64_10.7c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile D:/Obsi/verilogg/dataflow/number_conversions/number_conversions.mpf
+# Loading project number_conversions
+# Compile of dec_to_binary.v failed with 2 errors.
+# Compile of dec_to_binary_tb.v was successful.
+# Compile of binary_to_gray.v was successful.
+# Compile of binary_to_gray_tb.v was successful.
+# Compile of binary_to_gray_4bit_dut.v was successful.
+# Compile of binary_to_gray_4bit_tb.v was successful.
+# Compile of logicgates_using_mux_dut.v was successful.
+# Compile of logicgates_using_mux_tb.v was successful.
+# Compile of mux_as_fs_dut.v was successful.
+# Compile of mux_as_fs_tb.v was successful.
+# 10 compiles, 1 failed with 2 errors.
+vsim -voptargs=+acc work.binary_to_gray_tb
+# vsim -voptargs="+acc" work.binary_to_gray_tb 
+# Start time: 11:45:15 on Jan 05,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.binary_to_gray_tb(fast)
+# Loading work.binary_to_gray_dut(fast)
+# End time: 11:45:25 on Jan 05,2023, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0

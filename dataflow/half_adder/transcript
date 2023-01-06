@@ -15,9 +15,12 @@
 # //
 # OpenFile D:/Obsi/verilogg/dataflow/half_adder/halfadder.mpf
 # Loading project halfadder
+# Compile of halfadder_dut.v was successful.
+# Compile of halfadder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
 vsim -voptargs=+acc work.tb_ha
 # vsim -voptargs="+acc" work.tb_ha 
-# Start time: 17:23:54 on Jan 02,2023
+# Start time: 11:17:20 on Jan 05,2023
 # ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading work.tb_ha(fast)
 # Loading work.ha(fast)
@@ -26,10 +29,9 @@ sim:/tb_ha/a \
 sim:/tb_ha/b \
 sim:/tb_ha/y \
 sim:/tb_ha/c
-run -continue
 run
 # ** Note: $stop    : D:/Obsi/verilogg/dataflow/half_adder/halfadder_tb.v(10)
 #    Time: 20 ns  Iteration: 0  Instance: /tb_ha
 # Break in Module tb_ha at D:/Obsi/verilogg/dataflow/half_adder/halfadder_tb.v line 10
-# End time: 17:25:31 on Jan 02,2023, Elapsed time: 0:01:37
+# End time: 11:29:06 on Jan 05,2023, Elapsed time: 0:11:46
 # Errors: 0, Warnings: 0

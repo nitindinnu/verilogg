@@ -1,0 +1,42 @@
+# Reading C:/questasim64_10.7c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile D:/Obsi/verilogg/dataflow/comparator/comparator.mpf
+# Loading project comparator
+vsim -voptargs=+acc work.tb_comp_4bit_u_2bit
+# vsim -voptargs="+acc" work.tb_comp_4bit_u_2bit 
+# Start time: 12:07:45 on Jan 06,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.tb_comp_4bit_u_2bit(fast)
+# Loading work.dut_comp_4bit_u_2bit(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'L'. The port definition is at: D:/Obsi/verilogg/dataflow/comparator/dut_comp_4bit_u_2bit.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_comp_4bit_u_2bit/a1 File: D:/Obsi/verilogg/dataflow/comparator/tb_comp_4bit_u_2bit.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'G'. The port definition is at: D:/Obsi/verilogg/dataflow/comparator/dut_comp_4bit_u_2bit.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_comp_4bit_u_2bit/a1 File: D:/Obsi/verilogg/dataflow/comparator/tb_comp_4bit_u_2bit.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'E'. The port definition is at: D:/Obsi/verilogg/dataflow/comparator/dut_comp_4bit_u_2bit.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_comp_4bit_u_2bit/a1 File: D:/Obsi/verilogg/dataflow/comparator/tb_comp_4bit_u_2bit.v Line: 8
+add wave -position insertpoint  \
+sim:/tb_comp_4bit_u_2bit/a \
+sim:/tb_comp_4bit_u_2bit/b \
+sim:/tb_comp_4bit_u_2bit/Lesser \
+sim:/tb_comp_4bit_u_2bit/Greater \
+sim:/tb_comp_4bit_u_2bit/Equal \
+sim:/tb_comp_4bit_u_2bit/L \
+sim:/tb_comp_4bit_u_2bit/G \
+sim:/tb_comp_4bit_u_2bit/E
+run
+# ** Note: $stop    : D:/Obsi/verilogg/dataflow/comparator/tb_comp_4bit_u_2bit.v(16)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_comp_4bit_u_2bit
+# Break in Module tb_comp_4bit_u_2bit at D:/Obsi/verilogg/dataflow/comparator/tb_comp_4bit_u_2bit.v line 16

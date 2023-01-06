@@ -1,0 +1,207 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1672777765
+VKR<[Q3N]oSB:??VZ7EGBQ2
+04 27 4 work fs_implementation_in_mux_tb fast 0
+=1-50814090a273-63b49025-245-1064
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1672899316
+V98[hOn`fSH6CAA9J8jgkS2
+04 17 4 work binary_to_gray_tb fast 0
+=1-50814090a273-63b66af4-3d-438c
+R1
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1672776662
+V?C?PkdK[@TmXYKmHaKekB3
+04 24 4 work all_gates_from_2x1mux_tb fast 0
+=1-50814090a273-63b48bd6-2f9-379c
+R1
+R2
+n@_opt2
+R3
+R0
+vall_gates_from_2x1mux_dut
+Z4 !s110 1672899306
+!i10b 1
+!s100 CUhc=6bT3@i@89`ogEeT?2
+IK1bm7VIAO<jYc:Rke?mF^0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/dataflow/number_conversions
+w1672776213
+8D:/Obsi/verilogg/dataflow/number_conversions/logicgates_using_mux_dut.v
+FD:/Obsi/verilogg/dataflow/number_conversions/logicgates_using_mux_dut.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1672899306.000000
+!s107 D:/Obsi/verilogg/dataflow/number_conversions/logicgates_using_mux_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/number_conversions/logicgates_using_mux_dut.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vall_gates_from_2x1mux_tb
+R4
+!i10b 1
+!s100 HL;H0RBXoZ?Rm@e]:dLI`2
+IL8@?]FDWeoAR6RGee;RmF2
+R5
+R6
+w1672776649
+8D:/Obsi/verilogg/dataflow/number_conversions/logicgates_using_mux_tb.v
+FD:/Obsi/verilogg/dataflow/number_conversions/logicgates_using_mux_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/dataflow/number_conversions/logicgates_using_mux_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/number_conversions/logicgates_using_mux_tb.v|
+!i113 0
+R9
+R2
+vbinary_to_gray_4bit_dut
+R4
+!i10b 1
+!s100 Ti]5U7jQU766ZAIE6YFC[2
+I<3YG>b6JEeb^a_KJ7YjS93
+R5
+R6
+w1672774858
+8D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_4bit_dut.v
+FD:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_4bit_dut.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_4bit_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_4bit_dut.v|
+!i113 0
+R9
+R2
+vbinary_to_gray_4bit_tb
+R4
+!i10b 1
+!s100 MID6WiJ?BYc7W1RBLVFYV2
+IBhY[7jbm2L@@LQIS4nMjR2
+R5
+R6
+w1672775101
+8D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_4bit_tb.v
+FD:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_4bit_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_4bit_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_4bit_tb.v|
+!i113 0
+R9
+R2
+vbinary_to_gray_dut
+R4
+!i10b 1
+!s100 Ng`WIBlBAURRbo?3=hK223
+IG`2oB?;5W>gdAk7[BLRLI1
+R5
+R6
+w1672774341
+8D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray.v
+FD:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1672899305.000000
+!s107 D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray.v|
+!i113 0
+R9
+R2
+vbinary_to_gray_tb
+R4
+!i10b 1
+!s100 d43hKYnhcohbIeeH2Ymg;2
+I`893V<4SNSmhM:HPakU>e0
+R5
+R6
+w1672774446
+8D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_tb.v
+FD:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/number_conversions/binary_to_gray_tb.v|
+!i113 0
+R9
+R2
+vfs_implementation_in_mux_dut
+R4
+!i10b 1
+!s100 BOPKjMCa8FB>H[^@678PH3
+I<]Aeo26MO9X?i0<WQ=H8d3
+R5
+R6
+w1672777735
+8D:/Obsi/verilogg/dataflow/number_conversions/mux_as_fs_dut.v
+FD:/Obsi/verilogg/dataflow/number_conversions/mux_as_fs_dut.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/dataflow/number_conversions/mux_as_fs_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/number_conversions/mux_as_fs_dut.v|
+!i113 0
+R9
+R2
+vfs_implementation_in_mux_tb
+R4
+!i10b 1
+!s100 a;OcPO;EWP08QPK=lGAYB1
+InReeCfBo0?6:WF:Ahzbk`0
+R5
+R6
+w1672777191
+8D:/Obsi/verilogg/dataflow/number_conversions/mux_as_fs_tb.v
+FD:/Obsi/verilogg/dataflow/number_conversions/mux_as_fs_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/dataflow/number_conversions/mux_as_fs_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/number_conversions/mux_as_fs_tb.v|
+!i113 0
+R9
+R2

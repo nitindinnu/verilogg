@@ -1,0 +1,15 @@
+D:/Obsi/verilogg/dataflow/RCA/dut_rca_4bit.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\RCA\dut_rca_4bit.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module dut_rca_4bit
+
+Top level modules:
+	dut_rca_4bit
+
+} {} {}} D:/Obsi/verilogg/dataflow/RCA/tb_rca_4bit.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\RCA\tb_rca_4bit.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_rca_4bit
+
+Top level modules:
+	tb_rca_4bit
+
+} {} {}}
