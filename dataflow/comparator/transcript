@@ -40,3 +40,8 @@ run
 # ** Note: $stop    : D:/Obsi/verilogg/dataflow/comparator/tb_comp_4bit_u_2bit.v(16)
 #    Time: 50 ns  Iteration: 0  Instance: /tb_comp_4bit_u_2bit
 # Break in Module tb_comp_4bit_u_2bit at D:/Obsi/verilogg/dataflow/comparator/tb_comp_4bit_u_2bit.v line 16
+# End time: 12:36:37 on Jan 06,2023, Elapsed time: 0:28:52
+# Errors: 0, Warnings: 3
+# Closing project D:/Obsi/verilogg/dataflow/comparator/comparator.mpf
+# reading C:/questasim64_10.7c/win64/../modelsim.ini
+quit

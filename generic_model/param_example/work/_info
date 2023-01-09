@@ -1,0 +1,72 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Obsi/verilogg/generic_model/mux_in_generic_model
+T_opt
+!s110 1673264026
+V>Y>iEmHYoe:ae4OI0dokH3
+04 17 4 work param_examples_TB fast 0
+=1-50814090a273-63bbfb9a-256-487c
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1673264953
+VUVPFXBgUlFI^OoAfSS:S=3
+04 18 4 work param_examples_dut fast 0
+=1-50814090a273-63bbff39-195-4264
+R1
+R2
+n@_opt1
+R3
+vparam_examples_dut
+Z4 !s110 1673264857
+!i10b 1
+!s100 15doRbJP?FJ=O_n4BA_;^1
+IIKOCmijmRN=ATAPUam2d12
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/generic_model/param_example
+w1673264002
+8D:\Obsi\verilogg\generic_model\param_example\param_examples_dut.v
+FD:\Obsi\verilogg\generic_model\param_example\param_examples_dut.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1673264857.000000
+!s107 D:\Obsi\verilogg\generic_model\param_example\param_examples_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\generic_model\param_example\param_examples_dut.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vparam_examples_TB
+R4
+!i10b 1
+!s100 :Nz=oNR>F6NR:WkoK9Iej2
+IiA9ajcY:aQS27=L6fSP[]3
+R5
+R6
+w1673264783
+8D:\Obsi\verilogg\generic_model\param_example\param_examples_tb.v
+FD:\Obsi\verilogg\generic_model\param_example\param_examples_tb.v
+L0 4
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\Obsi\verilogg\generic_model\param_example\param_examples_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\generic_model\param_example\param_examples_tb.v|
+!i113 0
+R9
+R2
+nparam_examples_@t@b

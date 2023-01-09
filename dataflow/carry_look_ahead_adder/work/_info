@@ -1,0 +1,81 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1672998494
+Vl0NCQS_3z>f_;nb:2`EQB3
+Z1 04 30 4 work tb_carry_look_ahead_adder_4bit fast 0
+=1-50814090a273-63b7ee5e-1d3-3d7c
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1672998786
+VTo_A2dLbT=Dh5IgE[[fDc0
+R1
+=1-50814090a273-63b7ef82-54-1044
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1672998893
+VPl>EKL?76P3caA<0bQNNc0
+04 31 4 work dut_carry_look_ahead_adder_4bit fast 0
+=1-50814090a273-63b7efed-41-a00
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt2
+R3
+vdut_carry_look_ahead_adder_4bit
+!s110 1672998778
+!i10b 1
+!s100 Q7Vogo4QzSDDHK432dh_B3
+I]PdS72G1X<mT^]<B2lh8Y2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dD:/Obsi/verilogg/dataflow/carry_look_ahead_adder
+w1672998691
+8D:\Obsi\verilogg\dataflow\carry_look_ahead_adder\dut_carry_look_ahead_adder_4bit.v
+FD:\Obsi\verilogg\dataflow\carry_look_ahead_adder\dut_carry_look_ahead_adder_4bit.v
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1672998778.000000
+!s107 D:\Obsi\verilogg\dataflow\carry_look_ahead_adder\dut_carry_look_ahead_adder_4bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\carry_look_ahead_adder\dut_carry_look_ahead_adder_4bit.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_carry_look_ahead_adder_4bit
+!s110 1672998779
+!i10b 1
+!s100 ;@Qdzm]:e6YT1zL10F>DM3
+IB5kClD^jQ;z4<H`k;kjDK1
+R4
+R5
+w1672998772
+8D:\Obsi\verilogg\dataflow\carry_look_ahead_adder\tb_carry_look_ahead_adder_4bit.v
+FD:\Obsi\verilogg\dataflow\carry_look_ahead_adder\tb_carry_look_ahead_adder_4bit.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1672998779.000000
+!s107 D:\Obsi\verilogg\dataflow\carry_look_ahead_adder\tb_carry_look_ahead_adder_4bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\carry_look_ahead_adder\tb_carry_look_ahead_adder_4bit.v|
+!i113 0
+R7
+R2

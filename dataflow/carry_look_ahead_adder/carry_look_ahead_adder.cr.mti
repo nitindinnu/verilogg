@@ -1,0 +1,15 @@
+D:/Obsi/verilogg/dataflow/carry_look_ahead_adder/dut_carry_look_ahead_adder_4bit.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\carry_look_ahead_adder\dut_carry_look_ahead_adder_4bit.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module dut_carry_look_ahead_adder_4bit
+
+Top level modules:
+	dut_carry_look_ahead_adder_4bit
+
+} {} {}} D:/Obsi/verilogg/dataflow/carry_look_ahead_adder/tb_carry_look_ahead_adder_4bit.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\dataflow\carry_look_ahead_adder\tb_carry_look_ahead_adder_4bit.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_carry_look_ahead_adder_4bit
+
+Top level modules:
+	tb_carry_look_ahead_adder_4bit
+
+} {} {}}

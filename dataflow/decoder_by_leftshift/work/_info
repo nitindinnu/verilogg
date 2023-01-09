@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_10.7c/examples
+vdut_decoder_2to4_by_shift
+Z0 !s110 1673241314
+!i10b 1
+!s100 jmln4C;eB3lYN>6ES[TUP1
+ITPITj<Cn]:UlZ2T<z6n5D1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Obsi/verilogg/dataflow/decoder_by_leftshift
+w1673069218
+8D:/Obsi/verilogg/dataflow/decoder_by_leftshift/dut_decoder_2to4_by_shift.v
+FD:/Obsi/verilogg/dataflow/decoder_by_leftshift/dut_decoder_2to4_by_shift.v
+L0 1
+Z3 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z4 !s108 1673241314.000000
+!s107 D:/Obsi/verilogg/dataflow/decoder_by_leftshift/dut_decoder_2to4_by_shift.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/decoder_by_leftshift/dut_decoder_2to4_by_shift.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vdut_decoder_4to16_by_shift
+R0
+!i10b 1
+!s100 @@o]bA9@NRN^nKj=iIAMg1
+I;BEN7C`k66bdP;EMHZ2H<0
+R1
+R2
+w1673070046
+8D:/Obsi/verilogg/dataflow/decoder_by_leftshift/dut_decoder_4to16_byshift.v
+FD:/Obsi/verilogg/dataflow/decoder_by_leftshift/dut_decoder_4to16_byshift.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Obsi/verilogg/dataflow/decoder_by_leftshift/dut_decoder_4to16_byshift.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/decoder_by_leftshift/dut_decoder_4to16_byshift.v|
+!i113 0
+R5
+R6
+vtb_decoder_2to4_by_shift
+R0
+!i10b 1
+!s100 <Rc=DCknbA4Dgec__0n^J3
+I>>F?34<eS]9WiJDR3?66V3
+R1
+R2
+w1673069228
+8D:/Obsi/verilogg/dataflow/decoder_by_leftshift/tb_decoder_2to4_by_shift.v
+FD:/Obsi/verilogg/dataflow/decoder_by_leftshift/tb_decoder_2to4_by_shift.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Obsi/verilogg/dataflow/decoder_by_leftshift/tb_decoder_2to4_by_shift.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/decoder_by_leftshift/tb_decoder_2to4_by_shift.v|
+!i113 0
+R5
+R6
+vtb_decoder_4to16_by_shift
+R0
+!i10b 1
+!s100 [fGE]dVadP<Jkk1M2H=5e2
+IPX?EPaF=:=ZJG97b4zdPL1
+R1
+R2
+w1673070200
+8D:/Obsi/verilogg/dataflow/decoder_by_leftshift/tb_decoder_4to16_byshift.v
+FD:/Obsi/verilogg/dataflow/decoder_by_leftshift/tb_decoder_4to16_byshift.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Obsi/verilogg/dataflow/decoder_by_leftshift/tb_decoder_4to16_byshift.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/decoder_by_leftshift/tb_decoder_4to16_byshift.v|
+!i113 0
+R5
+R6

@@ -1,0 +1,9 @@
+Encoder --> 4 to 2
+		8 to 3
+		16 to 4
+		[2^n to n]
+
+Decoder --> 2 to 4
+		3 to 8
+		4 to 16
+		[n to 2^n]

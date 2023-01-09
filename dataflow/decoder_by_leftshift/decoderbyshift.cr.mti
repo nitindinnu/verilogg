@@ -1,0 +1,29 @@
+D:/Obsi/verilogg/dataflow/decoder_by_leftshift/dut_decoder_2to4_by_shift.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/decoder_by_leftshift/dut_decoder_2to4_by_shift.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module dut_decoder_2to4_by_shift
+
+Top level modules:
+	dut_decoder_2to4_by_shift
+
+} {} {}} D:/Obsi/verilogg/dataflow/decoder_by_leftshift/tb_decoder_2to4_by_shift.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/decoder_by_leftshift/tb_decoder_2to4_by_shift.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_decoder_2to4_by_shift
+
+Top level modules:
+	tb_decoder_2to4_by_shift
+
+} {} {}} D:/Obsi/verilogg/dataflow/decoder_by_leftshift/dut_decoder_4to16_byshift.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/decoder_by_leftshift/dut_decoder_4to16_byshift.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module dut_decoder_4to16_by_shift
+
+Top level modules:
+	dut_decoder_4to16_by_shift
+
+} {} {}} D:/Obsi/verilogg/dataflow/decoder_by_leftshift/tb_decoder_4to16_byshift.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/dataflow/decoder_by_leftshift/tb_decoder_4to16_byshift.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_decoder_4to16_by_shift
+
+Top level modules:
+	tb_decoder_4to16_by_shift
+
+} {} {}}

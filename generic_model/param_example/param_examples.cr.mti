@@ -1,0 +1,8 @@
+D:/Obsi/verilogg/generic_model/param_example/param_examples_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\generic_model\param_example\param_examples_dut.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module param_examples_dut
+
+Top level modules:
+	param_examples_dut
+
+} {} {}}

@@ -1,0 +1,71 @@
+D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux16x1_using_8x1_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux16x1_using_8x1_dut.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux16x1_using_8x1_dut
+
+Top level modules:
+	mux16x1_using_8x1_dut
+
+} {} {}} D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux16x1_tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux16x1_tb.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux16x1tb
+
+Top level modules:
+	mux16x1tb
+
+} {} {}} D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux8x1_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux8x1_dut.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux8x1_dut
+
+Top level modules:
+	mux8x1_dut
+
+} {} {}} D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux4x1_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux4x1_dut.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux4x1_dut
+
+Top level modules:
+	mux4x1_dut
+
+} {} {}} D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux16x1_using_8x1_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux16x1_using_8x1_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux16x1_using_8x1_tb
+
+Top level modules:
+	mux16x1_using_8x1_tb
+
+} {} {}} D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux4x1_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux4x1_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux4x1_tb
+
+Top level modules:
+	mux4x1_tb
+
+} {} {}} D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux8x1_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux8x1_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux8x1_tb
+
+Top level modules:
+	mux8x1_tb
+
+} {} {}} D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux2x1_dut.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux2x1_dut.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux2x1
+
+Top level modules:
+	mux2x1
+
+} {} {}} D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux2x1_tb.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux2x1_tb.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux2x1_tb
+
+Top level modules:
+	mux2x1_tb
+
+} {} {}} D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux16x1_dut.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux16x1_dut.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux16x1_dut
+
+Top level modules:
+	mux16x1_dut
+
+} {} {}}

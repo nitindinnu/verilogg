@@ -1,0 +1,249 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1673256777
+V^@SA5]cc^NhjoQkD6:J7G3
+04 9 4 work mux16x1tb fast 0
+=1-50814090a273-63bbdf49-200-3ffc
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1673258813
+VVNgd0iG;c<hG>6E2z^?<61
+04 9 4 work mux2x1_tb fast 0
+=1-50814090a273-63bbe73c-3a9-4630
+R1
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1673258330
+VL_jMng<TZLLHXkhT][F@a0
+04 20 4 work mux16x1_using_8x1_tb fast 0
+=1-50814090a273-63bbe55a-20-9ec
+R1
+R2
+n@_opt2
+R3
+R0
+vmux16x1_dut
+Z4 !s110 1673258807
+!i10b 1
+!s100 ^Vh=mA6N=kfNL>:coQO=]1
+IEJBn8[8DKWK3XQb`FFH>40
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/gate_level_and_structural/mux16x1
+w1673257741
+8D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux16x1_dut.v
+FD:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux16x1_dut.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1673258807.000000
+!s107 D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux16x1_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux16x1_dut.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vmux16x1_using_8x1_dut
+Z10 !s110 1673258808
+!i10b 1
+!s100 kcLC23ILY5faczlgS1BDH3
+IdF=K]Q3lCcR0B1N0CCMzD3
+R5
+R6
+w1673258315
+8D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux16x1_using_8x1_dut.v
+FD:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux16x1_using_8x1_dut.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux16x1_using_8x1_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux16x1_using_8x1_dut.v|
+!i113 0
+R9
+R2
+vmux16x1_using_8x1_tb
+R10
+!i10b 1
+!s100 N4]QPFFEQRJWBD2;;3:Ma3
+IU[Jj^^b[E3IWzzl<C@CFS3
+R5
+R6
+w1673258024
+8D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux16x1_using_8x1_tb.v
+FD:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux16x1_using_8x1_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1673258808.000000
+!s107 D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux16x1_using_8x1_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux16x1_using_8x1_tb.v|
+!i113 0
+R9
+R2
+vmux16x1tb
+R4
+!i10b 1
+!s100 <`7o1>S37mS]<NnZEi5RG3
+IDVl=QE8CUobdF@Tl[FFgU1
+R5
+R6
+w1673257150
+8D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux16x1_tb.v
+FD:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux16x1_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux16x1_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux16x1_tb.v|
+!i113 0
+R9
+R2
+vmux2x1
+R4
+!i10b 1
+!s100 1iIcdz9Ln]20nGWM@IPDJ0
+I:U<O8V>Qe;D?;CTX=I5fY1
+R5
+R6
+w1673243641
+8D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux2x1_dut.v
+FD:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux2x1_dut.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux2x1_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux2x1_dut.v|
+!i113 0
+R9
+R2
+vmux2x1_tb
+R4
+!i10b 1
+!s100 8EaD5a>aZ[d<1HQm6WzdH1
+I_<S3fQKacPUV:djRhdVTg0
+R5
+R6
+w1673258795
+8D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux2x1_tb.v
+FD:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux2x1_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux2x1_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/gate_level_and_structural/mux16x1/mux2x1_tb.v|
+!i113 0
+R9
+R2
+vmux4x1_dut
+R4
+!i10b 1
+!s100 jEKH2MMEg]_4QmLe@<RCM3
+IJ[:J2Nz5j@TWRS[FgzN[n1
+R5
+R6
+w1673243940
+8D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux4x1_dut.v
+FD:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux4x1_dut.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux4x1_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux4x1_dut.v|
+!i113 0
+R9
+R2
+vmux4x1_tb
+R4
+!i10b 1
+!s100 bGZbCa[WHoFgK5h5>dB163
+ITEaT:i@dSg70IEa]Pea0X1
+R5
+R6
+w1673247052
+8D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux4x1_tb.v
+FD:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux4x1_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux4x1_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux4x1_tb.v|
+!i113 0
+R9
+R2
+vmux8x1_dut
+R4
+!i10b 1
+!s100 G9LTKzSQkRTKg20JWYHA43
+IPUcc`f;]ZoXRaDf5c6[DF1
+R5
+R6
+w1673245796
+8D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux8x1_dut.v
+FD:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux8x1_dut.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux8x1_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux8x1_dut.v|
+!i113 0
+R9
+R2
+vmux8x1_tb
+R4
+!i10b 1
+!s100 ZX<:QQXQE[F`dzKMe>e4K2
+Ijm;6[KMgzIT03k=cGR6nG2
+R5
+R6
+w1673246586
+8D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux8x1_tb.v
+FD:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux8x1_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux8x1_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gate_level_and_structural\mux16x1\mux8x1_tb.v|
+!i113 0
+R9
+R2
