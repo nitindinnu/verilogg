@@ -1,0 +1,9 @@
+D:/Obsi/verilogg/behavioural_modelling/reg_sipo/sipo.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavioural_modelling/reg_sipo/sipo.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module sipo_dut
+-- Compiling module sipo_tb
+
+Top level modules:
+	sipo_tb
+
+} {} {}}

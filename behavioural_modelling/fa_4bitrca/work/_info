@@ -1,0 +1,113 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1673534942
+Vf_RXON3iR?kzkA7_4SSRz0
+04 16 4 work tb_fulladdalways fast 0
+=1-50814090a273-63c01ddd-37b-1b18
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+T_opt1
+!s110 1673507235
+Va2BRG=1_[QMIKg<g@YJMo3
+04 16 4 work tb_fulladdassign fast 0
+=1-50814090a273-63bfb1a3-224-3538
+R1
+R2
+n@_opt1
+R3
+R0
+vfulladdalways
+Z4 !s110 1673534931
+!i10b 1
+!s100 [heCbVUf3jz9:FkTNe8Vb0
+IHR:kag?3HWF?0lShg7V<20
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/behavioural_modelling/fa_4bitrca
+Z7 w1673507313
+Z8 8D:/Obsi/verilogg/behavioural_modelling/fa_4bitrca/fa_4bitrca.v
+Z9 FD:/Obsi/verilogg/behavioural_modelling/fa_4bitrca/fa_4bitrca.v
+L0 3
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1673534931.000000
+Z12 !s107 D:/Obsi/verilogg/behavioural_modelling/fa_4bitrca/fa_4bitrca.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavioural_modelling/fa_4bitrca/fa_4bitrca.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vfulladdassign
+R4
+!i10b 1
+!s100 zLO@_MML=d08nz7mK8:5=2
+I?a`fY_UVRA]NSb623fgBj2
+R5
+R6
+R7
+R8
+R9
+L0 52
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+vtb_fulladdalways
+R4
+!i10b 1
+!s100 1meRgL^l^TN`O@M@2>iBk2
+IEmnRo^=nDlk1TYAXhd9kZ1
+R5
+R6
+R7
+R8
+R9
+L0 17
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+vtb_fulladdassign
+R4
+!i10b 1
+!s100 7``@GZHIAPFfS6`?zMToz1
+I66?Ez4B26WQ<zf^:gnIW]3
+R5
+R6
+R7
+R8
+R9
+L0 62
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2

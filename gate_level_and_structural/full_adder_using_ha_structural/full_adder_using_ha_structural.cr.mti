@@ -1,1 +1,36 @@
+D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/ha_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\ha_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module ha_tb
 
+Top level modules:
+	ha_tb
+
+} {} {}} D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/half_adder_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\half_adder_dut.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module half_adder_dut
+
+Top level modules:
+	half_adder_dut
+
+} {} {}} D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_dut.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\fa_dut.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module fa_dut
+
+Top level modules:
+	fa_dut
+
+} {} {}} D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\fa_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module fa_tb
+
+Top level modules:
+	fa_tb
+
+} {} {}} D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/4bit_rca_tb.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module rca_tb
+
+Top level modules:
+	rca_tb
+
+} {} {}}

@@ -1,0 +1,26 @@
+D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/encoder4to2_tb_gatelevel.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/encoder4to2_tb_gatelevel.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_encoder_4to2_by_shift
+
+Top level modules:
+	tb_encoder_4to2_by_shift
+
+} {} {}} D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/tb_priority_encoder_4to2.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/tb_priority_encoder_4to2.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+
+} {} {}} D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/priority_encoder_4to2.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/priority_encoder_4to2.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module priority_encoder_4to2
+-- Compiling module tb_priority_encoder_4to2
+
+Top level modules:
+	tb_priority_encoder_4to2
+
+} {} {}} D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/encoder4to2_dut_gatelevel.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/encoder4to2_dut_gatelevel.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module encoder4to2_dut
+
+Top level modules:
+	encoder4to2_dut
+
+} {} {}}

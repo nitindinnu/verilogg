@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Obsi/verilogg/behavioural_modelling/fa_4bitrca
+T_opt
+!s110 1673542189
+V[7[>O^Y0klFAd`6DlRnjb2
+04 10 4 work tb_fullsub fast 0
+=1-50814090a273-63c03a2d-212-48b4
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vdut_fullsub
+Z1 !s110 1673542182
+!i10b 1
+!s100 Gcb==R`XEDKi3oP@EQJ0C0
+IeDN0J<=Al<CaLQ70DkL7D2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Obsi/verilogg/behavioural_modelling/full_subtractor
+Z4 w1673542161
+Z5 8D:/Obsi/verilogg/behavioural_modelling/full_subtractor/fullsub.v
+Z6 FD:/Obsi/verilogg/behavioural_modelling/full_subtractor/fullsub.v
+L0 2
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1673542182.000000
+Z9 !s107 D:/Obsi/verilogg/behavioural_modelling/full_subtractor/fullsub.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavioural_modelling/full_subtractor/fullsub.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vtb_fullsub
+R1
+!i10b 1
+!s100 1Z5g4hR=n:AoYLRlPgDbS0
+I7NfDnSbhXg^B=QLMZzYG12
+R2
+R3
+R4
+R5
+R6
+L0 15
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R0

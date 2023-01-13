@@ -1,0 +1,605 @@
+# Reading C:/questasim64_10.7c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/full_adder_using_ha_structural.mpf
+# Loading project full_adder_using_ha_structural
+# Compile of half_adder_dut.v failed with 1 errors.
+# Compile of ha_tb.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.ha_tb
+# vsim -voptargs="+acc" work.ha_tb 
+# Start time: 09:15:19 on Jan 10,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.ha_tb(fast)
+# Loading work.half_adder_dut(fast)
+add wave -position insertpoint  \
+sim:/ha_tb/i \
+sim:/ha_tb/sum \
+sim:/ha_tb/carry
+run
+quit -sim
+# End time: 09:15:57 on Jan 10,2023, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v failed with 3 errors.
+# Compile of fa_tb.v failed with 1 errors.
+# 4 compiles, 2 failed with 4 errors.
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v failed with 1 errors.
+# Compile of fa_tb.v failed with 1 errors.
+# 4 compiles, 2 failed with 2 errors.
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v failed with 4 errors.
+# 4 compiles, 1 failed with 4 errors.
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v failed with 3 errors.
+# 4 compiles, 1 failed with 3 errors.
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.fa_tb
+# vsim -voptargs="+acc" work.fa_tb 
+# Start time: 10:22:25 on Jan 10,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\fa_dut.v(9): (vopt-2135) Too many port connections. Expected 3, found 4.
+# Optimization failed
+# Error loading design
+# End time: 10:22:25 on Jan 10,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.fa_tb
+# vsim -voptargs="+acc" work.fa_tb 
+# Start time: 10:30:43 on Jan 10,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\fa_dut.v(8): (vopt-2135) Too many port connections. Expected 3, found 4.
+# ** Error: D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\fa_dut.v(9): (vopt-2135) Too many port connections. Expected 3, found 4.
+# Optimization failed
+# Error loading design
+# End time: 10:30:43 on Jan 10,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v failed with 1 errors.
+# Compile of fa_tb.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of half_adder_dut.v failed with 9 errors.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v failed with 1 errors.
+# Compile of fa_tb.v was successful.
+# 4 compiles, 2 failed with 10 errors.
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.fa_tb
+# vsim -voptargs="+acc" work.fa_tb 
+# Start time: 10:37:20 on Jan 10,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.fa_tb(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+add wave -position insertpoint  \
+sim:/fa_tb/i \
+sim:/fa_tb/sum \
+sim:/fa_tb/carry
+run
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.rca_tb
+# End time: 11:04:20 on Jan 10,2023, Elapsed time: 0:27:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.rca_tb 
+# Start time: 11:04:20 on Jan 10,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_dut.v(3): (vopt-2135) Too many port connections. Expected 3, found 5.
+# ** Error: D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_dut.v(4): (vopt-2135) Too many port connections. Expected 3, found 5.
+# ** Error: D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_dut.v(5): (vopt-2135) Too many port connections. Expected 3, found 5.
+# ** Error: D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_dut.v(6): (vopt-2135) Too many port connections. Expected 3, found 5.
+# Optimization failed
+# Error loading design
+# End time: 11:04:21 on Jan 10,2023, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.rca_tb
+# vsim -voptargs="+acc" work.rca_tb 
+# Start time: 11:07:04 on Jan 10,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_dut.v(3): (vopt-2135) Too many port connections. Expected 3, found 5.
+# ** Error: D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_dut.v(4): (vopt-2135) Too many port connections. Expected 3, found 5.
+# ** Error: D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_dut.v(5): (vopt-2135) Too many port connections. Expected 3, found 5.
+# ** Error: D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_dut.v(6): (vopt-2135) Too many port connections. Expected 3, found 5.
+# Optimization failed
+# Error loading design
+# End time: 11:07:05 on Jan 10,2023, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v failed with 5 errors.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 1 failed with 5 errors.
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.rca_tb
+# vsim -voptargs="+acc" work.rca_tb 
+# Start time: 11:13:39 on Jan 10,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.rca_tb(fast)
+# Loading work.rca_4bit(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'carry'. The port definition is at: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /rca_tb/a1/fourth File: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/4bit_rca_dut.v Line: 6
+add wave -position insertpoint  \
+sim:/rca_tb/sum \
+sim:/rca_tb/carry \
+sim:/rca_tb/i \
+sim:/rca_tb/j \
+sim:/rca_tb/cin
+run
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.rca_tb
+# End time: 11:14:32 on Jan 10,2023, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.rca_tb 
+# Start time: 11:14:32 on Jan 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca_tb(fast)
+# Loading work.rca_4bit(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'carry'. The port definition is at: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /rca_tb/a1/fourth File: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/4bit_rca_dut.v Line: 6
+add wave -position insertpoint  \
+sim:/rca_tb/sum \
+sim:/rca_tb/carry \
+sim:/rca_tb/i \
+sim:/rca_tb/j \
+sim:/rca_tb/cin
+run
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.rca_tb
+# End time: 11:18:11 on Jan 10,2023, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.rca_tb 
+# Start time: 11:18:11 on Jan 10,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.rca_tb(fast)
+# Loading work.rca_4bit(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'carry'. The port definition is at: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /rca_tb/a1/fourth File: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/4bit_rca_dut.v Line: 6
+add wave -position insertpoint  \
+sim:/rca_tb/sum \
+sim:/rca_tb/carry \
+sim:/rca_tb/i \
+sim:/rca_tb/j \
+sim:/rca_tb/cin
+run
+vsim -voptargs=+acc work.fa_tb
+# End time: 11:18:35 on Jan 10,2023, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.fa_tb 
+# Start time: 11:18:35 on Jan 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fa_tb(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'a1'.  Expected 5, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /fa_tb/a1 File: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_tb.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'a'. The port definition is at: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /fa_tb/a1 File: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_tb.v Line: 11
+# ** Warning: (vsim-3722) D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_tb.v(11): [TFMPC] - Missing connection for port 'b'.
+# ** Warning: (vsim-3722) D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_tb.v(11): [TFMPC] - Missing connection for port 'c'.
+add wave -position insertpoint  \
+sim:/fa_tb/i \
+sim:/fa_tb/sum \
+sim:/fa_tb/carry
+run
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v failed with 3 errors.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 1 failed with 3 errors.
+quit -sim
+# End time: 11:24:41 on Jan 10,2023, Elapsed time: 0:06:06
+# Errors: 0, Warnings: 4
+vsim -voptargs=+acc work.fa_tb
+# vsim -voptargs="+acc" work.fa_tb 
+# Start time: 11:24:47 on Jan 10,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.fa_tb(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'a1'.  Expected 5, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /fa_tb/a1 File: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_tb.v Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (3) for port 'a'. The port definition is at: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /fa_tb/a1 File: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_tb.v Line: 11
+# ** Warning: (vsim-3722) D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_tb.v(11): [TFMPC] - Missing connection for port 'b'.
+# ** Warning: (vsim-3722) D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_tb.v(11): [TFMPC] - Missing connection for port 'c'.
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.fa_tb
+# End time: 11:25:20 on Jan 10,2023, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 4
+# vsim -voptargs="+acc" work.fa_tb 
+# Start time: 11:25:20 on Jan 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fa_tb(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'a1'.  Expected 5, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /fa_tb/a1 File: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_tb.v Line: 12
+# ** Warning: (vsim-3722) D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_tb.v(12): [TFMPC] - Missing connection for port 'b'.
+# ** Warning: (vsim-3722) D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_tb.v(12): [TFMPC] - Missing connection for port 'c'.
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.fa_tb
+# End time: 11:25:52 on Jan 10,2023, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.fa_tb 
+# Start time: 11:25:52 on Jan 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fa_tb(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+add wave -position insertpoint  \
+sim:/fa_tb/a \
+sim:/fa_tb/b \
+sim:/fa_tb/c \
+sim:/fa_tb/sum \
+sim:/fa_tb/carry
+run
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.rca_tb
+# End time: 11:26:21 on Jan 10,2023, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.rca_tb 
+# Start time: 11:26:21 on Jan 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca_tb(fast)
+# Loading work.rca_4bit(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'carry'. The port definition is at: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /rca_tb/a1/fourth File: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/4bit_rca_dut.v Line: 6
+add wave -position insertpoint  \
+sim:/rca_tb/sum \
+sim:/rca_tb/carry \
+sim:/rca_tb/i \
+sim:/rca_tb/j \
+sim:/rca_tb/cin
+run
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.rca_tb
+# End time: 11:29:25 on Jan 10,2023, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.rca_tb 
+# Start time: 11:29:25 on Jan 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca_tb(fast)
+# Loading work.rca_4bit(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'carry'. The port definition is at: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /rca_tb/a1/fourth File: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/4bit_rca_dut.v Line: 7
+add wave -position insertpoint  \
+sim:/rca_tb/sum \
+sim:/rca_tb/carry \
+sim:/rca_tb/i \
+sim:/rca_tb/j \
+sim:/rca_tb/cin
+run
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.ha_tb
+# End time: 11:31:13 on Jan 10,2023, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.ha_tb 
+# Start time: 11:31:13 on Jan 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ha_tb(fast)
+# Loading work.half_adder_dut(fast)
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'a1'.  Expected 4, found 3.
+#    Time: 0 ns  Iteration: 0  Instance: /ha_tb/a1 File: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/ha_tb.v Line: 10
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'a'. The port definition is at: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/half_adder_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /ha_tb/a1 File: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/ha_tb.v Line: 10
+# ** Warning: (vsim-3722) D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/ha_tb.v(10): [TFMPC] - Missing connection for port 'b'.
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.ha_tb
+# End time: 11:33:14 on Jan 10,2023, Elapsed time: 0:02:01
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.ha_tb 
+# Start time: 11:33:14 on Jan 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ha_tb(fast)
+# Loading work.half_adder_dut(fast)
+add wave -position insertpoint  \
+sim:/ha_tb/a \
+sim:/ha_tb/b \
+sim:/ha_tb/sum \
+sim:/ha_tb/carry
+run
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.rca_tb
+# End time: 11:34:36 on Jan 10,2023, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.rca_tb 
+# Start time: 11:34:36 on Jan 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca_tb(fast)
+# Loading work.rca_4bit(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'carry'. The port definition is at: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/fa_dut.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /rca_tb/a1/fourth File: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/4bit_rca_dut.v Line: 7
+add wave -position insertpoint  \
+sim:/rca_tb/i \
+sim:/rca_tb/j \
+sim:/rca_tb/cin \
+sim:/rca_tb/sum \
+sim:/rca_tb/cout
+run
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.rca_tb
+# End time: 11:35:45 on Jan 10,2023, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.rca_tb 
+# Start time: 11:35:45 on Jan 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca_tb(fast)
+# Loading work.rca_4bit(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'cout'. The port definition is at: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/4bit_rca_dut.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /rca_tb/a1 File: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/4bit_rca_tb.v Line: 13
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.rca_tb
+# End time: 11:37:27 on Jan 10,2023, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.rca_tb 
+# Start time: 11:37:27 on Jan 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca_tb(fast)
+# Loading work.rca_4bit(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'cout'. The port definition is at: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/4bit_rca_dut.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /rca_tb/a1 File: D:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural/4bit_rca_tb.v Line: 13
+add wave -position insertpoint  \
+sim:/rca_tb/i \
+sim:/rca_tb/j \
+sim:/rca_tb/cin \
+sim:/rca_tb/sum \
+sim:/rca_tb/cout
+run
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.rca_tb
+# End time: 11:39:39 on Jan 10,2023, Elapsed time: 0:02:12
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.rca_tb 
+# Start time: 11:39:39 on Jan 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca_tb(fast)
+# Loading work.rca_4bit(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+add wave -position insertpoint  \
+sim:/rca_tb/i \
+sim:/rca_tb/j \
+sim:/rca_tb/cin \
+sim:/rca_tb/sum \
+sim:/rca_tb/cout
+run
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.rca_tb
+# End time: 11:40:28 on Jan 10,2023, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.rca_tb 
+# Start time: 11:40:29 on Jan 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca_tb(fast)
+# Loading work.rca_4bit(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+add wave -position insertpoint  \
+sim:/rca_tb/i \
+sim:/rca_tb/j \
+sim:/rca_tb/cin \
+sim:/rca_tb/sum \
+sim:/rca_tb/cout
+run
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.rca_tb
+# End time: 11:42:34 on Jan 10,2023, Elapsed time: 0:02:05
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.rca_tb 
+# Start time: 11:42:34 on Jan 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca_tb(fast)
+# Loading work.rca_4bit(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+add wave -position insertpoint  \
+sim:/rca_tb/i \
+sim:/rca_tb/j \
+sim:/rca_tb/cin \
+sim:/rca_tb/sum \
+sim:/rca_tb/cout
+run
+# Compile of half_adder_dut.v was successful.
+# Compile of ha_tb.v was successful.
+# Compile of fa_dut.v was successful.
+# Compile of fa_tb.v was successful.
+# Compile of 4bit_rca_dut.v was successful.
+# Compile of 4bit_rca_tb.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.rca_tb
+# End time: 11:46:43 on Jan 10,2023, Elapsed time: 0:04:09
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.rca_tb 
+# Start time: 11:46:43 on Jan 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca_tb(fast)
+# Loading work.rca_4bit(fast)
+# Loading work.fa_dut(fast)
+# Loading work.half_adder_dut(fast)
+add wave -position insertpoint  \
+sim:/rca_tb/i \
+sim:/rca_tb/j \
+sim:/rca_tb/cin \
+sim:/rca_tb/sum \
+sim:/rca_tb/cout
+run
+quit -sim
+# End time: 12:34:43 on Jan 10,2023, Elapsed time: 0:48:00
+# Errors: 0, Warnings: 0

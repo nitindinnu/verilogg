@@ -1,0 +1,9 @@
+D:/Obsi/verilogg/behavioural_modelling/tff/tff.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavioural_modelling/tff/tff.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module dut_tff
+-- Compiling module tff_tb
+
+Top level modules:
+	tff_tb
+
+} {} {}}

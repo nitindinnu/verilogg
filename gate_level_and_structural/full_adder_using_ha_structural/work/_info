@@ -7,4 +7,159 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dD:/Obsi/verilogg/generic_model/param_example
+Z0 dD:/Obsi/verilogg/generic_model/param_example
+T_opt
+!s110 1673330594
+VW:2WjkTeGbNbe:d<jGH@60
+04 5 4 work ha_tb fast 0
+=1-50814090a273-63bcffa2-1f0-4848
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1673330153
+VG`z8<Rj<i_KUcjVF;8j8D3
+04 5 4 work fa_tb fast 0
+=1-50814090a273-63bcfde9-8a-36cc
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1673331403
+V2Pa8[=:Zdbl:9k92KBLF13
+04 6 4 work rca_tb fast 0
+=1-50814090a273-63bd02cb-216-4ad8
+R1
+R2
+n@_opt2
+R3
+vfa_dut
+Z4 !s110 1673331395
+!i10b 1
+!s100 fFo>2:a2S<V3Fg1ib<MiQ2
+I0AhNLjDGHboV^RXI7BBLn0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/gate_level_and_structural/full_adder_using_ha_structural
+w1673330338
+8D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\fa_dut.v
+FD:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\fa_dut.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1673331394.000000
+!s107 D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\fa_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\fa_dut.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vfa_tb
+R4
+!i10b 1
+!s100 LkDnnC<7922l1nf5j>f^`1
+I?AdEcjDkVH7NWH@fKlD_M1
+R5
+R6
+w1673330138
+8D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\fa_tb.v
+FD:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\fa_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+Z10 !s108 1673331395.000000
+!s107 D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\fa_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\fa_tb.v|
+!i113 0
+R9
+R2
+vha_tb
+Z11 !s110 1673331394
+!i10b 1
+!s100 5e77ME<anj@D@Do1_kllA3
+I@6GKnUj<<kl8lE]lkQ@;J1
+R5
+R6
+w1673330567
+8D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\ha_tb.v
+FD:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\ha_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\ha_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\ha_tb.v|
+!i113 0
+R9
+R2
+vhalf_adder_dut
+R11
+!i10b 1
+!s100 4@AD:[mS[=c:c5;`IIUV<2
+In:B7;a@7TLN_@:kmlOTYl3
+R5
+R6
+w1673327177
+8D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\half_adder_dut.v
+FD:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\half_adder_dut.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\half_adder_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\half_adder_dut.v|
+!i113 0
+R9
+R2
+vrca_4bit
+R4
+!i10b 1
+!s100 Rbl?T3jQAJ`4oS4]_VW]P3
+IW=QejAC=Ud>Agh?>U^_Ko2
+R5
+R6
+w1673331380
+8D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_dut.v
+FD:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_dut.v
+L0 1
+R7
+r1
+!s85 0
+31
+R10
+!s107 D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_dut.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_dut.v|
+!i113 0
+R9
+R2
+vrca_tb
+R4
+!i10b 1
+!s100 Y8Voe6=Si40ScFhJ3`k0V3
+In>WSCYI>5b;cC9j3WSf@l0
+R5
+R6
+w1673331142
+8D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_tb.v
+FD:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_tb.v
+L0 1
+R7
+r1
+!s85 0
+31
+R10
+!s107 D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gate_level_and_structural\full_adder_using_ha_structural\4bit_rca_tb.v|
+!i113 0
+R9
+R2

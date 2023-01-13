@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_10.7c/examples
+T_opt
+!s110 1673583899
+VPbNDAZjSJeV>6f:YYGRic3
+04 7 4 work sipo_tb fast 0
+=1-50814090a273-63c0dd1b-5-18ac
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vsipo_dut
+Z1 !s110 1673583889
+!i10b 1
+!s100 HF>ng<a@gCH<KSaGAo7T50
+I1S_]mmi5@5TZPY[]CTRYi0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Obsi/verilogg/behavioural_modelling/reg_sipo
+Z4 w1673583868
+Z5 8D:/Obsi/verilogg/behavioural_modelling/reg_sipo/sipo.v
+Z6 FD:/Obsi/verilogg/behavioural_modelling/reg_sipo/sipo.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1673583889.000000
+Z9 !s107 D:/Obsi/verilogg/behavioural_modelling/reg_sipo/sipo.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavioural_modelling/reg_sipo/sipo.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vsipo_tb
+R1
+!i10b 1
+!s100 gO9A;cgfQ:KO2^10666dI0
+IY89IaHC^hgA@JlfnH77H13
+R2
+R3
+R4
+R5
+R6
+L0 19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R0

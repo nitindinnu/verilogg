@@ -3,4 +3,5 @@ module fs_dut (
 );
   assign diff=a^b^c;
   assign barr=((~a)&b|(~a)&c|b&c ) ;
+  // assign barr = (~a&b) | (~(a^b)&c);
 endmodule

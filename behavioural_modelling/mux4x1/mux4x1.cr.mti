@@ -1,0 +1,9 @@
+D:/Obsi/verilogg/behavioural_modelling/mux4x1/mux4x1.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\behavioural_modelling\mux4x1\mux4x1.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module MUX4x1
+-- Compiling module tbMUX4x1
+
+Top level modules:
+	tbMUX4x1
+
+} {} {}}

@@ -1,0 +1,113 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Obsi/verilogg/behavioural_modelling/jkflipflop
+T_opt
+!s110 1673497259
+VVAOY8]TVZHfonP;OR6bac2
+04 2 4 work tb fast 0
+=1-50814090a273-63bf8aaa-3a1-2950
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1673497740
+V9E]DiYG6@HR82Q5@`VBk22
+04 5 4 work pritb fast 0
+=1-50814090a273-63bf8c8c-2f4-4694
+R1
+R2
+n@_opt1
+R3
+vencoder
+Z4 !s110 1673497733
+!i10b 1
+!s100 c]c7W?]SZnGa_EGC:XhBN2
+I`72_4HG`JVL_;4F``>]z01
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/behavioural_modelling/encoder4x2
+Z7 w1673497730
+Z8 8D:\Obsi\verilogg\behavioural_modelling\encoder4x2\encoder4x2.v
+Z9 FD:\Obsi\verilogg\behavioural_modelling\encoder4x2\encoder4x2.v
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1673497733.000000
+Z12 !s107 D:\Obsi\verilogg\behavioural_modelling\encoder4x2\encoder4x2.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavioural_modelling\encoder4x2\encoder4x2.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vpriencoder
+R4
+!i10b 1
+!s100 0?ZO]:Z:_P3O2d6PSEVWk1
+I3VLnJb;Y86cmDbgT5n1Bb1
+R5
+R6
+Z15 w1673497706
+Z16 8D:\Obsi\verilogg\behavioural_modelling\encoder4x2\priorityencoder4x2.v
+Z17 FD:\Obsi\verilogg\behavioural_modelling\encoder4x2\priorityencoder4x2.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+Z18 !s107 D:\Obsi\verilogg\behavioural_modelling\encoder4x2\priorityencoder4x2.v|
+Z19 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavioural_modelling\encoder4x2\priorityencoder4x2.v|
+!i113 0
+R14
+R2
+vpritb
+R4
+!i10b 1
+!s100 Y;0nBZ`YIH;Z0Hi`D`XmR1
+IFAC^6iTE>TN9]Ii_mYnh^0
+R5
+R6
+R15
+R16
+R17
+L0 18
+R10
+r1
+!s85 0
+31
+R11
+R18
+R19
+!i113 0
+R14
+R2
+vtb
+R4
+!i10b 1
+!s100 CYDJSVZQBXia@oHzD]hoQ1
+ISnV17Jiblb7BzJbl3Y=E82
+R5
+R6
+R7
+R8
+R9
+L0 17
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2

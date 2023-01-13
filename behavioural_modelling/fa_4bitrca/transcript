@@ -1,0 +1,181 @@
+# Reading C:/questasim64_10.7c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile D:/Obsi/verilogg/behavioural_modelling/fa_4bitrca/fa_4bitrca.mpf
+# Loading project fa_4bitrca
+# Compile of fa_4bitrca.v was successful.
+vsim -voptargs=+acc work.tb_fulladdalways
+# vsim -voptargs="+acc" work.tb_fulladdalways 
+# Start time: 20:19:01 on Jan 12,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_fulladdalways(fast)
+# Loading work.fulladdalways(fast)
+add wave -position insertpoint  \
+sim:/tb_fulladdalways/a \
+sim:/tb_fulladdalways/b \
+sim:/tb_fulladdalways/c_in \
+sim:/tb_fulladdalways/sum \
+sim:/tb_fulladdalways/i \
+sim:/tb_fulladdalways/c_out
+run
+# a=0x0 b=0x0 c_in=0x0 c_out=0x0 sum=0x0
+# a=0x4 b=0x1 c_in=0x1 c_out=0x0 sum=0x6
+# a=0x3 b=0xd c_in=0x1 c_out=0x1 sum=0x1
+# a=0x5 b=0x2 c_in=0x1 c_out=0x0 sum=0x8
+# a=0xd b=0x6 c_in=0x1 c_out=0x1 sum=0x4
+# a=0xd b=0xc c_in=0x1 c_out=0x1 sum=0xa
+# End time: 22:28:16 on Jan 12,2023, Elapsed time: 2:09:15
+# Errors: 0, Warnings: 0
+# Closing project D:/Obsi/verilogg/behavioural_modelling/fa_4bitrca/fa_4bitrca.mpf
+# reading C:/questasim64_10.7c/win64/../modelsim.ini
+# Loading project seq_01dff
+# Compile of dff.v failed with 1 errors.
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.tb_dff
+# vsim -voptargs="+acc" work.tb_dff 
+# Start time: 22:48:01 on Jan 12,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_dff(fast)
+# Loading work.dff_dut(fast)
+add wave -position insertpoint  \
+sim:/tb_dff/q \
+sim:/tb_dff/qb \
+sim:/tb_dff/d \
+sim:/tb_dff/clk
+run
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.tb_dff
+# End time: 22:49:37 on Jan 12,2023, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_dff 
+# Start time: 22:49:37 on Jan 12,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_dff(fast)
+# Loading work.dff_dut(fast)
+add wave -position insertpoint  \
+sim:/tb_dff/q \
+sim:/tb_dff/qb \
+sim:/tb_dff/d \
+sim:/tb_dff/clk
+run
+# Compile of dff.v failed with 1 errors.
+# Compile of dff.v failed with 1 errors.
+# Compile of dff.v failed with 1 errors.
+# Compile of dff.v failed with 1 errors.
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.tb_dff
+# End time: 23:00:55 on Jan 12,2023, Elapsed time: 0:11:18
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_dff 
+# Start time: 23:00:55 on Jan 12,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_dff(fast)
+# Loading work.dff_dut(fast)
+add wave -position insertpoint  \
+sim:/tb_dff/q \
+sim:/tb_dff/qb \
+sim:/tb_dff/d \
+sim:/tb_dff/clk \
+sim:/tb_dff/clear
+run
+# Compile of dff.v failed with 1 errors.
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.tb_dff
+# End time: 23:04:27 on Jan 12,2023, Elapsed time: 0:03:32
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_dff 
+# Start time: 23:04:27 on Jan 12,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_dff(fast)
+# Loading work.dff_dut(fast)
+add wave -position insertpoint  \
+sim:/tb_dff/q \
+sim:/tb_dff/qb \
+sim:/tb_dff/d \
+sim:/tb_dff/clk \
+sim:/tb_dff/clear
+run
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.tb_dff
+# End time: 23:06:00 on Jan 12,2023, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_dff 
+# Start time: 23:06:00 on Jan 12,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_dff(fast)
+# Loading work.dff_dut(fast)
+add wave -position insertpoint  \
+sim:/tb_dff/q \
+sim:/tb_dff/qb \
+sim:/tb_dff/d \
+sim:/tb_dff/clk \
+sim:/tb_dff/clear
+run
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.tb_dff
+# End time: 23:13:29 on Jan 12,2023, Elapsed time: 0:07:29
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_dff 
+# Start time: 23:13:29 on Jan 12,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_dff(fast)
+# Loading work.dff_dut(fast)
+add wave -position insertpoint  \
+sim:/tb_dff/q \
+sim:/tb_dff/qb \
+sim:/tb_dff/d \
+sim:/tb_dff/clk \
+sim:/tb_dff/clear
+run
+# Compile of dff.v was successful.
+vsim -voptargs=+acc work.tb_dff
+# End time: 23:14:13 on Jan 12,2023, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_dff 
+# Start time: 23:14:13 on Jan 12,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_dff(fast)
+# Loading work.dff_dut(fast)
+add wave -position insertpoint  \
+sim:/tb_dff/q \
+sim:/tb_dff/qb \
+sim:/tb_dff/d \
+sim:/tb_dff/clk \
+sim:/tb_dff/clear
+run
+# End time: 09:08:28 on Jan 13,2023, Elapsed time: 9:54:15
+# Errors: 0, Warnings: 0
+# Closing project D:/Obsi/verilogg/behavioural_modelling/seq_01dff/seq_01dff.mpf
+# reading C:/questasim64_10.7c/win64/../modelsim.ini
+# Loading project tff
+# Compile of tff.v was successful.
+vsim -voptargs=+acc work.tff_tb
+# vsim -voptargs="+acc" work.tff_tb 
+# Start time: 09:09:20 on Jan 13,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tff_tb(fast)
+# Loading work.dut_tff(fast)
+add wave -position insertpoint  \
+sim:/tff_tb/t \
+sim:/tff_tb/clk \
+sim:/tff_tb/clear \
+sim:/tff_tb/q \
+sim:/tff_tb/qb
+run
+# Causality operation skipped due to absence of debug database file
+# End time: 09:11:33 on Jan 13,2023, Elapsed time: 0:02:13
+# Errors: 0, Warnings: 1
+# Closing project D:/Obsi/verilogg/behavioural_modelling/tff/tff.mpf
+# reading C:/questasim64_10.7c/win64/../modelsim.ini

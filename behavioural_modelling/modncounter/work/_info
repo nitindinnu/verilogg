@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Obsi/verilogg/behavioural_modelling/reg_pipo
+T_opt
+!s110 1673586802
+VXkNiWf8_7<ldeG3O6FF]41
+04 14 4 work tb_mod4counter fast 0
+=1-50814090a273-63c0e872-1b8-1c68
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vmod4count
+Z1 !s110 1673586795
+!i10b 1
+!s100 52D6TmYRh^KJ1c537VQbd2
+IPNnM26`MX=_=Y8gLR[KGS0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Obsi/verilogg/behavioural_modelling/modncounter
+Z4 w1673586791
+Z5 8D:/Obsi/verilogg/behavioural_modelling/modncounter/mod5counter.v
+Z6 FD:/Obsi/verilogg/behavioural_modelling/modncounter/mod5counter.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1673586795.000000
+Z9 !s107 D:/Obsi/verilogg/behavioural_modelling/modncounter/mod5counter.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavioural_modelling/modncounter/mod5counter.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vtb_mod4counter
+R1
+!i10b 1
+!s100 1Dccaa>RfmFjAA?P>5BaI1
+I:N9OL=FM_T;4ZMBl[58n_3
+R2
+R3
+R4
+R5
+R6
+L0 18
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R0

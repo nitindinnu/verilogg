@@ -1,0 +1,114 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Obsi/verilogg/generic_model/and_using_parameter
+T_opt
+!s110 1673341691
+VMQiWYcoBnSM_I_<<VWXU23
+04 24 4 work tb_encoder_4to2_by_shift fast 0
+=1-50814090a273-63bd2afb-1c2-4d88
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1673346154
+VOe4aeN0T3Ofa<P6>jJP5z1
+04 24 4 work tb_priority_encoder_4to2 fast 0
+=1-50814090a273-63bd3c6a-29d-2dbc
+R1
+R2
+n@_opt1
+R3
+R0
+vencoder4to2_dut
+Z4 !s110 1673418345
+!i10b 1
+!s100 2fQZ[fPV9g0eI5gMklJ3M1
+ID>33n3OiXCchKg52TW1]B2
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel
+w1673335845
+8D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/encoder4to2_dut_gatelevel.v
+FD:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/encoder4to2_dut_gatelevel.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1673418345.000000
+!s107 D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/encoder4to2_dut_gatelevel.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/encoder4to2_dut_gatelevel.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vpriority_encoder_4to2
+R4
+!i10b 1
+!s100 n;EdB4RX:B6I<EBdn8eP82
+IFoWQeLdeAAEBMI0_2dDB[1
+R5
+R6
+Z10 w1673346843
+Z11 8D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/priority_encoder_4to2.v
+Z12 FD:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/priority_encoder_4to2.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/priority_encoder_4to2.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/priority_encoder_4to2.v|
+!i113 0
+R9
+R2
+vtb_encoder_4to2_by_shift
+R4
+!i10b 1
+!s100 hRTWWA_n4@5<AHkkl]NM<0
+I9g4[oZ`XBBIX7m<]VZmCb2
+R5
+R6
+w1673341676
+8D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/encoder4to2_tb_gatelevel.v
+FD:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/encoder4to2_tb_gatelevel.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/encoder4to2_tb_gatelevel.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/encoder4to2_tb_gatelevel.v|
+!i113 0
+R9
+R2
+vtb_priority_encoder_4to2
+R4
+!i10b 1
+!s100 ^<EQjAeGR?>ES;5<nHQ`71
+I5WE3Y^TV]f3Sek7o19>=F3
+R5
+R6
+R10
+R11
+R12
+L0 20
+R7
+r1
+!s85 0
+31
+R8
+Z14 !s107 D:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel/priority_encoder_4to2.v|
+R13
+!i113 0
+R9
+R2

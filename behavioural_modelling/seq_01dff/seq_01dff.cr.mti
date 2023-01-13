@@ -1,0 +1,9 @@
+D:/Obsi/verilogg/behavioural_modelling/seq_01dff/dff.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\behavioural_modelling\seq_01dff\dff.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module dff_dut
+-- Compiling module tb_dff
+
+Top level modules:
+	tb_dff
+
+} {} {}}
