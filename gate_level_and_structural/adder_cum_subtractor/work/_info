@@ -1,0 +1,114 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Obsi/verilogg/gate_level_and_structural/encoder
+T_opt
+!s110 1674105984
+Vzf49PTcZz<n_^BWL]9DgD1
+04 10 4 work add_sub_tb fast 0
+=1-50814090a273-63c8d480-171-4a6c
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1674065190
+Vhj>f9;=GOW4Kb4?11:PP92
+04 5 4 work fa_tb fast 0
+=1-50814090a273-63c83526-d-3008
+R1
+R2
+n@_opt1
+R3
+R0
+vadd_sub_dut
+Z4 !s110 1674107432
+!i10b 1
+!s100 HB>ZG=eHl4Ga=a]hNOZ:b3
+IVjc`mP]Dgm::1Y4Q<ck_D0
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/gate_level_and_structural/adder_cum_subtractor
+Z7 w1674105943
+Z8 8D:/Obsi/verilogg/gate_level_and_structural/adder_cum_subtractor/add_sub.v
+Z9 FD:/Obsi/verilogg/gate_level_and_structural/adder_cum_subtractor/add_sub.v
+L0 2
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1674107432.000000
+Z12 !s107 D:/Obsi/verilogg/gate_level_and_structural/adder_cum_subtractor/add_sub.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/gate_level_and_structural/adder_cum_subtractor/add_sub.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vadd_sub_tb
+R4
+!i10b 1
+!s100 <H^`0STDk4:G5zbOPS2fa2
+Iz>KEXP_IOY6PL1j]3d5^O3
+R5
+R6
+R7
+R8
+R9
+L0 35
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+vfa_tb
+R4
+!i10b 1
+!s100 czNPJ9VF8;=[Cf5S@Yc3U1
+I`8bkj8S;n@@3`^kGzcA2G0
+R5
+R6
+Z15 w1674067920
+Z16 8D:/Obsi/verilogg/gate_level_and_structural/adder_cum_subtractor/fa.v
+Z17 FD:/Obsi/verilogg/gate_level_and_structural/adder_cum_subtractor/fa.v
+L0 23
+R10
+r1
+!s85 0
+31
+R11
+!s107 D:/Obsi/verilogg/gate_level_and_structural/adder_cum_subtractor/fa.v|
+Z18 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/gate_level_and_structural/adder_cum_subtractor/fa.v|
+!i113 0
+R14
+R2
+vfull_adder_dut
+R4
+!i10b 1
+!s100 =c`fm6ARW=3;^zPNO@26j1
+IF[R:EK4ZFX9DIYk_zjM871
+R5
+R6
+R15
+R16
+R17
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+Z19 !s107 D:/Obsi/verilogg/gate_level_and_structural/adder_cum_subtractor/fa.v|
+R18
+!i113 0
+R14
+R2

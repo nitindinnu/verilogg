@@ -8,7 +8,7 @@ module dut_fullsub (input [3:0]a,b,
         // diff = a^b^c;
         // barrow = ~a&b | ~a&c | b&c ;
         // barrow = (~a&b) | (~(a^b)&c);
-        {barrow,diff} = a-b-c;
+        {barrow,diff} = a-b;
     end
 endmodule
 //tb

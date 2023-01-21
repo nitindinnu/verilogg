@@ -1,0 +1,9 @@
+D:/Obsi/verilogg/gate_level_and_structural/encoder/4x2encode.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/gate_level_and_structural/encoder/4x2encode.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module encoder4x2_dut
+-- Compiling module encoder4x2_tb
+
+Top level modules:
+	encoder4x2_tb
+
+} {} {}}

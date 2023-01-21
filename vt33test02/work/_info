@@ -1,0 +1,418 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1674205346
+VFL5IWocj6`biVT37=k=NC1
+04 7 4 work tb_16x1 fast 0
+=1-50814090a273-63ca58a2-24-32e8
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+T_opt1
+!s110 1674128237
+V:>jAJ@ETz?foL<UlOIYLg3
+04 9 4 work mux8x1_tb fast 0
+=1-50814090a273-63c92b6d-4e-2b14
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1674126380
+V5D3=mcVGO>2`2BMOaB3fN0
+04 14 4 work tb_decoder4x16 fast 0
+=1-50814090a273-63c9242c-187-25c4
+R1
+R2
+n@_opt2
+R3
+R0
+vadd_cum_sub_tb
+Z4 !s110 1674205315
+!i10b 1
+!s100 3l8c]E]G@9fU^P:D?1o<Z0
+I4`iVd8nVQ<mMgl2ZePQh`3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/vt33test02
+Z7 w1674118929
+Z8 8D:/Obsi/verilogg/vt33test02/01AddercumSubtractor.v
+Z9 FD:/Obsi/verilogg/vt33test02/01AddercumSubtractor.v
+L0 30
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1674205314.000000
+Z12 !s107 D:/Obsi/verilogg/vt33test02/01AddercumSubtractor.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33test02/01AddercumSubtractor.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vadder_cum_sub
+R4
+!i10b 1
+!s100 GgeAcZ5dkz?CVF^7@EXZ92
+I`71GIMj=0H;:NUj^e4?oN1
+R5
+R6
+R7
+R8
+R9
+L0 11
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+vCLA3bit
+R4
+!i10b 1
+!s100 beiH12WROcf[kH`]KYkck0
+IikPB4fD38ETHGl3?6^d;C0
+R5
+R6
+Z15 w1674128543
+Z16 8D:/Obsi/verilogg/vt33test02/05CLA3bit.v
+Z17 FD:/Obsi/verilogg/vt33test02/05CLA3bit.v
+L0 1
+R10
+r1
+!s85 0
+31
+Z18 !s108 1674205315.000000
+Z19 !s107 D:/Obsi/verilogg/vt33test02/05CLA3bit.v|
+Z20 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33test02/05CLA3bit.v|
+!i113 0
+R14
+R2
+n@c@l@a3bit
+vdecoder3x8
+R4
+!i10b 1
+!s100 Ud4<Ba`lXXVH457dloSDe2
+I4eIo1PTFh=I^5=4=^^gLC2
+R5
+R6
+Z21 w1674128845
+Z22 8D:/Obsi/verilogg/vt33test02/04decoder_4x16.v
+Z23 FD:/Obsi/verilogg/vt33test02/04decoder_4x16.v
+L0 1
+R10
+r1
+!s85 0
+31
+R18
+Z24 !s107 D:/Obsi/verilogg/vt33test02/04decoder_4x16.v|
+Z25 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33test02/04decoder_4x16.v|
+!i113 0
+R14
+R2
+vdecoder4x16
+R4
+!i10b 1
+!s100 3l;zjzCfSk@aTzO=j]CiF1
+I:XfAHCe256WckloD_?0h81
+R5
+R6
+R21
+R22
+R23
+L0 26
+R10
+r1
+!s85 0
+31
+R18
+R24
+R25
+!i113 0
+R14
+R2
+vfulladderdut
+R4
+!i10b 1
+!s100 D68jfBc`;Io3UHU85=cXe2
+I4<7LnF4`iV>0jQh@0O=HL1
+R5
+R6
+R7
+R8
+R9
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+vmux2x1
+R4
+!i10b 1
+!s100 MDKzn>_JI0<N9JWUm1fX[2
+IjiWdFI:Rzb_OBM=QOS77M3
+R5
+R6
+Z26 w1674205233
+Z27 8D:/Obsi/verilogg/vt33test02/03a16x1mux_in_structural.v
+Z28 FD:/Obsi/verilogg/vt33test02/03a16x1mux_in_structural.v
+L0 1
+R10
+r1
+!s85 0
+31
+R18
+Z29 !s107 D:/Obsi/verilogg/vt33test02/03a16x1mux_in_structural.v|
+Z30 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33test02/03a16x1mux_in_structural.v|
+!i113 0
+R14
+R2
+vmux4x1
+R4
+!i10b 1
+!s100 KLQjgVL22A7@h64>E]o0S1
+I]GK6WL:gMA?OEY[o_oYB=0
+R5
+R6
+R26
+R27
+R28
+L0 19
+R10
+r1
+!s85 0
+31
+R18
+R29
+R30
+!i113 0
+R14
+R2
+vmux8x1
+R4
+!i10b 1
+!s100 blBEK0l;Ma7mV4cO_G_L51
+IiV947ZZWe>Ng<;;P:gDNT0
+R5
+R6
+R26
+R27
+R28
+L0 32
+R10
+r1
+!s85 0
+31
+R18
+R29
+R30
+!i113 0
+R14
+R2
+vmux8x1_dut
+R4
+!i10b 1
+!s100 z7kae59c^7XK<9RAOQASQ0
+IQB^R`?m;M15AfdOmT8z`z2
+R5
+R6
+Z31 w1674128220
+Z32 8D:/Obsi/verilogg/vt33test02/02mux8x1_by_gatelevel.v
+Z33 FD:/Obsi/verilogg/vt33test02/02mux8x1_by_gatelevel.v
+L0 1
+R10
+r1
+!s85 0
+31
+R18
+Z34 !s107 D:/Obsi/verilogg/vt33test02/02mux8x1_by_gatelevel.v|
+Z35 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33test02/02mux8x1_by_gatelevel.v|
+!i113 0
+R14
+R2
+vmux8x1_tb
+R4
+!i10b 1
+!s100 A8c9BI47bO0cz]km_3@B]1
+I;^4lHQn>EG9n<ShUgEzB33
+R5
+R6
+R31
+R32
+R33
+L0 25
+R10
+r1
+!s85 0
+31
+R18
+R34
+R35
+!i113 0
+R14
+R2
+vmux_16x1
+R4
+!i10b 1
+!s100 W]:3X:]W6LUj7_SH]R>ja2
+I4h4@NAoolQZ9;RBQ]OMmb3
+R5
+R6
+R26
+R27
+R28
+L0 45
+R10
+r1
+!s85 0
+31
+R18
+R29
+R30
+!i113 0
+R14
+R2
+vtb_16x1
+R4
+!i10b 1
+!s100 P5VeG=abZVE:9dfIhQImX3
+IcbNiXdH4o<5l2`UneBnZc3
+R5
+R6
+R26
+R27
+R28
+L0 59
+R10
+r1
+!s85 0
+31
+R18
+R29
+R30
+!i113 0
+R14
+R2
+vtb_2x1
+R4
+!i10b 1
+!s100 mUY6O>]WZjD^4:hl7M_ba2
+IDSLzi?hRF80Ka5H:flz^f2
+R5
+R6
+R26
+R27
+R28
+L0 91
+R10
+r1
+!s85 0
+31
+R18
+R29
+R30
+!i113 0
+R14
+R2
+vtb_8x1
+R4
+!i10b 1
+!s100 7W9=0Z<@<QehT<O48_GO82
+IU_Di3X5?_Xg665BleBGPB1
+R5
+R6
+R26
+R27
+R28
+L0 75
+R10
+r1
+!s85 0
+31
+R18
+R29
+R30
+!i113 0
+R14
+R2
+vtb_cla3bit
+R4
+!i10b 1
+!s100 Q>ogz2DEcoREFcfILUkG41
+I]7RNLCeCC]PzJhS[WaS>g0
+R5
+R6
+R15
+R16
+R17
+L0 28
+R10
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R14
+R2
+vtb_decoder3to8
+R4
+!i10b 1
+!s100 _O:f02H<lc8@KC5`kIP_R3
+I=JRS`^CZnWn[lVANSVzaN2
+R5
+R6
+R21
+R22
+R23
+L0 10
+R10
+r1
+!s85 0
+31
+R18
+R24
+R25
+!i113 0
+R14
+R2
+vtb_decoder4x16
+R4
+!i10b 1
+!s100 :dcbe>kYl6eo7[gl;2L9_0
+Io`6lE9eQ_NPc@Q@8e3cNn2
+R5
+R6
+R21
+R22
+R23
+L0 44
+R10
+r1
+!s85 0
+31
+R18
+R24
+R25
+!i113 0
+R14
+R2

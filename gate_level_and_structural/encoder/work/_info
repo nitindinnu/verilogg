@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_10.7c/examples
+T_opt
+!s110 1674057034
+V=gE@H7InM9IVkSJ_oJ<US3
+04 13 4 work encoder4x2_tb fast 0
+=1-50814090a273-63c8154a-f0-908
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vencoder4x2_dut
+Z1 !s110 1674057028
+!i10b 1
+!s100 AY<9moHicTAlCmc`Pg:K>1
+IJ_?M;oEM8Q=WjVj_46^MA0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Obsi/verilogg/gate_level_and_structural/encoder
+Z4 w1674057023
+Z5 8D:/Obsi/verilogg/gate_level_and_structural/encoder/4x2encode.v
+Z6 FD:/Obsi/verilogg/gate_level_and_structural/encoder/4x2encode.v
+L0 2
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1674057028.000000
+Z9 !s107 D:/Obsi/verilogg/gate_level_and_structural/encoder/4x2encode.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/gate_level_and_structural/encoder/4x2encode.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vencoder4x2_tb
+R1
+!i10b 1
+!s100 VjIOL_O^2ZU>1bfd8KIfA3
+IYnKYZ>=niHC4`gS5EfFR93
+R2
+R3
+R4
+R5
+R6
+L0 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R0

@@ -15,10 +15,26 @@
 # //
 # OpenFile D:/Obsi/verilogg/behavioural_modelling/full_subtractor/fullsub.mpf
 # Loading project fullsub
-# Compile of fullsub.v was successful.
 vsim -voptargs=+acc work.tb_fullsub
 # vsim -voptargs="+acc" work.tb_fullsub 
-# Start time: 22:19:49 on Jan 12,2023
+# Start time: 23:43:40 on Jan 18,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb_fullsub(fast)
+# Loading work.dut_fullsub(fast)
+add wave -position insertpoint  \
+sim:/tb_fullsub/a \
+sim:/tb_fullsub/b \
+sim:/tb_fullsub/c \
+sim:/tb_fullsub/barrow \
+sim:/tb_fullsub/diff \
+sim:/tb_fullsub/j
+run
+# Compile of fullsub.v was successful.
+vsim -voptargs=+acc work.tb_fullsub
+# End time: 23:44:40 on Jan 18,2023, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_fullsub 
+# Start time: 23:44:40 on Jan 18,2023
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading work.tb_fullsub(fast)
 # Loading work.dut_fullsub(fast)
@@ -30,5 +46,5 @@ sim:/tb_fullsub/barrow \
 sim:/tb_fullsub/diff \
 sim:/tb_fullsub/j
 run
-# End time: 22:27:53 on Jan 12,2023, Elapsed time: 0:08:04
+# End time: 23:44:56 on Jan 18,2023, Elapsed time: 0:00:16
 # Errors: 0, Warnings: 0

@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Obsi/verilogg/gate_level_and_structural/adder_cum_subtractor
+T_opt
+!s110 1674107470
+Vfo@^2@klU6S_Y]OE5fBd;3
+04 9 4 work bit4_s_tb fast 0
+=1-50814090a273-63c8da4e-60-5ac
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vbit4_fs
+Z1 !s110 1674107464
+!i10b 1
+!s100 L<bOL^:a5GHD_@iER1M521
+IJA?V;2G7zZonz8LNc016h2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Obsi/verilogg/gate_level_and_structural/subtractor
+Z4 w1674107412
+Z5 8D:\Obsi\verilogg\gate_level_and_structural\subtractor\full_sub.v
+Z6 FD:\Obsi\verilogg\gate_level_and_structural\subtractor\full_sub.v
+L0 12
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1674107464.000000
+Z9 !s107 D:\Obsi\verilogg\gate_level_and_structural\subtractor\full_sub.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\gate_level_and_structural\subtractor\full_sub.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vbit4_s_tb
+R1
+!i10b 1
+!s100 W7>IhDZUH4YmbboFd2Q3e2
+IjNEo9F3gjTOQ@8YR6z<Y01
+R2
+R3
+R4
+R5
+R6
+L0 27
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R0
+vfull_sub
+R1
+!i10b 1
+!s100 i`FeBeCdFj8zP=mzJlVAD3
+I6Zm8l`jmG<XYPR@^aJA:K3
+R2
+R3
+R4
+R5
+R6
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R0

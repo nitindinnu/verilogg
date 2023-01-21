@@ -1,0 +1,37 @@
+D:/Obsi/verilogg/vt33test02/04decoder_4x16.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33test02/04decoder_4x16.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module decoder3x8
+-- Compiling module tb_decoder3to8
+-- Compiling module decoder4x16
+-- Compiling module tb_decoder4x16
+
+Top level modules:
+	tb_decoder3to8
+	tb_decoder4x16
+
+} {} {}} D:/Obsi/verilogg/vt33test02/01AddercumSubtractor.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33test02/01AddercumSubtractor.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module fulladderdut
+-- Compiling module adder_cum_sub
+-- Compiling module add_cum_sub_tb
+
+Top level modules:
+	add_cum_sub_tb
+
+} {} {}} D:/Obsi/verilogg/vt33test02/02mux8x1_by_gatelevel.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33test02/02mux8x1_by_gatelevel.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux8x1_dut
+-- Compiling module mux8x1_tb
+
+Top level modules:
+	mux8x1_tb
+
+} {} {}} D:/Obsi/verilogg/vt33test02/05CLA3bit.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33test02/05CLA3bit.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module CLA3bit
+-- Compiling module tb_cla3bit
+
+Top level modules:
+	tb_cla3bit
+
+} {} {}}

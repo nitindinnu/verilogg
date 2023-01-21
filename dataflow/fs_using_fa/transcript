@@ -17,7 +17,7 @@
 # Loading project fs_using_fa
 vsim -voptargs=+acc work.fs_using_fa_tb
 # vsim -voptargs="+acc" work.fs_using_fa_tb 
-# Start time: 17:47:50 on Jan 02,2023
+# Start time: 23:46:04 on Jan 18,2023
 # ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading work.fs_using_fa_tb(fast)
 # Loading work.fs_using_fa_dut(fast)
@@ -34,5 +34,5 @@ sim:/fs_using_fa_tb/w4 \
 sim:/fs_using_fa_tb/w5 \
 sim:/fs_using_fa_tb/w6
 run
-# End time: 17:58:28 on Jan 02,2023, Elapsed time: 0:10:38
+# End time: 23:46:49 on Jan 18,2023, Elapsed time: 0:00:45
 # Errors: 0, Warnings: 0
