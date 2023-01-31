@@ -1,0 +1,179 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1674470132
+V_fnj_3@PgE0;__H_i2[U?1
+04 9 4 work MuxNx1_tb fast 0
+=1-50814090a273-63ce62f4-1fd-1594
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1674473190
+VO=I0G58GQWig0E?m6`VLB3
+04 9 4 work mux4x1_tb fast 0
+=1-50814090a273-63ce6ee5-3dc-5394
+R1
+R2
+n@_opt1
+R3
+R0
+vmux2x1_using_if
+Z4 !s110 1674470123
+!i10b 1
+!s100 GN;UPRUCZKHK]>dW1TS0W1
+IKbN=0BoDWl=3Ahb2BmLG83
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1
+Z7 w1674459308
+Z8 8D:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/mux2x1_using_if.v
+Z9 FD:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/mux2x1_using_if.v
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1674470123.000000
+Z12 !s107 D:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/mux2x1_using_if.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/mux2x1_using_if.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vmux2x1_using_if_tb
+R4
+!i10b 1
+!s100 Ob;keH9;niKNdND4=DoFI0
+Io:Z^17@94[azPM]DBhEKJ3
+R5
+R6
+R7
+R8
+R9
+L0 25
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+vmux4x1
+Z15 !s110 1674476804
+!i10b 1
+!s100 OkioRLA7iOHF2hKe9H^T80
+Ilbl>lXTK=jli34SBo<5?i2
+R5
+R6
+Z16 w1674473173
+Z17 8D:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/mux4x1.v
+Z18 FD:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/mux4x1.v
+L0 1
+R10
+r1
+!s85 0
+31
+Z19 !s108 1674476804.000000
+Z20 !s107 D:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/mux4x1.v|
+Z21 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/mux4x1.v|
+!i113 0
+R14
+R2
+vmux4x1_if_tb
+R4
+!i10b 1
+!s100 UogmJQ[YUI`lfROE9RMme2
+IN<6GK`8TRIJo>CdUUf<kG3
+R5
+R6
+R7
+R8
+R9
+L0 41
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+vmux4x1_tb
+R15
+!i10b 1
+!s100 _WIU^;Qed7NI9FI>hLOgM1
+ILb=FK`;J^;kTITz<>]1Ez3
+R5
+R6
+R16
+R17
+R18
+L0 22
+R10
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 0
+R14
+R2
+vmuxNx1_dut
+!s110 1674476819
+!i10b 1
+!s100 Wm[9bP;FSV;B7cRcgE77J2
+I8_[U`QH?H[3]EGF;<jLQJ2
+R5
+R6
+w1674476794
+Z22 8D:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/muxNx1.v
+Z23 FD:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/muxNx1.v
+L0 1
+R10
+r1
+!s85 0
+31
+!s108 1674476818.000000
+Z24 !s107 D:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/muxNx1.v|
+Z25 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/muxNx1.v|
+!i113 0
+R14
+R2
+nmux@nx1_dut
+vMuxNx1_tb
+R4
+!i10b 1
+!s100 fcNEb`l`R183LEm]Y5F9F0
+I5O=KAea<lHAk3@O@l]OQi0
+R5
+R6
+w1674469390
+R22
+R23
+L0 20
+R10
+r1
+!s85 0
+31
+R11
+R24
+R25
+!i113 0
+R14
+R2
+n@mux@nx1_tb

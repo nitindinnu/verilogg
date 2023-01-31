@@ -1,0 +1,179 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Obsi/verilogg/behavvvioural/FUNCTIONS/Mux_using_functions
+vbit4FA_using_task
+Z0 !s110 1675141319
+!i10b 1
+!s100 >1nRJN2]@[laUbVI`PQ1e3
+IebmoMc^gLo<>EzWX4`BXj0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS
+Z3 w1675076525
+Z4 8D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_bit4FA.v
+Z5 FD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_bit4FA.v
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1675141319.000000
+Z8 !s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_bit4FA.v|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_bit4FA.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+nbit4@f@a_using_task
+vdecoder4x16__using_3x8
+R0
+!i10b 1
+!s100 Dg_QIcC`Z8doo07Gz[[3;2
+IM6CCH@1b5Ukaz30Mk<7o13
+R1
+R2
+Z12 w1675079394
+Z13 8D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v
+Z14 FD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v|
+!i113 0
+R10
+R11
+vmux4x1
+Z16 !s110 1675141318
+!i10b 1
+!s100 6bZU?_JcKJiiLj3U0C[YW1
+IBHGe8PWOPXM41fYDL]VhT2
+R1
+R2
+Z17 w1675078347
+Z18 8D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_Mux4X1.v
+Z19 FD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_Mux4X1.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z20 !s108 1675141318.000000
+Z21 !s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_Mux4X1.v|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_Mux4X1.v|
+!i113 0
+R10
+R11
+vmux4x1_tb
+R16
+!i10b 1
+!s100 nFzMB8W`Yoo;Y@Ah?K56=0
+IlRVPUmkaolAc9n1TNbQ]71
+R1
+R2
+R17
+R18
+R19
+Z23 L0 25
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R10
+R11
+vtb_4bit_fa
+R0
+!i10b 1
+!s100 ?z9@f4_6VAM4A2nD>9iR`1
+Ia6KmeUme=ITXAfMKhNoOG2
+R1
+R2
+R3
+R4
+R5
+R23
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vtb_decoder4x16__using_3x8
+R0
+!i10b 1
+!s100 MFOZ@;JV>ld?F;3BF_<?f0
+IiP01lTz[@n_3]J5MJeSbm1
+R1
+R2
+R12
+R13
+R14
+L0 38
+R6
+r1
+!s85 0
+31
+R7
+Z24 !s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v|
+R15
+!i113 0
+R10
+R11
+vxor_as_buffer_inverter
+R0
+!i10b 1
+!s100 LZI:M_o6eA?YY3cE^QQ<D1
+I_Lj[mFMTQ?il_kb6QH=bQ2
+R1
+R2
+Z25 w1675064297
+Z26 8D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_xor_as_not_buffer.v
+Z27 FD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_xor_as_not_buffer.v
+L0 1
+R6
+r1
+!s85 0
+31
+R20
+Z28 !s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_xor_as_not_buffer.v|
+Z29 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_xor_as_not_buffer.v|
+!i113 0
+R10
+R11
+vxor_as_buffer_inverter_tb
+R0
+!i10b 1
+!s100 7SH@g3Y:FTic61;>Pcf3[0
+I1?SDVC[bQHaoiX3hUdOB_0
+R1
+R2
+R25
+R26
+R27
+L0 24
+R6
+r1
+!s85 0
+31
+R20
+R28
+R29
+!i113 0
+R10
+R11

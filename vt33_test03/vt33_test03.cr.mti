@@ -1,0 +1,34 @@
+D:/Obsi/verilogg/vt33_test03/up_counter.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33_test03/up_counter.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module up_counter
+-- Compiling module up_count_tb
+
+Top level modules:
+	up_count_tb
+
+} {} {}} D:/Obsi/verilogg/vt33_test03/SR_to_D.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33_test03/SR_to_D.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module SR_FF
+-- Compiling module SR_to_D
+-- Compiling module SR_to_D_tb
+
+Top level modules:
+	SR_to_D_tb
+
+} {} {}} D:/Obsi/verilogg/vt33_test03/JK_master_slave.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33_test03/JK_master_slave.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module jk_flip_flop_master_slave
+-- Compiling module sr_latch_gated
+-- Compiling module tb_jk_masterslave
+
+Top level modules:
+	tb_jk_masterslave
+
+} {} {}} D:/Obsi/verilogg/vt33_test03/Ascending_order.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33_test03/Ascending_order.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module Ascending_order
+
+Top level modules:
+	Ascending_order
+
+} {} {}}

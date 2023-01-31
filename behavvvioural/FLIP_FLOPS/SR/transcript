@@ -1,0 +1,38 @@
+# Reading C:/questasim64_10.7c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile D:/Obsi/verilogg/behavvvioural/FLIP_FLOPS/SR/SR_flipflop.mpf
+# Loading project SR_flipflop
+# Compile of SR_flipflop.v was successful.
+# Compile of SR_FF_ASYNC.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.sr_ff_tb
+# vsim -voptargs="+acc" work.sr_ff_tb 
+# Start time: 17:01:22 on Jan 25,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.sr_ff_tb(fast)
+# Loading work.SR_FF(fast)
+add wave -position insertpoint  \
+sim:/sr_ff_tb/s \
+sim:/sr_ff_tb/r \
+sim:/sr_ff_tb/clk \
+sim:/sr_ff_tb/reset \
+sim:/sr_ff_tb/q \
+sim:/sr_ff_tb/qb
+run
+# End time: 17:08:16 on Jan 25,2023, Elapsed time: 0:06:54
+# Errors: 0, Warnings: 0
+# Closing project D:/Obsi/verilogg/behavvvioural/FLIP_FLOPS/SR/SR_flipflop.mpf
+# reading C:/questasim64_10.7c/win64/../modelsim.ini

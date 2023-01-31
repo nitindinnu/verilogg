@@ -8,8 +8,8 @@ module mod4count (
         case({reset,mode})
         2'b11:out=0;
         2'b10:out=0;
-        2'b01:out=out-1;
-        2'b00:out=out+1;
+        2'b01:out=out-1; // down counter
+        2'b00:out=out+1; // up counter
         endcase
     end
 endmodule

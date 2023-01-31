@@ -27,87 +27,286 @@ R1
 R2
 n@_opt1
 R3
-vencoder
-Z4 !s110 1673497733
+R0
+T_opt2
+!s110 1674537420
+V7RAaSk;hHT_4g^IhiJWNg0
+04 16 4 work tb_mux_sel_input fast 0
+=1-50814090a273-63cf69cc-ed-3ea0
+R1
+R2
+n@_opt2
+R3
+vblk_nonblk
+Z4 !s110 1674537311
 !i10b 1
-!s100 c]c7W?]SZnGa_EGC:XhBN2
-I`72_4HG`JVL_;4F``>]z01
+!s100 5KHV]CaDDXKWiZ]fQM12U3
+I0:VKU0[8@24>VeQaKd;jO2
 Z5 VDg1SIo80bB@j0V0VzS_@n1
 Z6 dD:/Obsi/verilogg/behavioural_modelling/encoder4x2
-Z7 w1673497730
-Z8 8D:\Obsi\verilogg\behavioural_modelling\encoder4x2\encoder4x2.v
-Z9 FD:\Obsi\verilogg\behavioural_modelling\encoder4x2\encoder4x2.v
+w1674377736
+8D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/blc-nonblk.v
+FD:/Obsi/verilogg/behavvvioural/block-nonblock_interview/blc-nonblk.v
 L0 1
-Z10 OL;L;10.7c;67
+Z7 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z11 !s108 1673497733.000000
-Z12 !s107 D:\Obsi\verilogg\behavioural_modelling\encoder4x2\encoder4x2.v|
-Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavioural_modelling\encoder4x2\encoder4x2.v|
+Z8 !s108 1674537311.000000
+!s107 D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/blc-nonblk.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/blc-nonblk.v|
 !i113 0
-Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
-vpriencoder
+vmux_sel_input
 R4
 !i10b 1
-!s100 0?ZO]:Z:_P3O2d6PSEVWk1
-I3VLnJb;Y86cmDbgT5n1Bb1
+!s100 H^P0@WkZZ:;RSMaKg<8:d3
+I;dNUR<W=VnRZ:C<CW^kUD2
 R5
 R6
-Z15 w1673497706
-Z16 8D:\Obsi\verilogg\behavioural_modelling\encoder4x2\priorityencoder4x2.v
-Z17 FD:\Obsi\verilogg\behavioural_modelling\encoder4x2\priorityencoder4x2.v
-L0 1
-R10
+Z10 w1674536984
+Z11 8D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/mux_selectionlines_as_input,real,reg,wire.v
+Z12 FD:/Obsi/verilogg/behavvvioural/block-nonblock_interview/mux_selectionlines_as_input,real,reg,wire.v
+L0 2
+R7
 r1
 !s85 0
 31
-R11
-Z18 !s107 D:\Obsi\verilogg\behavioural_modelling\encoder4x2\priorityencoder4x2.v|
-Z19 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavioural_modelling\encoder4x2\priorityencoder4x2.v|
+R8
+Z13 !s107 D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/mux_selectionlines_as_input,real,reg,wire.v|
+Z14 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/mux_selectionlines_as_input,real,reg,wire.v|
 !i113 0
-R14
+R9
 R2
-vpritb
+vmux_sel_integer
 R4
 !i10b 1
-!s100 Y;0nBZ`YIH;Z0Hi`D`XmR1
-IFAC^6iTE>TN9]Ii_mYnh^0
+!s100 A9fB8L=]a_heQQCGBdWko1
+IAZYLY:FRbST3=L[4fbM??2
+R5
+R6
+R10
+R11
+R12
+L0 23
+R7
+r1
+!s85 0
+31
+R8
+R13
+R14
+!i113 0
+R9
+R2
+vmux_sel_real
+R4
+!i10b 1
+!s100 4`9^7Vl0YIG2omGO_8;oD0
+IQ?Ez^Ui64fJUfn4NLQlWJ3
+R5
+R6
+R10
+R11
+R12
+L0 44
+R7
+r1
+!s85 0
+31
+R8
+R13
+R14
+!i113 0
+R9
+R2
+vmux_sel_wire
+R4
+!i10b 1
+!s100 P:mDU8RL@W>XdJ<d_Ie`m3
+IE5B=SkdaLU1Y]z=O<?aH_0
+R5
+R6
+R10
+R11
+R12
+L0 69
+R7
+r1
+!s85 0
+31
+R8
+R13
+R14
+!i113 0
+R9
+R2
+vques1
+R4
+!i10b 1
+!s100 Ljmk5gVk_c:AP918]iz4V0
+IZ]AZIg0L3bCooWj^FDXF80
+R5
+R6
+w1674377185
+8D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/interview_ques1.v
+FD:/Obsi/verilogg/behavvvioural/block-nonblock_interview/interview_ques1.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/interview_ques1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/interview_ques1.v|
+!i113 0
+R9
+R2
+vswap1
+R4
+!i10b 1
+!s100 RlD=^`5WZDAT6>6l41O;O0
+ILAGCc4?P^TK<E3Y3L8Bj=3
+R5
+R6
+w1674380532
+8D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swap_two_var.v
+FD:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swap_two_var.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swap_two_var.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swap_two_var.v|
+!i113 0
+R9
+R2
+vswap2blocking
+R4
+!i10b 1
+!s100 6S4alM4Qn0iJPaW32h93>3
+IcmK0YWaIbMmzk`6JEHS>d3
+R5
+R6
+Z15 w1674380472
+Z16 8D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swap_two1.v
+Z17 FD:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swap_two1.v
+L0 21
+R7
+r1
+!s85 0
+31
+R8
+Z18 !s107 D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swap_two1.v|
+Z19 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swap_two1.v|
+!i113 0
+R9
+R2
+vswap2nonblocking
+R4
+!i10b 1
+!s100 ^mm7[h_LKhI=R=hJ6gG^<1
+I;^Kc7zn7z`<;efDWN^DYX3
 R5
 R6
 R15
 R16
 R17
-L0 18
-R10
+L0 1
+R7
 r1
 !s85 0
 31
-R11
+R8
 R18
 R19
 !i113 0
-R14
+R9
 R2
-vtb
+vtb_mux_sel_input
 R4
 !i10b 1
-!s100 CYDJSVZQBXia@oHzD]hoQ1
-ISnV17Jiblb7BzJbl3Y=E82
+!s100 E6@;o>M<UHFg]iJ2le<?G2
+IS=ZJVH1QO_JB4iHhW6O1^0
 R5
 R6
-R7
-R8
-R9
-L0 17
 R10
+R11
+R12
+L0 9
+R7
 r1
 !s85 0
 31
+R8
+R13
+R14
+!i113 0
+R9
+R2
+vtb_mux_sel_integer
+R4
+!i10b 1
+!s100 QJ]4PFEVQGN6d=I8=[k<R2
+I=QdU^obkD@H;oT4fa2C9o0
+R5
+R6
+R10
 R11
 R12
+L0 30
+R7
+r1
+!s85 0
+31
+R8
 R13
-!i113 0
 R14
+!i113 0
+R9
+R2
+vtb_mux_sel_real
+R4
+!i10b 1
+!s100 ;V2gnA7NOf:44_lY6cdiW3
+I1dfK?030k75NGl`n@5]]43
+R5
+R6
+R10
+R11
+R12
+L0 51
+R7
+r1
+!s85 0
+31
+R8
+R13
+R14
+!i113 0
+R9
+R2
+vtb_mux_sel_wire
+R4
+!i10b 1
+!s100 l78AMJ2WQQ3E=MBMSnY^g2
+Ik3_5UIjfoI4i>0Rhj@6@?1
+R5
+R6
+R10
+R11
+R12
+L0 76
+R7
+r1
+!s85 0
+31
+R8
+R13
+R14
+!i113 0
+R9
 R2

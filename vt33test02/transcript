@@ -15,24 +15,55 @@
 # //
 # OpenFile D:/Obsi/verilogg/vt33test02/vt33test02.mpf
 # Loading project vt33test02
-vsim -voptargs=+acc work.tb_16x1
-# vsim -voptargs="+acc" work.tb_16x1 
-# Start time: 14:20:41 on Jan 20,2023
-# ** Note: (vsim-3812) Design is being optimized...
-# Loading work.tb_16x1(fast)
-# Loading work.mux_16x1(fast)
-# Loading work.mux8x1(fast)
-# Loading work.mux4x1(fast)
-# Loading work.mux2x1(fast)
+vsim -voptargs=+acc work.tb_decoder4x16
+# vsim -voptargs="+acc" work.tb_decoder4x16 
+# Start time: 12:29:24 on Jan 23,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb_decoder4x16(fast)
+# Loading work.decoder4x16(fast)
+# Loading work.decoder3x8(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(47).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1 File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 79
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/one File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/two File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 61
 add wave -position insertpoint  \
-sim:/tb_16x1/i \
-sim:/tb_16x1/s \
-sim:/tb_16x1/y
+sim:/tb_decoder4x16/i \
+sim:/tb_decoder4x16/en \
+sim:/tb_decoder4x16/d
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: nitin  Hostname: LAPTOP-JPCFC0PU  ProcessID: 9668
-#           Attempting to use alternate WLF file "./wlftnbme9b".
+#           Attempting to use alternate WLF file "./wlftgi8byw".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftnbme9b
+#           Using alternate file: ./wlftgi8byw
+run
+# Compile of 04decoder_4x16.v was successful.
+vsim -voptargs=+acc work.tb_decoder4x16
+# End time: 12:31:01 on Jan 23,2023, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.tb_decoder4x16 
+# Start time: 12:31:01 on Jan 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_decoder4x16(fast)
+# Loading work.decoder4x16(fast)
+# Loading work.decoder3x8(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(47).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1 File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 79
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/one File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/two File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 61
+add wave -position insertpoint  \
+sim:/tb_decoder4x16/i \
+sim:/tb_decoder4x16/en \
+sim:/tb_decoder4x16/d
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: nitin  Hostname: LAPTOP-JPCFC0PU  ProcessID: 9668
+#           Attempting to use alternate WLF file "./wlftii7h6z".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftii7h6z
+run
 run
 # Compile of 01AddercumSubtractor.v was successful.
 # Compile of 02mux8x1_by_gatelevel.v was successful.
@@ -40,26 +71,282 @@ run
 # Compile of 05CLA3bit.v was successful.
 # Compile of 04decoder_4x16.v was successful.
 # 5 compiles, 0 failed with no errors.
-vsim -voptargs=+acc work.tb_16x1
-# End time: 14:32:25 on Jan 20,2023, Elapsed time: 0:11:44
-# Errors: 0, Warnings: 2
-# vsim -voptargs="+acc" work.tb_16x1 
-# Start time: 14:32:25 on Jan 20,2023
+vsim -voptargs=+acc work.tb_decoder4x16
+# End time: 12:41:58 on Jan 23,2023, Elapsed time: 0:10:57
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.tb_decoder4x16 
+# Start time: 12:41:58 on Jan 23,2023
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading work.tb_16x1(fast)
-# Loading work.mux_16x1(fast)
-# Loading work.mux8x1(fast)
-# Loading work.mux4x1(fast)
-# Loading work.mux2x1(fast)
+# Loading work.tb_decoder4x16(fast)
+# Loading work.decoder4x16(fast)
+# Loading work.decoder3x8(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(47).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1 File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 82
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/one File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/two File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 61
 add wave -position insertpoint  \
-sim:/tb_16x1/i \
-sim:/tb_16x1/s \
-sim:/tb_16x1/y
+sim:/tb_decoder4x16/i \
+sim:/tb_decoder4x16/en \
+sim:/tb_decoder4x16/d
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: nitin  Hostname: LAPTOP-JPCFC0PU  ProcessID: 9668
-#           Attempting to use alternate WLF file "./wlftmfyeyd".
+#           Attempting to use alternate WLF file "./wlft990qvy".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftmfyeyd
+#           Using alternate file: ./wlft990qvy
 run
-# End time: 23:08:09 on Jan 20,2023, Elapsed time: 8:35:44
-# Errors: 0, Warnings: 2
+# Compile of 01AddercumSubtractor.v was successful.
+# Compile of 02mux8x1_by_gatelevel.v was successful.
+# Compile of 03a16x1mux_in_structural.v was successful with warnings.
+# Compile of 05CLA3bit.v was successful.
+# Compile of 04decoder_4x16.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_decoder4x16
+# End time: 12:43:43 on Jan 23,2023, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.tb_decoder4x16 
+# Start time: 12:43:43 on Jan 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_decoder4x16(fast)
+# Loading work.decoder4x16(fast)
+# Loading work.decoder3x8(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(47).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1 File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 82
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/one File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/two File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 61
+add wave -position insertpoint  \
+sim:/tb_decoder4x16/i \
+sim:/tb_decoder4x16/en \
+sim:/tb_decoder4x16/d
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: nitin  Hostname: LAPTOP-JPCFC0PU  ProcessID: 9668
+#           Attempting to use alternate WLF file "./wlftsy2kdw".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsy2kdw
+run
+run
+# Compile of 01AddercumSubtractor.v was successful.
+# Compile of 02mux8x1_by_gatelevel.v was successful.
+# Compile of 03a16x1mux_in_structural.v was successful with warnings.
+# Compile of 05CLA3bit.v was successful.
+# Compile of 04decoder_4x16.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_decoder4x16
+# End time: 12:44:51 on Jan 23,2023, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.tb_decoder4x16 
+# Start time: 12:44:51 on Jan 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_decoder4x16(fast)
+# Loading work.decoder4x16(fast)
+# Loading work.decoder3x8(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(47).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1 File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 82
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/one File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/two File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 61
+add wave -position insertpoint  \
+sim:/tb_decoder4x16/i \
+sim:/tb_decoder4x16/en \
+sim:/tb_decoder4x16/d
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: nitin  Hostname: LAPTOP-JPCFC0PU  ProcessID: 9668
+#           Attempting to use alternate WLF file "./wlftihhbzh".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftihhbzh
+run
+run
+# Compile of 01AddercumSubtractor.v was successful.
+# Compile of 02mux8x1_by_gatelevel.v was successful.
+# Compile of 03a16x1mux_in_structural.v was successful with warnings.
+# Compile of 05CLA3bit.v was successful.
+# Compile of 04decoder_4x16.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_decoder4x16
+# End time: 12:49:24 on Jan 23,2023, Elapsed time: 0:04:33
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.tb_decoder4x16 
+# Start time: 12:49:24 on Jan 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_decoder4x16(fast)
+# Loading work.decoder4x16(fast)
+# Loading work.decoder3x8(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(47).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1 File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 84
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/one File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/two File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 61
+add wave -position insertpoint  \
+sim:/tb_decoder4x16/i \
+sim:/tb_decoder4x16/en \
+sim:/tb_decoder4x16/d
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: nitin  Hostname: LAPTOP-JPCFC0PU  ProcessID: 9668
+#           Attempting to use alternate WLF file "./wlft8v8qzj".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8v8qzj
+run
+# Compile of 01AddercumSubtractor.v was successful.
+# Compile of 02mux8x1_by_gatelevel.v was successful.
+# Compile of 03a16x1mux_in_structural.v was successful with warnings.
+# Compile of 05CLA3bit.v was successful.
+# Compile of 04decoder_4x16.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_decoder4x16
+# End time: 12:50:27 on Jan 23,2023, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.tb_decoder4x16 
+# Start time: 12:50:27 on Jan 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_decoder4x16(fast)
+# Loading work.decoder4x16(fast)
+# Loading work.decoder3x8(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(47).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1 File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/one File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/two File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 61
+add wave -position insertpoint  \
+sim:/tb_decoder4x16/i \
+sim:/tb_decoder4x16/en \
+sim:/tb_decoder4x16/d
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: nitin  Hostname: LAPTOP-JPCFC0PU  ProcessID: 9668
+#           Attempting to use alternate WLF file "./wlft3sbdge".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft3sbdge
+run
+run
+# Compile of 01AddercumSubtractor.v was successful.
+# Compile of 02mux8x1_by_gatelevel.v was successful.
+# Compile of 03a16x1mux_in_structural.v was successful with warnings.
+# Compile of 05CLA3bit.v was successful.
+# Compile of 04decoder_4x16.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_decoder4x16
+# End time: 12:52:23 on Jan 23,2023, Elapsed time: 0:01:56
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.tb_decoder4x16 
+# Start time: 12:52:23 on Jan 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_decoder4x16(fast)
+# Loading work.decoder4x16(fast)
+# Loading work.decoder3x8(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(47).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1 File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/one File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/two File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 61
+add wave -position insertpoint  \
+sim:/tb_decoder4x16/i \
+sim:/tb_decoder4x16/en \
+sim:/tb_decoder4x16/d
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: nitin  Hostname: LAPTOP-JPCFC0PU  ProcessID: 9668
+#           Attempting to use alternate WLF file "./wlfti7xmib".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfti7xmib
+run
+run
+# Compile of 01AddercumSubtractor.v was successful.
+# Compile of 02mux8x1_by_gatelevel.v was successful.
+# Compile of 03a16x1mux_in_structural.v was successful with warnings.
+# Compile of 05CLA3bit.v was successful.
+# Compile of 04decoder_4x16.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_decoder4x16
+# End time: 12:52:59 on Jan 23,2023, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.tb_decoder4x16 
+# Start time: 12:52:59 on Jan 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_decoder4x16(fast)
+# Loading work.decoder4x16(fast)
+# Loading work.decoder3x8(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(47).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1 File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/one File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/two File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 61
+add wave -position insertpoint  \
+sim:/tb_decoder4x16/i \
+sim:/tb_decoder4x16/en \
+sim:/tb_decoder4x16/d
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: nitin  Hostname: LAPTOP-JPCFC0PU  ProcessID: 9668
+#           Attempting to use alternate WLF file "./wlftnzgfdm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftnzgfdm
+run
+# Compile of 01AddercumSubtractor.v was successful.
+# Compile of 02mux8x1_by_gatelevel.v was successful.
+# Compile of 03a16x1mux_in_structural.v was successful with warnings.
+# Compile of 05CLA3bit.v was successful.
+# Compile of 04decoder_4x16.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_decoder4x16
+# End time: 12:54:10 on Jan 23,2023, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.tb_decoder4x16 
+# Start time: 12:54:10 on Jan 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_decoder4x16(fast)
+# Loading work.decoder4x16(fast)
+# Loading work.decoder3x8(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(47).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1 File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/one File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/two File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 61
+add wave -position insertpoint  \
+sim:/tb_decoder4x16/i \
+sim:/tb_decoder4x16/en \
+sim:/tb_decoder4x16/d
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: nitin  Hostname: LAPTOP-JPCFC0PU  ProcessID: 9668
+#           Attempting to use alternate WLF file "./wlftt08zix".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftt08zix
+run
+# Compile of 01AddercumSubtractor.v was successful.
+# Compile of 02mux8x1_by_gatelevel.v was successful.
+# Compile of 03a16x1mux_in_structural.v was successful with warnings.
+# Compile of 05CLA3bit.v was successful.
+# Compile of 04decoder_4x16.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_decoder4x16
+# End time: 12:57:45 on Jan 23,2023, Elapsed time: 0:03:35
+# Errors: 0, Warnings: 5
+# vsim -voptargs="+acc" work.tb_decoder4x16 
+# Start time: 12:57:45 on Jan 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_decoder4x16(fast)
+# Loading work.decoder4x16(fast)
+# Loading work.decoder3x8(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(47).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1 File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/one File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 60
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'i'. The port definition is at: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v(2).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_decoder4x16/a1/two File: D:/Obsi/verilogg/vt33test02/04decoder_4x16.v Line: 61
+add wave -position insertpoint  \
+sim:/tb_decoder4x16/i \
+sim:/tb_decoder4x16/en \
+sim:/tb_decoder4x16/d
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: nitin  Hostname: LAPTOP-JPCFC0PU  ProcessID: 9668
+#           Attempting to use alternate WLF file "./wlftat5n4v".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftat5n4v
+run
+# End time: 13:00:50 on Jan 23,2023, Elapsed time: 0:03:05
+# Errors: 0, Warnings: 5

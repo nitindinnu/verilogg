@@ -1,0 +1,10 @@
+D:/Obsi/verilogg/behavvvioural/DLATCH_using_Mux/DLATCH_using_Mux.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/DLATCH_using_Mux/DLATCH_using_Mux.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux2x1
+-- Compiling module d_latch
+-- Compiling module d_latch_tb
+
+Top level modules:
+	d_latch_tb
+
+} {} {}}

@@ -1,0 +1,106 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Obsi/verilogg/behavvvioural/FLIP_FLOPS/SR_to_JK_FF
+T_opt
+!s110 1674754594
+VjbTRB^PZTLJ_Smnl?2:A]0
+04 18 4 work SR_to_D_FF_SYNC_tb fast 0
+=1-50814090a273-63d2ba21-369-2440
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vSR_FF
+Z1 !s110 1674754584
+!i10b 1
+!s100 I_2HcZhJ>YB;B]OiaOXih1
+IRNFhZKODc`O=c=OGLYZ623
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Obsi/verilogg/behavvvioural/FLIP_FLOPS/SR_to_D_FF
+Z4 w1674646222
+Z5 8D:\Obsi\verilogg\behavvvioural\FLIP_FLOPS\SR_to_D_FF\SR_flipflop.v
+Z6 FD:\Obsi\verilogg\behavvvioural\FLIP_FLOPS\SR_to_D_FF\SR_flipflop.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1674754584.000000
+Z9 !s107 D:\Obsi\verilogg\behavvvioural\FLIP_FLOPS\SR_to_D_FF\SR_flipflop.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\FLIP_FLOPS\SR_to_D_FF\SR_flipflop.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+n@s@r_@f@f
+vsr_ff_tb
+R1
+!i10b 1
+!s100 5H950<0ben:G<FL;dA7k51
+IKbNVaE5QZH1=LQ7^`_2gR1
+R2
+R3
+R4
+R5
+R6
+L0 31
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R0
+vSR_to_D_FF
+R1
+!i10b 1
+!s100 =X_3<WgD3>NY2m?DC96Of3
+Ib;KWPBV^DM:TDTTRTZPol0
+R2
+R3
+Z12 w1674754581
+Z13 8D:\Obsi\verilogg\behavvvioural\FLIP_FLOPS\SR_to_D_FF\SR_to_D_FF.v
+Z14 FD:\Obsi\verilogg\behavvvioural\FLIP_FLOPS\SR_to_D_FF\SR_to_D_FF.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+Z15 !s107 D:\Obsi\verilogg\behavvvioural\FLIP_FLOPS\SR_to_D_FF\SR_to_D_FF.v|
+Z16 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\FLIP_FLOPS\SR_to_D_FF\SR_to_D_FF.v|
+!i113 0
+R11
+R0
+n@s@r_to_@d_@f@f
+vSR_to_D_FF_SYNC_tb
+R1
+!i10b 1
+!s100 NBI2]UBNK8<7JOzfZG@7f1
+Ikmmml?YoF_kZ5n2mDKKSF3
+R2
+R3
+R12
+R13
+R14
+L0 8
+R7
+r1
+!s85 0
+31
+R8
+R15
+R16
+!i113 0
+R11
+R0
+n@s@r_to_@d_@f@f_@s@y@n@c_tb

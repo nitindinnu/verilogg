@@ -1,0 +1,51 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1674755449
+V20^`lWcn[1FT`Z4b8W;QQ2
+04 8 4 work built_in fast 0
+=1-50814090a273-63d2bd79-342-3330
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1674757340
+VcF82G>6JR^NS]NC4>4C[32
+04 8 4 work Sort_Asc fast 0
+=1-50814090a273-63d2c4dc-1f2-43b0
+R1
+R2
+n@_opt1
+R3
+vSort_Asc
+!s110 1674757335
+!i10b 1
+!s100 b[NzXogP_J=nJAi4J>iF]0
+I40C8<>W`W6k@>;WoOMMDH1
+VDg1SIo80bB@j0V0VzS_@n1
+dD:/Obsi/verilogg/behavvvioural/array_sorting
+w1674757328
+8D:\Obsi\verilogg\behavvvioural\array_sorting\Ascendingly_sort.v
+FD:\Obsi\verilogg\behavvvioural\array_sorting\Ascendingly_sort.v
+L0 1
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1674757335.000000
+!s107 D:\Obsi\verilogg\behavvvioural\array_sorting\Ascendingly_sort.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\array_sorting\Ascendingly_sort.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@sort_@asc

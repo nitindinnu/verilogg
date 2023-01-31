@@ -1,0 +1,17 @@
+D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/func_and_task/FUNCTION_decoder4x16_from_3x8.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/func_and_task/FUNCTION_decoder4x16_from_3x8.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module decoder_4x16u3x8
+-- Compiling module tb_decoder_4x16u3x8
+
+Top level modules:
+	tb_decoder_4x16u3x8
+
+} {} {}} D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/func_and_task/TASK_decoder4x16_from_3x8.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/func_and_task/TASK_decoder4x16_from_3x8.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module decoder_4x16u3x8
+-- Compiling module tb_decoder_4x16u3x8
+
+Top level modules:
+	tb_decoder_4x16u3x8
+
+} {} {}}

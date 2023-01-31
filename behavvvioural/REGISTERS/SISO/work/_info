@@ -1,0 +1,114 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Obsi/verilogg/behavvvioural/REGISTERS/PISO
+T_opt
+!s110 1674891824
+VA@1<Xf5cJLFn?RzKN:h<c3
+04 7 4 work SISO_tb fast 0
+=1-50814090a273-63d4d22f-38d-3960
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1674891971
+V_Rjf]GWKUo@7l[N1DLDZo3
+04 6 4 work sisotb fast 0
+=1-50814090a273-63d4d2c2-390-3ce8
+R1
+R2
+n@_opt1
+R3
+vsiso
+Z4 !s110 1674891961
+!i10b 1
+!s100 bH>WE=NzUEl_zgRk@a6UK1
+IJhOG;7o_aP`MoJz@NU6Ui1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/behavvvioural/REGISTERS/SISO
+Z7 w1674891953
+Z8 8D:\Obsi\verilogg\behavvvioural\REGISTERS\SISO\SISO.v
+Z9 FD:\Obsi\verilogg\behavvvioural\REGISTERS\SISO\SISO.v
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1674891961.000000
+Z12 !s107 D:\Obsi\verilogg\behavvvioural\REGISTERS\SISO\SISO.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\REGISTERS\SISO\SISO.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vSISO_tb
+R4
+!i10b 1
+!s100 CioIDWS]:OzbiQLiRM7M:1
+IJY[5RbNBl;=I75^mO_jN02
+R5
+R6
+R7
+R8
+R9
+L0 20
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+n@s@i@s@o_tb
+vsiso_test
+R4
+!i10b 1
+!s100 g<QPL8mB<HD0m4X>mPen?3
+IY9VYN[ReCRUnefo1G1Uc21
+R5
+R6
+R7
+R8
+R9
+L0 48
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+vsisotb
+R4
+!i10b 1
+!s100 ]GhVJE:0^?X3Kj3J^3F:R1
+I@;>cmFN6IF[fmIIFVjRlD0
+R5
+R6
+R7
+R8
+R9
+L0 66
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2

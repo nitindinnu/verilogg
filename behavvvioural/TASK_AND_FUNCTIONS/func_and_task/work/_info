@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS
+vdecoder_4x16u3x8
+Z0 !s110 1675141390
+!i10b 1
+!s100 AKUGAR6FBfE2U;o?;_b<Q1
+I?VR?OmP>1_Y]H_mg1JFel2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/func_and_task
+Z3 w1675141138
+Z4 8D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/func_and_task/TASK_decoder4x16_from_3x8.v
+Z5 FD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/func_and_task/TASK_decoder4x16_from_3x8.v
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1675141390.000000
+!s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/func_and_task/TASK_decoder4x16_from_3x8.v|
+Z8 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/func_and_task/TASK_decoder4x16_from_3x8.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+vtb_decoder_4x16u3x8
+R0
+!i10b 1
+!s100 i2gVTMAF[HLeS0`IcGPJ11
+IJ8iU]TTL@dXn6HcJlLzIK0
+R1
+R2
+R3
+R4
+R5
+L0 36
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/func_and_task/TASK_decoder4x16_from_3x8.v|
+R8
+!i113 0
+R9
+R10

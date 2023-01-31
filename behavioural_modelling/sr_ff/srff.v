@@ -6,8 +6,10 @@ module srff_dut (
 
     always @(posedge clk ) begin
         if(clear==1'b1)begin
-            q<=1'b0;qb=1'b1;
+            // q<=1'b0;qb=1'b1;
+            {q,qb} = 2'b01;
         end
+
         else begin
             case ({s,r})
                 default : {q,qb} = 2'bxx;

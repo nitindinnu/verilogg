@@ -9,22 +9,22 @@ z2
 cModel Technology
 dD:/Obsi/verilogg/gate_level_and_structural/gate_level/encoder_gatelevel
 T_opt
-!s110 1673420616
-Vz3JP4XVVEojlbi:`Wl_c^0
+!s110 1674493040
+V@R1c?o_S>GcAVoYF1lTAR3
 04 5 4 work tb_jk fast 0
-=1-50814090a273-63be5f48-2a1-1360
+=1-50814090a273-63cebc70-11-4f6c
 o-quiet -auto_acc_if_foreign -work work +acc
 Z0 tCvgOpt 0
 n@_opt
 OL;O;10.7c;67
 vjkflipflop
-Z1 !s110 1673420604
+Z1 !s110 1674493030
 !i10b 1
 !s100 20M>^YV2Mk>bP[Q>YP6o`2
 InGdfaAL2jCjABFiEnUgz11
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 dD:/Obsi/verilogg/behavioural_modelling/jkflipflop
-Z4 w1673420596
+Z4 w1673421579
 Z5 8D:/Obsi/verilogg/behavioural_modelling/jkflipflop/jkflipflop.v
 Z6 FD:/Obsi/verilogg/behavioural_modelling/jkflipflop/jkflipflop.v
 L0 2
@@ -32,7 +32,7 @@ Z7 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z8 !s108 1673420604.000000
+Z8 !s108 1674493030.000000
 Z9 !s107 D:/Obsi/verilogg/behavioural_modelling/jkflipflop/jkflipflop.v|
 Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavioural_modelling/jkflipflop/jkflipflop.v|
 !i113 0
@@ -41,14 +41,14 @@ R0
 vtb_jk
 R1
 !i10b 1
-!s100 Ld=9NgkKKK[V7<kBAf0SJ3
-IPgYNco0YXO8>GaPWAMZ<o0
+!s100 ]iERCeK_^:l:XHbLDYOCg0
+IOZla`:kc6IoE1fA_8HP_N1
 R2
 R3
 R4
 R5
 R6
-L0 30
+L0 31
 R7
 r1
 !s85 0

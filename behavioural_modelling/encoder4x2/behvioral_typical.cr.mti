@@ -1,0 +1,72 @@
+D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/interview_ques1.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/interview_ques1.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module ques1
+
+Top level modules:
+	ques1
+
+} {} {}} D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swap_two_var.v {0 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swap_two_var.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module swap1
+-- Compiling module tb_swap1
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swap_two_var.v(21): (vlog-2730) Undefined variable: 'clk'.
+
+} {5.0 6.0} {}} D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/mux_selectionlines_as_input,real,reg,wire.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/mux_selectionlines_as_input,real,reg,wire.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux_sel_input
+-- Compiling module tb_mux_sel_input
+-- Compiling module mux_sel_integer
+-- Compiling module tb_mux_sel_integer
+-- Compiling module mux_sel_real
+-- Compiling module tb_mux_sel_real
+-- Compiling module mux_sel_wire
+-- Compiling module tb_mux_sel_wire
+
+Top level modules:
+	tb_mux_sel_input
+	tb_mux_sel_integer
+	tb_mux_sel_real
+	tb_mux_sel_wire
+
+} {} {}} D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swap_two1.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swap_two1.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module swap2nonblocking
+-- Compiling module swap2blocking
+
+Top level modules:
+	swap2nonblocking
+	swap2blocking
+
+} {} {}} D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v {0 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module swap_var_vector
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(3): (vlog-2110) Illegal reference to memory "a".
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(3): Illegal LHS of assignment.
+** Error (suppressible): D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(3): (vlog-2997) Cannot assign a packed type 'reg signed[31:0]' to an unpacked type 'integer $[8:0]'.
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(4): (vlog-2110) Illegal reference to memory "b".
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(4): Illegal LHS of assignment.
+** Error (suppressible): D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(4): (vlog-2997) Cannot assign a packed type 'reg signed[31:0]' to an unpacked type 'integer $[8:0]'.
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(6): (vlog-2110) Illegal reference to memory "a".
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(6): Illegal LHS of assignment.
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(6): (vlog-2110) Illegal reference to memory "a".
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(6): (vlog-2110) Illegal reference to memory "b".
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(6): (vlog-2990) Illegal operation on unpacked type.
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(7): (vlog-2110) Illegal reference to memory "b".
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(7): Illegal LHS of assignment.
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(7): (vlog-2110) Illegal reference to memory "a".
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(7): (vlog-2110) Illegal reference to memory "b".
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(7): (vlog-2990) Illegal operation on unpacked type.
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(8): (vlog-2110) Illegal reference to memory "a".
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(8): Illegal LHS of assignment.
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(8): (vlog-2110) Illegal reference to memory "a".
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(8): (vlog-2110) Illegal reference to memory "b".
+** Error: D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/swapp_var_vector.v(8): (vlog-2990) Illegal operation on unpacked type.
+
+} {4.0 6.0 7.0 9.0 10.0 25.0} {}} D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/blc-nonblk.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/block-nonblock_interview/blc-nonblk.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module blk_nonblk
+
+Top level modules:
+	blk_nonblk
+
+} {} {}}

@@ -1,0 +1,18 @@
+D:/Obsi/verilogg/behavvvioural/FLIP_FLOPS/SR/SR_flipflop.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/FLIP_FLOPS/SR/SR_flipflop.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module SR_FF
+-- Compiling module sr_ff_tb
+
+Top level modules:
+	sr_ff_tb
+
+} {} {}} D:/Obsi/verilogg/behavvvioural/FLIP_FLOPS/SR/SR_FF_ASYNC.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/FLIP_FLOPS/SR/SR_FF_ASYNC.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module SR_FF_async
+-- Compiling module sr_ff_async_tb
+
+Top level modules:
+	SR_FF_async
+	sr_ff_async_tb
+
+} {} {}}

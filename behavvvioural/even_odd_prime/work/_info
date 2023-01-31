@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_10.7c/examples
+veven_odd_in_veri
+Z0 !s110 1674557319
+!i10b 1
+!s100 V5h_^OB=0H93]MGkYISUI0
+IYN]S9@ZO3h_H=FPBco@3^3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Obsi/verilogg/behavvvioural/even_odd_prime
+w1674553813
+8D:/Obsi/verilogg/behavvvioural/even_odd_prime/even_odd.v
+FD:/Obsi/verilogg/behavvvioural/even_odd_prime/even_odd.v
+L0 1
+Z3 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z4 !s108 1674557319.000000
+!s107 D:/Obsi/verilogg/behavvvioural/even_odd_prime/even_odd.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/even_odd_prime/even_odd.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vprime_in_veri_1
+R0
+!i10b 1
+!s100 8jQCbaK>LL0?VgjJG8L3j2
+I5jWdKST<HbNhLYBci8DIj3
+R1
+R2
+w1674557142
+8D:/Obsi/verilogg/behavvvioural/even_odd_prime/prime.v
+FD:/Obsi/verilogg/behavvvioural/even_odd_prime/prime.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Obsi/verilogg/behavvvioural/even_odd_prime/prime.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/even_odd_prime/prime.v|
+!i113 0
+R5
+R6

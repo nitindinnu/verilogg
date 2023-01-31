@@ -1,0 +1,99 @@
+WindowType FullviewSchematic /PISO
+DesignChecksum {P20:nR^1Zjg]CMlRm;G723}
+RoutedNets {}
+RoutedInst {/PISO/#ALWAYS#6/__10 1 /PISO/#ALWAYS#6/__9 1 /PISO/#ALWAYS#6/__5 1 /PISO/#ALWAYS#6/__11 1 /PISO/#ALWAYS#6/__6 1 /PISO/#ALWAYS#6/__7 1 /PISO/#ALWAYS#6/__3 1 /PISO/#ALWAYS#6 1 /PISO/#ALWAYS#6/__8 1 /PISO/#ALWAYS#6/__4 1}
+WindowPreferences {showhierarchy 1 showacttime 1 inoutlocation 1 selequivnets 0 hidebuffers 0 hidecells 1 hideinverters 0 selectenv 1 autowave 1 lognets 1 popupenabled 1 mouseoverenabled 1 showdunames 0 showinstnames 1 shownetnames 0 shownetnamestyle corner shownetstate 0 showpinnames 1 showripindices 1 showvalues 1 verticaltext 1 netxFollowsControlLogic 0 netxMaxGates 1024 netxMaxLevels 32 use_code_preview 1 time0_warning 1 depth_warning 1 add_error_warning 1 diverge_warning 1}
+EndOfStateInfo
+# File saved with Nlview version 6.6.36_0 (04/08/25-18:45:38 bk=1.779)
+#
+property -reset
+property autobundle 20
+property boxcolor0 #00ffff
+property boxcolor1 #999999
+property boxinstcolor #ffffff
+property boxpincolor #00ffff
+property buscolor #ffff00
+property closeenough 3
+property enablebufferchaincollapsing 1
+property enablescrollrect 1
+property evaluateattrvalue 1
+property extractsequentiallogic 2
+property gatepinname 1
+property incrementmode 2
+property inferbundlename 1
+property instattrmax 50
+property objecthighlight3 #008000
+property objecthighlight4 #ff00ff
+property objecthighlight5 #ffd700
+property objecthighlight6 #0000ff
+property objecthighlight9 #fa8072
+property outboxcolor1 #a52a2a
+property outboxcolor2 #000000
+property outboxcolor4 #000000
+property outfblevel 10
+property picksubnet 1
+property pinattrmax 50
+property pinorder 1
+property questalayoutimprovement 1
+property recursivecallerrorlen 10
+property searchvisibleobjects 1
+property selectbycolor9 1
+property showcellname 0
+property showmarks 1
+property shownetattr 4
+property showripindex 3
+property timelimit 50
+
+module new v {} -nosplit
+load symbol /PISO/#ALWAYS#6/__3 v GEN port Q output.right port D input.left port CK input.clk.left
+load symbol /PISO/#ALWAYS#6/__4 v GEN portBus Q output.right 3 {qq[0]} {qq[1]} {qq[2]} portBus D input.left 3 {dbgTemp1_qq_2[2]} {dbgTemp1_qq_2[1]} {dbgTemp1_qq_2[0]} port CK input.clk.left
+load symbol /PISO/#ALWAYS#6/__5 v GEN port Q output.right port D input.left port CK input.clk.left
+load symbol /PISO/#ALWAYS#6 v HIERGEN portBus data input.left 4 {data[0]} {data[1]} {data[2]} {data[3]} port 3'b000 input.left port 1'b0 input.left port reset input.bot port sel input.bot port clk input.clk.left portBus qq output.right 4 {qq[0]} {qq[1]} {qq[2]} {qq[3]} port v output.right
+load symbol /PISO/#ALWAYS#6/__6 v MUX portBus dbgTemp1_qq_2 output.right 3 {dbgTemp1_qq_2[2]} {dbgTemp1_qq_2[1]} {dbgTemp1_qq_2[0]} portBus 3'b000 input.left 1 3'b000_0 portBus dbgTemp1_qq_1 input.left 3 {dbgTemp1_qq_1[2]} {dbgTemp1_qq_1[1]} {dbgTemp1_qq_1[0]} port reset input.bot
+load symbol /PISO/#ALWAYS#6/__10 v MUX port {dbgTemp1_qq_1[3]} output.right port {data[3]} input.left port 1'b0 input.left port sel input.bot
+load symbol /PISO/#ALWAYS#6/__7 v MUX port {dbgTemp1_qq_2[3]} output.right port 1'b0 input.left port {dbgTemp1_qq_1[3]} input.left port reset input.bot
+load symbol /PISO/#ALWAYS#6/__11 v MUX port dbgTemp1_v_1 output.right port v input.left port {qq[0]} input.left port sel input.bot
+load symbol /PISO/#ALWAYS#6/__8 v MUX port dbgTemp1_v_2 output.right port v input.left port dbgTemp1_v_1 input.left port reset input.bot
+load symbol /PISO/#ALWAYS#6/__9 v MUX portBus dbgTemp1_qq_1 output.right 3 {dbgTemp1_qq_1[2]} {dbgTemp1_qq_1[1]} {dbgTemp1_qq_1[0]} portBus data input.left 3 {data[0]} {data[1]} {data[2]} portBus qq input.left 3 {qq[1]} {qq[2]} {qq[3]} port sel input.bot
+load port /PISO/v output -pg 1
+load port /PISO/reset input -pg 1
+load port /PISO/sel input -pg 1
+load port /PISO/clk input -pg 1
+load portBus /PISO/data input 4 {data[0]} {data[1]} {data[2]} {data[3]} -pg 1
+load inst /PISO/#ALWAYS#6 /PISO/#ALWAYS#6 v -unfold -autohide -attr @cell {} -attr acc {} -attr @name #ALWAYS#6 -attr @abstract_id 2 -attr @block_filled 1 -x 248 -y 50 -pg 1
+load inst /PISO/#ALWAYS#6/__10 /PISO/#ALWAYS#6/__10 v -hier /PISO/#ALWAYS#6 -attr @cell {} -attr acc {} -attr @name {} -pinAttr {dbgTemp1_qq_1[3]} @name {} -pinAttr {data[3]} @innername 1 -pinAttr 1'b0 @attr 0 -pinAttr 1'b0 @name {} -pinAttr 1'b0 @innername 0 -x 193 -y 200 -pg 1
+load inst /PISO/#ALWAYS#6/__11 /PISO/#ALWAYS#6/__11 v -hier /PISO/#ALWAYS#6 -attr @cell {} -attr acc {} -attr @name {} -pinAttr dbgTemp1_v_1 @name {} -pinAttr v @innername 1 -pinAttr {qq[0]} @innername 0 -x 939 -y 300 -pg 1
+load inst /PISO/#ALWAYS#6/__3 /PISO/#ALWAYS#6/__3 v -hier /PISO/#ALWAYS#6 -attr @cell {} -attr acc {} -attr @name {} -x 1240 -y 300 -pg 1
+load inst /PISO/#ALWAYS#6/__4 /PISO/#ALWAYS#6/__4 v -hier /PISO/#ALWAYS#6 -attr @cell {} -attr acc {} -attr @name {} -x 674 -y 410 -pg 1
+load inst /PISO/#ALWAYS#6/__5 /PISO/#ALWAYS#6/__5 v -hier /PISO/#ALWAYS#6 -attr @cell {} -attr acc {} -attr @name {} -x 674 -y 480 -pg 1
+load inst /PISO/#ALWAYS#6/__6 /PISO/#ALWAYS#6/__6 v -hier /PISO/#ALWAYS#6 -attr @cell {} -attr acc {} -attr @name {} -pinBusAttr dbgTemp1_qq_2 @name {} -pinBusAttr 3'b000 @attr 3'h0 -pinBusAttr 3'b000 @name {} -pinBusAttr 3'b000 @innername 1 -pinBusAttr dbgTemp1_qq_1 @name {} -pinBusAttr dbgTemp1_qq_1 @innername 0 -x 438 -y 60 -pg 1
+load inst /PISO/#ALWAYS#6/__7 /PISO/#ALWAYS#6/__7 v -hier /PISO/#ALWAYS#6 -attr @cell {} -attr acc {} -attr @name {} -pinAttr {dbgTemp1_qq_2[3]} @name {} -pinAttr 1'b0 @attr 0 -pinAttr 1'b0 @name {} -pinAttr 1'b0 @innername 1 -pinAttr {dbgTemp1_qq_1[3]} @name {} -pinAttr {dbgTemp1_qq_1[3]} @innername 0 -x 438 -y 170 -pg 1
+load inst /PISO/#ALWAYS#6/__8 /PISO/#ALWAYS#6/__8 v -hier /PISO/#ALWAYS#6 -attr @cell {} -attr acc {} -attr @name {} -pinAttr dbgTemp1_v_2 @name {} -pinAttr v @innername 1 -pinAttr dbgTemp1_v_1 @name {} -pinAttr dbgTemp1_v_1 @innername 0 -x 1104 -y 290 -pg 1
+load inst /PISO/#ALWAYS#6/__9 /PISO/#ALWAYS#6/__9 v -hier /PISO/#ALWAYS#6 -attr @cell {} -attr acc {} -attr @name {} -pinBusAttr dbgTemp1_qq_1 @name {} -pinBusAttr data @innername 1 -pinBusAttr qq @innername 0 -x 193 -y 70 -pg 1
+load net {/PISO/data[3]} -attr @name {data[3]} -attr @simnet 4 -attr @attrvalue 1'hz -attr @attr 1'hz -pin /PISO/#ALWAYS#6 {data[3]} -hierPin /PISO/#ALWAYS#6 {data[3]} -pin /PISO/#ALWAYS#6/__10 {data[3]} -port {data[3]}
+load net {/PISO/qq[3]} -attr @name {qq[3]} -attr @simnet 11 -attr @attrvalue x -attr @attr x -pin /PISO/#ALWAYS#6 {qq[3]} -hierPin /PISO/#ALWAYS#6 {qq[3]} -pin /PISO/#ALWAYS#6/__5 Q -pin /PISO/#ALWAYS#6/__9 {qq[3]}
+load net /PISO/clk -attr @name clk -attr @simnet 7 -attr @attrvalue 1'hz -attr @attr 1'hz -pin /PISO/#ALWAYS#6 clk -hierPin /PISO/#ALWAYS#6 clk -pin /PISO/#ALWAYS#6/__3 CK -pin /PISO/#ALWAYS#6/__4 CK -pin /PISO/#ALWAYS#6/__5 CK -port /PISO/clk
+load net {/PISO/dbgTemp1_qq_1[0]} -attr @name {} -attr @attr #EVALUATE -pin /PISO/#ALWAYS#6/__6 {dbgTemp1_qq_1[0]} -pin /PISO/#ALWAYS#6/__9 {dbgTemp1_qq_1[0]}
+load net {/PISO/dbgTemp1_qq_2[0]} -attr @name {} -attr @attr #EVALUATE -pin /PISO/#ALWAYS#6/__4 {dbgTemp1_qq_2[0]} -pin /PISO/#ALWAYS#6/__6 {dbgTemp1_qq_2[0]}
+load net {/PISO/dbgTemp1_qq_1[1]} -attr @name {} -attr @attr #EVALUATE -pin /PISO/#ALWAYS#6/__6 {dbgTemp1_qq_1[1]} -pin /PISO/#ALWAYS#6/__9 {dbgTemp1_qq_1[1]}
+load net {/PISO/dbgTemp1_qq_2[1]} -attr @name {} -attr @attr #EVALUATE -pin /PISO/#ALWAYS#6/__4 {dbgTemp1_qq_2[1]} -pin /PISO/#ALWAYS#6/__6 {dbgTemp1_qq_2[1]}
+load net {/PISO/dbgTemp1_qq_1[2]} -attr @name {} -attr @attr #EVALUATE -pin /PISO/#ALWAYS#6/__6 {dbgTemp1_qq_1[2]} -pin /PISO/#ALWAYS#6/__9 {dbgTemp1_qq_1[2]}
+load net /PISO/sel -attr @name sel -attr @simnet 6 -attr @attrvalue 1'hz -attr @attr 1'hz -pin /PISO/#ALWAYS#6 sel -hierPin /PISO/#ALWAYS#6 sel -pin /PISO/#ALWAYS#6/__10 sel -pin /PISO/#ALWAYS#6/__11 sel -pin /PISO/#ALWAYS#6/__9 sel -port /PISO/sel
+load net {/PISO/dbgTemp1_qq_2[2]} -attr @name {} -attr @attr #EVALUATE -pin /PISO/#ALWAYS#6/__4 {dbgTemp1_qq_2[2]} -pin /PISO/#ALWAYS#6/__6 {dbgTemp1_qq_2[2]}
+load net /PISO/dbgTemp1_v_1 -attr @name {} -attr @attr #EVALUATE -pin /PISO/#ALWAYS#6/__11 dbgTemp1_v_1 -pin /PISO/#ALWAYS#6/__8 dbgTemp1_v_1
+load net {/PISO/dbgTemp1_qq_1[3]} -attr @name {} -attr @attr #EVALUATE -pin /PISO/#ALWAYS#6/__10 {dbgTemp1_qq_1[3]} -pin /PISO/#ALWAYS#6/__7 {dbgTemp1_qq_1[3]}
+load net /PISO/dbgTemp1_v_2 -attr @name {} -attr @attr #EVALUATE -pin /PISO/#ALWAYS#6/__3 D -pin /PISO/#ALWAYS#6/__8 dbgTemp1_v_2
+load net {/PISO/data[0]} -attr @name {data[0]} -attr @simnet 1 -attr @attrvalue 1'hz -attr @attr 1'hz -pin /PISO/#ALWAYS#6 {data[0]} -hierPin /PISO/#ALWAYS#6 {data[0]} -pin /PISO/#ALWAYS#6/__9 {data[0]} -port {data[0]}
+load net {/PISO/qq[0]} -attr @name {qq[0]} -attr @simnet 8 -attr @attrvalue x -attr @attr x -pin /PISO/#ALWAYS#6 {qq[0]} -hierPin /PISO/#ALWAYS#6 {qq[0]} -pin /PISO/#ALWAYS#6/__11 {qq[0]} -pin /PISO/#ALWAYS#6/__4 {qq[0]}
+load net /PISO/reset -attr @name reset -attr @simnet 5 -attr @attrvalue 1'hz -attr @attr 1'hz -pin /PISO/#ALWAYS#6 reset -hierPin /PISO/#ALWAYS#6 reset -pin /PISO/#ALWAYS#6/__6 reset -pin /PISO/#ALWAYS#6/__7 reset -pin /PISO/#ALWAYS#6/__8 reset -port /PISO/reset
+load net {/PISO/dbgTemp1_qq_2[3]} -attr @name {} -attr @attr #EVALUATE -pin /PISO/#ALWAYS#6/__5 D -pin /PISO/#ALWAYS#6/__7 {dbgTemp1_qq_2[3]}
+load net /PISO/v -attr @name v -attr @simnet 12 -attr @attrvalue 1'hx -attr @attr 1'hx -pin /PISO/#ALWAYS#6 v -hierPin /PISO/#ALWAYS#6 v -pin /PISO/#ALWAYS#6/__11 v -pin /PISO/#ALWAYS#6/__3 Q -pin /PISO/#ALWAYS#6/__8 v -port /PISO/v
+load net {/PISO/data[1]} -attr @name {data[1]} -attr @simnet 2 -attr @attrvalue 1'hz -attr @attr 1'hz -pin /PISO/#ALWAYS#6 {data[1]} -hierPin /PISO/#ALWAYS#6 {data[1]} -pin /PISO/#ALWAYS#6/__9 {data[1]} -port {data[1]}
+load net {/PISO/qq[1]} -attr @name {qq[1]} -attr @simnet 9 -attr @attrvalue x -attr @attr x -pin /PISO/#ALWAYS#6 {qq[1]} -hierPin /PISO/#ALWAYS#6 {qq[1]} -pin /PISO/#ALWAYS#6/__4 {qq[1]} -pin /PISO/#ALWAYS#6/__9 {qq[1]}
+load net {/PISO/data[2]} -attr @name {data[2]} -attr @simnet 3 -attr @attrvalue 1'hz -attr @attr 1'hz -pin /PISO/#ALWAYS#6 {data[2]} -hierPin /PISO/#ALWAYS#6 {data[2]} -pin /PISO/#ALWAYS#6/__9 {data[2]} -port {data[2]}
+load net {/PISO/qq[2]} -attr @name {qq[2]} -attr @simnet 10 -attr @attrvalue x -attr @attr x -pin /PISO/#ALWAYS#6 {qq[2]} -hierPin /PISO/#ALWAYS#6 {qq[2]} -pin /PISO/#ALWAYS#6/__4 {qq[2]} -pin /PISO/#ALWAYS#6/__9 {qq[2]}
+greymode off
+show 1
+zoom 0.83573
+scrollpos 0 -78
+

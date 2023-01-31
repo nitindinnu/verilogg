@@ -1,0 +1,267 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1674803307
+VYM:AV4Z8<Cz5U95=KiXgh3
+04 11 4 work up_count_tb fast 0
+=1-50814090a273-63d3786b-2a8-420c
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1674885712
+VXWlmJT0fjMc_[2VOmalzo2
+04 7 4 work PISO_tb fast 0
+=1-50814090a273-63d4ba50-c8-44b0
+R1
+R2
+n@_opt1
+R3
+R0
+vAscending_order
+Z4 !s110 1674885706
+!i10b 1
+!s100 DHV5Z9ZXUUBC?[dZ>F;^`2
+IFco2Sk1lh1Pg1SiPJ8]O_3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/vt33_test03
+w1674796733
+8D:/Obsi/verilogg/vt33_test03/Ascending_order.v
+FD:/Obsi/verilogg/vt33_test03/Ascending_order.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1674885706.000000
+!s107 D:/Obsi/verilogg/vt33_test03/Ascending_order.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33_test03/Ascending_order.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@ascending_order
+vjk_flip_flop_master_slave
+R4
+!i10b 1
+!s100 ;9D3=W><obV>n=35T4@2o2
+I7?neYD[YASo>7LbU>XCmY2
+R5
+R6
+Z10 w1674795875
+Z11 8D:/Obsi/verilogg/vt33_test03/JK_master_slave.v
+Z12 FD:/Obsi/verilogg/vt33_test03/JK_master_slave.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+Z13 !s107 D:/Obsi/verilogg/vt33_test03/JK_master_slave.v|
+Z14 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33_test03/JK_master_slave.v|
+!i113 0
+R9
+R2
+vPISO
+R4
+!i10b 1
+!s100 d>[m<9A]lXW:OO`Ka1i_`0
+IcBJQaTXzIPcfiRz^Lg[Mi2
+R5
+R6
+Z15 w1674885695
+Z16 8D:/Obsi/verilogg/vt33_test03/PISO.v
+Z17 FD:/Obsi/verilogg/vt33_test03/PISO.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+Z18 !s107 D:/Obsi/verilogg/vt33_test03/PISO.v|
+Z19 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33_test03/PISO.v|
+!i113 0
+R9
+R2
+n@p@i@s@o
+vPISO_tb
+R4
+!i10b 1
+!s100 j1GJ^GX7SB?0;=@?EXg5<3
+I@o7MZ]O2h61bMiZZ55eLY3
+R5
+R6
+R15
+R16
+R17
+L0 23
+R7
+r1
+!s85 0
+31
+R8
+R18
+R19
+!i113 0
+R9
+R2
+n@p@i@s@o_tb
+vSR_FF
+R4
+!i10b 1
+!s100 a7oJDPI11@R61_zN29I[B1
+I=g:6OVGn7>WSAS<MHnET[1
+R5
+R6
+Z20 w1674795249
+Z21 8D:/Obsi/verilogg/vt33_test03/SR_to_D.v
+Z22 FD:/Obsi/verilogg/vt33_test03/SR_to_D.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+Z23 !s107 D:/Obsi/verilogg/vt33_test03/SR_to_D.v|
+Z24 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33_test03/SR_to_D.v|
+!i113 0
+R9
+R2
+n@s@r_@f@f
+vsr_latch_gated
+R4
+!i10b 1
+!s100 CenMR6<ZIAeii4R?91UX@2
+IkUoK_5I`1ZCam5W:_Smb_1
+R5
+R6
+R10
+R11
+R12
+L0 17
+R7
+r1
+!s85 0
+31
+R8
+R13
+R14
+!i113 0
+R9
+R2
+vSR_to_D
+R4
+!i10b 1
+!s100 UNkmz<5`NOA>Y>Z831m;43
+I:2Y[hf6WEU:TEaEc^>UOH1
+R5
+R6
+R20
+R21
+R22
+L0 26
+R7
+r1
+!s85 0
+31
+R8
+R23
+R24
+!i113 0
+R9
+R2
+n@s@r_to_@d
+vSR_to_D_tb
+R4
+!i10b 1
+!s100 NhViP@_n:e`fiN[U;HZgj1
+IQkLKE0aGB_3@<`0E;aOi70
+R5
+R6
+R20
+R21
+R22
+L0 34
+R7
+r1
+!s85 0
+31
+R8
+R23
+R24
+!i113 0
+R9
+R2
+n@s@r_to_@d_tb
+vtb_jk_masterslave
+R4
+!i10b 1
+!s100 ^9ARGFR6l`aBKj<WU?OAK0
+I^jDgUdP>3Fe10H`cac?HR3
+R5
+R6
+R10
+R11
+R12
+L0 29
+R7
+r1
+!s85 0
+31
+R8
+R13
+R14
+!i113 0
+R9
+R2
+vup_count_tb
+R4
+!i10b 1
+!s100 g`J>QCoH`1GTORV5=6:];0
+IJMUl?n=7ezzWlBg;z5hPf0
+R5
+R6
+Z25 w1674803524
+Z26 8D:/Obsi/verilogg/vt33_test03/up_counter.v
+Z27 FD:/Obsi/verilogg/vt33_test03/up_counter.v
+L0 18
+R7
+r1
+!s85 0
+31
+R8
+Z28 !s107 D:/Obsi/verilogg/vt33_test03/up_counter.v|
+Z29 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33_test03/up_counter.v|
+!i113 0
+R9
+R2
+vup_counter
+R4
+!i10b 1
+!s100 cQeAnzi0^l:527XGlR3i81
+I3InAYCJR:glE^dJ4oX5<k0
+R5
+R6
+R25
+R26
+R27
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R28
+R29
+!i113 0
+R9
+R2

@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_10.7c/examples
+vd_latch
+Z0 !s110 1674462883
+!i10b 1
+!s100 QPi:AeS89YW7eRnAlXl8]2
+Iz3]F0_kg?h6@MgonTjO>B2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Obsi/verilogg/behavvvioural/DLATCH_using_Mux
+Z3 w1674411927
+Z4 8D:/Obsi/verilogg/behavvvioural/DLATCH_using_Mux/DLATCH_using_Mux.v
+Z5 FD:/Obsi/verilogg/behavvvioural/DLATCH_using_Mux/DLATCH_using_Mux.v
+L0 8
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1674462883.000000
+!s107 D:/Obsi/verilogg/behavvvioural/DLATCH_using_Mux/DLATCH_using_Mux.v|
+Z8 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/DLATCH_using_Mux/DLATCH_using_Mux.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+vd_latch_tb
+R0
+!i10b 1
+!s100 KW3HY3`1aDmVk:N<8:bjN3
+IMQJ?kz7:l>OIjSPZ=JZi<0
+R1
+R2
+R3
+R4
+R5
+L0 14
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 D:/Obsi/verilogg/behavvvioural/DLATCH_using_Mux/DLATCH_using_Mux.v|
+R8
+!i113 0
+R9
+R10
+vmux2x1
+R0
+!i10b 1
+!s100 QMYm0BGWh<]zUbN;;bZB:2
+IzFQOOC9M^]88`Enl_Bfnk2
+R1
+R2
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10

@@ -1,0 +1,15 @@
+D:/Obsi/verilogg/behavvvioural/even_odd_prime/prime.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/even_odd_prime/prime.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module prime_in_veri_1
+
+Top level modules:
+	prime_in_veri_1
+
+} {} {}} D:/Obsi/verilogg/behavvvioural/even_odd_prime/even_odd.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/even_odd_prime/even_odd.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module even_odd_in_veri
+
+Top level modules:
+	even_odd_in_veri
+
+} {} {}}

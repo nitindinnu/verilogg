@@ -1,0 +1,18 @@
+D:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/muxNx1.v {0 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/muxNx1.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module muxNx1_dut
+-- Compiling module MuxNx1_tb
+** Error: D:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/muxNx1.v(24): (vlog-2730) Undefined variable: 'power_n'.
+
+} {5.0 6.0} {}} D:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/mux2x1_using_if.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/COMBINATIONAL/muxNx1/mux2x1_using_if.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux2x1_using_if
+-- Compiling module mux4x1
+-- Compiling module mux2x1_using_if_tb
+-- Compiling module mux4x1_if_tb
+
+Top level modules:
+	mux2x1_using_if_tb
+	mux4x1_if_tb
+
+} {} {}}

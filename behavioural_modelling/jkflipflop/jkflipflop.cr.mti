@@ -1,1 +1,9 @@
+D:/Obsi/verilogg/behavioural_modelling/jkflipflop/jkflipflop.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavioural_modelling/jkflipflop/jkflipflop.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module jkflipflop
+-- Compiling module tb_jk
 
+Top level modules:
+	tb_jk
+
+} {} {}}

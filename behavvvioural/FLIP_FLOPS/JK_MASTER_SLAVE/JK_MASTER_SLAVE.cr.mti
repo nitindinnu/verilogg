@@ -1,0 +1,19 @@
+D:/Obsi/verilogg/behavvvioural/FLIP_FLOPS/JK_MASTER_SLAVE/JK_MASTER_SLAVE.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\behavvvioural\FLIP_FLOPS\JK_MASTER_SLAVE\JK_MASTER_SLAVE.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module SR_LATCH_gated_nand
+-- Compiling module JK_MASTER_SLAVE
+-- Compiling module tb_jk_masterslave
+
+Top level modules:
+	tb_jk_masterslave
+
+} {} {}} D:/Obsi/verilogg/behavvvioural/FLIP_FLOPS/JK_MASTER_SLAVE/jk_ms_barrywatson.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\behavvvioural\FLIP_FLOPS\JK_MASTER_SLAVE\jk_ms_barrywatson.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module jk_flip_flop_master_slave
+-- Compiling module sr_latch_gated
+-- Compiling module tb_jk_masterslave_barrywatson
+
+Top level modules:
+	tb_jk_masterslave_barrywatson
+
+} {} {}}
