@@ -1,0 +1,17 @@
+{D:/Obsi/verilogg/behavvvioural/FINITE STATE MACHINES/MOORE/MOORE_1001_overlapping.v} {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MOORE\MOORE_1001_overlapping.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module MOORE_1001_overlap
+-- Compiling module tb_MOORE_1001_overlap
+
+Top level modules:
+	tb_MOORE_1001_overlap
+
+} {} {}} {D:/Obsi/verilogg/behavvvioural/FINITE STATE MACHINES/MOORE/MOORE_1001_nonoverlap.v} {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MOORE\MOORE_1001_nonoverlap.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module MOORE_1001_nonoverlap
+-- Compiling module tb_MOORE_1001_nonoverlap
+
+Top level modules:
+	tb_MOORE_1001_nonoverlap
+
+} {} {}}

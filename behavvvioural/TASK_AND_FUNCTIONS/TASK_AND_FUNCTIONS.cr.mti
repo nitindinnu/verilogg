@@ -1,1 +1,48 @@
+D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_as_tb_bit4FA.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_as_tb_bit4FA.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module task_as_tb_bit4FA
+-- Compiling module ttb_TASK_as_tb_bit4FA
 
+Top level modules:
+	ttb_TASK_as_tb_bit4FA
+
+} {} {}} D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_Mux4X1.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_Mux4X1.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux4x1
+-- Compiling module mux4x1_tb
+
+Top level modules:
+	mux4x1_tb
+
+} {} {}} D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_bit4FA.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_bit4FA.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module bit4FA_using_task
+-- Compiling module tb_4bit_fa
+
+Top level modules:
+	tb_4bit_fa
+
+} {} {}} D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module decoder4x16__using_3x8
+-- Compiling module tb_decoder4x16__using_3x8
+
+Top level modules:
+	tb_decoder4x16__using_3x8
+
+} {} {}} D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_calling_a_TASK.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\behavvvioural\TASK_AND_FUNCTIONS\TASK_calling_a_TASK.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module TASK_calling_a_TASK
+
+Top level modules:
+	TASK_calling_a_TASK
+
+} {} {}} D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_xor_as_not_buffer.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_xor_as_not_buffer.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module xor_as_buffer_inverter
+-- Compiling module xor_as_buffer_inverter_tb
+
+Top level modules:
+	xor_as_buffer_inverter_tb
+
+} {} {}}

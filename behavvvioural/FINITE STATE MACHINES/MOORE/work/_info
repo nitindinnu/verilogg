@@ -1,0 +1,169 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Obsi/verilogg/behavvvioural/FINITE STATE MACHINES/MEALAY
+T_opt
+!s110 1675415404
+VIhLGQak@N167Ja6J`WRdn1
+04 24 4 work tb_MOORE_1001_nonoverlap fast 0
+=1-50814090a273-63dccf6c-22c-2190
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1675419854
+V?13T]3FE>COBbac6bQ[g80
+04 21 4 work tb_MOORE_1001_overlap fast 0
+=1-50814090a273-63dce0ce-112-136c
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1675426622
+V]=KNeA=WFea[E:Y3`Me_53
+04 21 4 work tb_moore_1x01_overlap fast 0
+=1-50814090a273-63dcfb3e-1d7-2cdc
+R1
+R2
+n@_opt2
+R3
+vMOORE_1001_nonoverlap
+Z4 !s110 1675426611
+!i10b 1
+!s100 n<k<mAVJ9^L4Jj:8`HVzc2
+IgYg6<cUV]>6NNiSfJeGXh2
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/behavvvioural/FINITE STATE MACHINES/MOORE
+Z7 w1675419033
+Z8 8D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MOORE\MOORE_1001_nonoverlap.v
+Z9 FD:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MOORE\MOORE_1001_nonoverlap.v
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1675426611.000000
+Z12 !s107 D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MOORE\MOORE_1001_nonoverlap.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MOORE\MOORE_1001_nonoverlap.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@m@o@o@r@e_1001_nonoverlap
+vMOORE_1001_overlap
+R4
+!i10b 1
+!s100 SgNA^:fo4OC<O;ZMTF_UT3
+I?dNOIV?1[jTEhEITaOg_D3
+R5
+R6
+Z15 w1675419799
+Z16 8D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MOORE\MOORE_1001_overlapping.v
+Z17 FD:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MOORE\MOORE_1001_overlapping.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+Z18 !s107 D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MOORE\MOORE_1001_overlapping.v|
+Z19 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MOORE\MOORE_1001_overlapping.v|
+!i113 0
+R14
+R2
+n@m@o@o@r@e_1001_overlap
+vmoore_1x01_overlap
+R4
+!i10b 1
+!s100 RGaaSaKHYJQ6T1;Zg0n:W3
+ID8;;z8>@0Y3nTOi25LmgC2
+R5
+R6
+Z20 w1675426601
+Z21 8D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MOORE\moore_1x01_overlap.v
+Z22 FD:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MOORE\moore_1x01_overlap.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+Z23 !s107 D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MOORE\moore_1x01_overlap.v|
+Z24 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MOORE\moore_1x01_overlap.v|
+!i113 0
+R14
+R2
+vtb_MOORE_1001_nonoverlap
+R4
+!i10b 1
+!s100 ?SEcnE08kdJ5QNAhTf@XX0
+IJV2`CE2NDUoGS3F7S0=<D1
+R5
+R6
+R7
+R8
+R9
+Z25 L0 29
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+ntb_@m@o@o@r@e_1001_nonoverlap
+vtb_MOORE_1001_overlap
+R4
+!i10b 1
+!s100 ]f`>K]AGbT^;XYQ?JWo4>2
+ImJ=?bMPN[A;L?GBmD2GR20
+R5
+R6
+R15
+R16
+R17
+R25
+R10
+r1
+!s85 0
+31
+R11
+R18
+R19
+!i113 0
+R14
+R2
+ntb_@m@o@o@r@e_1001_overlap
+vtb_moore_1x01_overlap
+R4
+!i10b 1
+!s100 gec6:_WRUCgd=JP814cb_2
+I5CT2YPC[AXFEm>gGl5cRa0
+R5
+R6
+R20
+R21
+R22
+L0 35
+R10
+r1
+!s85 0
+31
+R11
+R23
+R24
+!i113 0
+R14
+R2

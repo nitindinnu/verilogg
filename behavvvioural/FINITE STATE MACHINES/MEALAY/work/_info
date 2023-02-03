@@ -1,0 +1,113 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1675405473
+VN0:_0_9aPdM]R1Tg[H5O33
+04 24 4 work tb_mealay_101_nonoverlap fast 0
+=1-50814090a273-63dca8a0-3ce-4428
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1675407663
+V;N1i0M]55zg<ihm165CgM0
+04 21 4 work tb_mealay_101_overlap fast 0
+=1-50814090a273-63dcb12f-1ef-36c8
+R1
+R2
+n@_opt1
+R3
+vmealay_101_nonoverlap
+Z4 !s110 1675407656
+!i10b 1
+!s100 ZmWkCWC=6E@lUXlDTU<=42
+I18_R0kCZb55mWAMNM0B>H2
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/behavvvioural/FINITE STATE MACHINES/MEALAY
+Z7 w1675405457
+Z8 8D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101.v
+Z9 FD:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101.v
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1675407656.000000
+Z12 !s107 D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vmealay_101_overlap
+R4
+!i10b 1
+!s100 b5Bog?dS;[e0Mbaf8R3gc2
+IEFWRc[=h6@<2N>UhOkPa23
+R5
+R6
+Z15 w1675407653
+Z16 8D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101_overlap.v
+Z17 FD:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101_overlap.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+Z18 !s107 D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101_overlap.v|
+Z19 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101_overlap.v|
+!i113 0
+R14
+R2
+vtb_mealay_101_nonoverlap
+R4
+!i10b 1
+!s100 QORE^Vb8F4m<MGVk9ZdMQ2
+Iece4g?n@O56G6A0d>`M[13
+R5
+R6
+R7
+R8
+R9
+L0 29
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+vtb_mealay_101_overlap
+R4
+!i10b 1
+!s100 0>14EHCX6DnF7Q;?lR4G;0
+IJ;73Dd_F92_mn:4<aD5a[0
+R5
+R6
+R15
+R16
+R17
+L0 25
+R10
+r1
+!s85 0
+31
+R11
+R18
+R19
+!i113 0
+R14
+R2

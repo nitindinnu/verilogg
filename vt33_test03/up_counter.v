@@ -1,3 +1,4 @@
+//grey counter
 module up_counter #(parameter bit_size = 3) (
     input clk,reset,output reg[bit_size-1:0] g,b
 );  

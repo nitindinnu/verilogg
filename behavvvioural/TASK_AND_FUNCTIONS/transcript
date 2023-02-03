@@ -1,0 +1,342 @@
+# Reading C:/questasim64_10.7c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_AND_FUNCTIONS.mpf
+# Loading project TASK_AND_FUNCTIONS
+# Compile of TASK_calling_a_TASK.v failed with 1 errors.
+# Compile of TASK_calling_a_TASK.v failed with 1 errors.
+# Compile of TASK_calling_a_TASK.v failed with 1 errors.
+# Compile of TASK_calling_a_TASK.v failed with 1 errors.
+# Compile of TASK_calling_a_TASK.v failed with 1 errors.
+# Compile of TASK_calling_a_TASK.v failed with 1 errors.
+# Compile of TASK_calling_a_TASK.v was successful.
+vsim -voptargs=+acc work.TASK_calling_a_TASK
+# vsim -voptargs="+acc" work.TASK_calling_a_TASK 
+# Start time: 14:48:56 on Jan 31,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.TASK_calling_a_TASK(fast)
+# Compile of FUNCTION_Mux4X1.v was successful.
+# Compile of FUNCTION_xor_as_not_buffer.v was successful.
+# Compile of TASK_bit4FA.v was successful.
+# Compile of TASK_decoder4x16__using_3x8.v was successful.
+# Compile of TASK_as_tb_bit4FA.v was successful.
+# Compile of TASK_calling_a_TASK.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of TASK_calling_a_TASK.v was successful.
+vsim -voptargs=+acc work.TASK_calling_a_TASK
+# End time: 14:55:28 on Jan 31,2023, Elapsed time: 0:06:32
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.TASK_calling_a_TASK 
+# Start time: 14:55:28 on Jan 31,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.TASK_calling_a_TASK(fast)
+add wave -position insertpoint  \
+sim:/TASK_calling_a_TASK/a \
+sim:/TASK_calling_a_TASK/b \
+sim:/TASK_calling_a_TASK/y
+run
+# Compile of TASK_calling_a_TASK.v failed with 1 errors.
+# Compile of TASK_calling_a_TASK.v was successful.
+vsim -voptargs=+acc work.TASK_calling_a_TASK
+# End time: 15:01:47 on Jan 31,2023, Elapsed time: 0:06:19
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.TASK_calling_a_TASK 
+# Start time: 15:01:47 on Jan 31,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.TASK_calling_a_TASK(fast)
+add wave -position insertpoint  \
+sim:/TASK_calling_a_TASK/a \
+sim:/TASK_calling_a_TASK/b \
+sim:/TASK_calling_a_TASK/y
+run
+# 1
+# End time: 08:57:13 on Feb 01,2023, Elapsed time: 17:55:26
+# Errors: 0, Warnings: 0
+# Closing project D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_AND_FUNCTIONS.mpf
+# reading C:/questasim64_10.7c/win64/../modelsim.ini
+# Loading project ROM
+# Compile of ROM_8x8.v was successful.
+vsim -voptargs=+acc work.tb_rom
+# vsim -voptargs="+acc" work.tb_rom 
+# Start time: 09:03:49 on Feb 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_rom(fast)
+# Loading work.rom(fast)
+add wave -position insertpoint  \
+sim:/tb_rom/uut/clk \
+sim:/tb_rom/uut/rst \
+sim:/tb_rom/uut/address \
+sim:/tb_rom/uut/data_out \
+sim:/tb_rom/uut/mem
+run
+# Compile of ROM_10KB.v failed with 4 errors.
+# Compile of ROM_10KB.v failed with 2 errors.
+# Compile of ROM_10KB.v failed with 2 errors.
+# Compile of ROM_10KB.v failed with 3 errors.
+# Compile of ROM_10KB.v failed with 4 errors.
+# Compile of ROM_10KB.v failed with 3 errors.
+# Compile of ROM_10KB.v failed with 2 errors.
+# Compile of ROM_10KB.v failed with 2 errors.
+# Compile of ROM_10KB.v failed with 2 errors.
+# Compile of ROM_10KB.v failed with 2 errors.
+# Compile of ROM_10KB.v failed with 1 errors.
+# Compile of ROM_10KB.v failed with 2 errors.
+# Compile of ROM_10KB.v failed with 1 errors.
+# Compile of ROM_10KB.v was successful.
+quit -sim
+# End time: 10:51:12 on Feb 01,2023, Elapsed time: 1:47:23
+# Errors: 0, Warnings: 0
+# Compile of ROM_10KB.v was successful.
+vsim -voptargs=+acc work.tb_ROM_1KB
+# vsim -voptargs="+acc" work.tb_ROM_1KB 
+# Start time: 10:51:34 on Feb 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_ROM_1KB(fast)
+# Loading work.ROM_1KB(fast)
+quit -sim
+# End time: 10:51:47 on Feb 01,2023, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
+# Compile of ROM_8x8.v was successful.
+# Compile of ROM_10KB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_ROM_1KB
+# vsim -voptargs="+acc" work.tb_ROM_1KB 
+# Start time: 10:51:57 on Feb 01,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_ROM_1KB(fast)
+# Loading work.ROM_1KB(fast)
+add wave -position insertpoint  \
+sim:/tb_ROM_1KB/a1/datawidth \
+sim:/tb_ROM_1KB/a1/addresswidth \
+sim:/tb_ROM_1KB/a1/clk \
+sim:/tb_ROM_1KB/a1/reset \
+sim:/tb_ROM_1KB/a1/address \
+sim:/tb_ROM_1KB/a1/dataout \
+sim:/tb_ROM_1KB/a1/register \
+sim:/tb_ROM_1KB/a1/z
+run
+# Compile of ROM_10KB.v failed with 1 errors.
+# Compile of ROM_10KB.v was successful.
+# Compile of ROM_10KB.v was successful.
+vsim -voptargs=+acc work.tb_ROM_1KB
+# End time: 11:04:48 on Feb 01,2023, Elapsed time: 0:12:51
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_ROM_1KB 
+# Start time: 11:04:48 on Feb 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_ROM_1KB(fast)
+# Loading work.ROM_1KB(fast)
+add wave -position insertpoint  \
+sim:/tb_ROM_1KB/a1/datawidth \
+sim:/tb_ROM_1KB/a1/addresswidth \
+sim:/tb_ROM_1KB/a1/clk \
+sim:/tb_ROM_1KB/a1/reset \
+sim:/tb_ROM_1KB/a1/address \
+sim:/tb_ROM_1KB/a1/dataout \
+sim:/tb_ROM_1KB/a1/register \
+sim:/tb_ROM_1KB/a1/z
+run
+# Compile of ROM_10KB.v failed with 1 errors.
+# Compile of ROM_10KB.v was successful.
+# Compile of ROM_10KB.v failed with 2 errors.
+# Compile of ROM_10KB.v failed with 3 errors.
+# Compile of ROM_10KB.v failed with 2 errors.
+# Compile of ROM_10KB.v failed with 1 errors.
+quit -sim
+# End time: 11:35:20 on Feb 01,2023, Elapsed time: 0:30:32
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_ROM_1KB
+# vsim -voptargs="+acc" work.tb_ROM_1KB 
+# Start time: 11:36:57 on Feb 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_ROM_1KB(fast)
+# Loading work.ROM_1KB(fast)
+add wave -position insertpoint  \
+sim:/tb_ROM_1KB/datawidth \
+sim:/tb_ROM_1KB/addresswidth \
+sim:/tb_ROM_1KB/clk \
+sim:/tb_ROM_1KB/reset \
+sim:/tb_ROM_1KB/address \
+sim:/tb_ROM_1KB/dataout
+quit -sim
+# End time: 11:37:21 on Feb 01,2023, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_ROM_1KB
+# vsim -voptargs="+acc" work.tb_ROM_1KB 
+# Start time: 11:37:27 on Feb 01,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_ROM_1KB(fast)
+# Loading work.ROM_1KB(fast)
+add wave -position insertpoint  \
+sim:/tb_ROM_1KB/a1/datawidth \
+sim:/tb_ROM_1KB/a1/addresswidth \
+sim:/tb_ROM_1KB/a1/clk \
+sim:/tb_ROM_1KB/a1/reset \
+sim:/tb_ROM_1KB/a1/address \
+sim:/tb_ROM_1KB/a1/dataout \
+sim:/tb_ROM_1KB/a1/register \
+sim:/tb_ROM_1KB/a1/z
+run
+quit -sim
+# End time: 11:38:16 on Feb 01,2023, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_ROM_1KB
+# vsim -voptargs="+acc" work.tb_ROM_1KB 
+# Start time: 11:38:21 on Feb 01,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_ROM_1KB(fast)
+# Loading work.ROM_1KB(fast)
+add wave -position insertpoint  \
+sim:/tb_ROM_1KB/a1/datawidth \
+sim:/tb_ROM_1KB/a1/addresswidth \
+sim:/tb_ROM_1KB/a1/clk \
+sim:/tb_ROM_1KB/a1/reset \
+sim:/tb_ROM_1KB/a1/address \
+sim:/tb_ROM_1KB/a1/dataout \
+sim:/tb_ROM_1KB/a1/register \
+sim:/tb_ROM_1KB/a1/z
+run
+# Compile of ROM_10KB.v was successful.
+quit -sim
+# End time: 12:00:10 on Feb 01,2023, Elapsed time: 0:21:49
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_ROM_1KB
+# vsim -voptargs="+acc" work.tb_ROM_1KB 
+# Start time: 12:00:14 on Feb 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_ROM_1KB(fast)
+# Loading work.ROM_1KB(fast)
+add wave -position insertpoint  \
+sim:/tb_ROM_1KB/a1/datawidth \
+sim:/tb_ROM_1KB/a1/addresswidth \
+sim:/tb_ROM_1KB/a1/clk \
+sim:/tb_ROM_1KB/a1/reset \
+sim:/tb_ROM_1KB/a1/address \
+sim:/tb_ROM_1KB/a1/dataout \
+sim:/tb_ROM_1KB/a1/register
+run
+# Compile of ROM_10KB.v was successful.
+quit -sim
+# End time: 12:02:30 on Feb 01,2023, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_ROM_1KB
+# vsim -voptargs="+acc" work.tb_ROM_1KB 
+# Start time: 12:02:32 on Feb 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_ROM_1KB(fast)
+# Loading work.ROM_1KB(fast)
+add wave -position insertpoint  \
+sim:/tb_ROM_1KB/a1/datawidth \
+sim:/tb_ROM_1KB/a1/addresswidth \
+sim:/tb_ROM_1KB/a1/clk \
+sim:/tb_ROM_1KB/a1/reset \
+sim:/tb_ROM_1KB/a1/address \
+sim:/tb_ROM_1KB/a1/dataout \
+sim:/tb_ROM_1KB/a1/register
+run
+# Causality operation skipped due to absence of debug database file
+quit -sim
+# End time: 12:14:59 on Feb 01,2023, Elapsed time: 0:12:27
+# Errors: 0, Warnings: 1
+# reading C:/questasim64_10.7c/win64/../modelsim.ini
+# Loading project RAM
+# Compile of RAM_basic.v failed with 1 errors.
+# Compile of RAM_basic.v failed with 1 errors.
+# Compile of RAM_basic.v failed with 13 errors.
+# Compile of RAM_basic.v failed with 3 errors.
+# Compile of RAM_basic.v failed with 1 errors.
+# Compile of RAM_basic.v was successful.
+vsim -voptargs=+acc work.tb_RAM_basic
+# vsim -voptargs="+acc" work.tb_RAM_basic 
+# Start time: 12:45:03 on Feb 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.tb_RAM_basic(fast)
+# Loading work.RAM_basic(fast)
+add wave -position insertpoint  \
+sim:/tb_RAM_basic/a1/datawidth \
+sim:/tb_RAM_basic/a1/adresswidth \
+sim:/tb_RAM_basic/a1/clk \
+sim:/tb_RAM_basic/a1/reset \
+sim:/tb_RAM_basic/a1/wr_en \
+sim:/tb_RAM_basic/a1/addressline \
+sim:/tb_RAM_basic/a1/din \
+sim:/tb_RAM_basic/a1/dout \
+sim:/tb_RAM_basic/a1/registar
+run
+quit -sim
+# End time: 12:49:55 on Feb 01,2023, Elapsed time: 0:04:52
+# Errors: 0, Warnings: 0
+# Compile of RAM_basic.v was successful.
+vsim -voptargs=+acc work.tb_RAM_basic
+# vsim -voptargs="+acc" work.tb_RAM_basic 
+# Start time: 12:50:03 on Feb 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_RAM_basic(fast)
+# Loading work.RAM_basic(fast)
+add wave -position insertpoint  \
+sim:/tb_RAM_basic/a1/datawidth \
+sim:/tb_RAM_basic/a1/adresswidth \
+sim:/tb_RAM_basic/a1/clk \
+sim:/tb_RAM_basic/a1/reset \
+sim:/tb_RAM_basic/a1/wr_en \
+sim:/tb_RAM_basic/a1/addressline \
+sim:/tb_RAM_basic/a1/din \
+sim:/tb_RAM_basic/a1/dout \
+sim:/tb_RAM_basic/a1/registar
+run
+quit -sim
+# End time: 12:52:26 on Feb 01,2023, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 0
+# Compile of RAM_basic.v was successful.
+vsim -voptargs=+acc work.tb_RAM_basic
+# vsim -voptargs="+acc" work.tb_RAM_basic 
+# Start time: 12:52:33 on Feb 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_RAM_basic(fast)
+# Loading work.RAM_basic(fast)
+add wave -position insertpoint  \
+sim:/tb_RAM_basic/datawidth \
+sim:/tb_RAM_basic/adresswidth \
+sim:/tb_RAM_basic/clk \
+sim:/tb_RAM_basic/reset \
+sim:/tb_RAM_basic/wr_en \
+sim:/tb_RAM_basic/addressline \
+sim:/tb_RAM_basic/din \
+sim:/tb_RAM_basic/dout
+run
+quit -sim
+# End time: 12:54:01 on Feb 01,2023, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 0
+# Compile of RAM_basic.v was successful.
+vsim -voptargs=+acc work.tb_RAM_basic
+# vsim -voptargs="+acc" work.tb_RAM_basic 
+# Start time: 12:54:12 on Feb 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.tb_RAM_basic(fast)
+# Loading work.RAM_basic(fast)
+add wave -position insertpoint  \
+sim:/tb_RAM_basic/a1/datawidth \
+sim:/tb_RAM_basic/a1/adresswidth \
+sim:/tb_RAM_basic/a1/clk \
+sim:/tb_RAM_basic/a1/reset \
+sim:/tb_RAM_basic/a1/wr_en \
+sim:/tb_RAM_basic/a1/addressline \
+sim:/tb_RAM_basic/a1/din \
+sim:/tb_RAM_basic/a1/dout \
+sim:/tb_RAM_basic/a1/registar
+run
+quit -sim
+# End time: 12:58:45 on Feb 01,2023, Elapsed time: 0:04:33
+# Errors: 0, Warnings: 0

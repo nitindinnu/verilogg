@@ -7,173 +7,268 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dD:/Obsi/verilogg/behavvvioural/FUNCTIONS/Mux_using_functions
+Z0 dD:/Obsi/verilogg/behavvvioural/FUNCTIONS/Mux_using_functions
+T_opt
+!s110 1675146375
+VVYlZ9bZI:X;eH[`RWXV]c1
+04 17 4 work task_as_tb_bit4FA fast 0
+=1-50814090a273-63d8b486-397-2698
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1675156339
+V4[kCNYSE9GiS>aW>AzEIA0
+04 21 4 work ttb_TASK_as_tb_bit4FA fast 0
+=1-50814090a273-63d8db73-4-24b8
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1675157508
+VZ`<H@jAdf@gW7hMe_Je0<0
+04 19 4 work TASK_calling_a_TASK fast 0
+=1-50814090a273-63d8e004-10c-46f4
+R1
+R2
+n@_opt2
+R3
 vbit4FA_using_task
-Z0 !s110 1675141319
+Z4 !s110 1675156777
 !i10b 1
 !s100 >1nRJN2]@[laUbVI`PQ1e3
 IebmoMc^gLo<>EzWX4`BXj0
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS
-Z3 w1675076525
-Z4 8D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_bit4FA.v
-Z5 FD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_bit4FA.v
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS
+Z7 w1675076525
+Z8 8D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_bit4FA.v
+Z9 FD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_bit4FA.v
 L0 1
-Z6 OL;L;10.7c;67
+Z10 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z7 !s108 1675141319.000000
-Z8 !s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_bit4FA.v|
-Z9 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_bit4FA.v|
+Z11 !s108 1675156777.000000
+Z12 !s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_bit4FA.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_bit4FA.v|
 !i113 0
-Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z11 tCvgOpt 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
 nbit4@f@a_using_task
 vdecoder4x16__using_3x8
-R0
+R4
 !i10b 1
 !s100 Dg_QIcC`Z8doo07Gz[[3;2
 IM6CCH@1b5Ukaz30Mk<7o13
-R1
-R2
-Z12 w1675079394
-Z13 8D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v
-Z14 FD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v
-L0 1
+R5
 R6
+Z15 w1675079394
+Z16 8D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v
+Z17 FD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v
+L0 1
+R10
 r1
 !s85 0
 31
-R7
-!s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v|
-Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v|
-!i113 0
-R10
 R11
+Z18 !s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v|
+Z19 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v|
+!i113 0
+R14
+R2
 vmux4x1
-Z16 !s110 1675141318
+R4
 !i10b 1
 !s100 6bZU?_JcKJiiLj3U0C[YW1
 IBHGe8PWOPXM41fYDL]VhT2
-R1
-R2
-Z17 w1675078347
-Z18 8D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_Mux4X1.v
-Z19 FD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_Mux4X1.v
-L0 1
+R5
 R6
+Z20 w1675078347
+Z21 8D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_Mux4X1.v
+Z22 FD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_Mux4X1.v
+L0 1
+R10
 r1
 !s85 0
 31
-Z20 !s108 1675141318.000000
-Z21 !s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_Mux4X1.v|
-Z22 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_Mux4X1.v|
-!i113 0
-R10
 R11
+Z23 !s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_Mux4X1.v|
+Z24 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_Mux4X1.v|
+!i113 0
+R14
+R2
 vmux4x1_tb
-R16
+R4
 !i10b 1
 !s100 nFzMB8W`Yoo;Y@Ah?K56=0
 IlRVPUmkaolAc9n1TNbQ]71
-R1
-R2
-R17
-R18
-R19
-Z23 L0 25
+R5
 R6
-r1
-!s85 0
-31
 R20
 R21
 R22
-!i113 0
+Z25 L0 25
 R10
+r1
+!s85 0
+31
 R11
+R23
+R24
+!i113 0
+R14
+R2
+vtask_as_tb_bit4FA
+R4
+!i10b 1
+!s100 lBjikOQ_KFMVEhX9g?5UM1
+IR:O;6JPl;hj0naL?XSSaC1
+R5
+R6
+Z26 w1675156353
+Z27 8D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_as_tb_bit4FA.v
+Z28 FD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_as_tb_bit4FA.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+Z29 !s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_as_tb_bit4FA.v|
+Z30 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_as_tb_bit4FA.v|
+!i113 0
+R14
+R2
+ntask_as_tb_bit4@f@a
+vTASK_calling_a_TASK
+!s110 1675157502
+!i10b 1
+!s100 I6YL;=]Ng0M`o1?JL80Xz2
+I>E141K3OKbUa?OM1^l:iz2
+R5
+R6
+w1675157490
+8D:\Obsi\verilogg\behavvvioural\TASK_AND_FUNCTIONS\TASK_calling_a_TASK.v
+FD:\Obsi\verilogg\behavvvioural\TASK_AND_FUNCTIONS\TASK_calling_a_TASK.v
+L0 1
+R10
+r1
+!s85 0
+31
+!s108 1675157502.000000
+!s107 D:\Obsi\verilogg\behavvvioural\TASK_AND_FUNCTIONS\TASK_calling_a_TASK.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\TASK_AND_FUNCTIONS\TASK_calling_a_TASK.v|
+!i113 0
+R14
+R2
+n@t@a@s@k_calling_a_@t@a@s@k
 vtb_4bit_fa
-R0
+R4
 !i10b 1
 !s100 ?z9@f4_6VAM4A2nD>9iR`1
 Ia6KmeUme=ITXAfMKhNoOG2
-R1
-R2
-R3
-R4
 R5
-R23
 R6
-r1
-!s85 0
-31
 R7
 R8
 R9
-!i113 0
+R25
 R10
+r1
+!s85 0
+31
 R11
+R12
+R13
+!i113 0
+R14
+R2
 vtb_decoder4x16__using_3x8
-R0
+R4
 !i10b 1
 !s100 MFOZ@;JV>ld?F;3BF_<?f0
 IiP01lTz[@n_3]J5MJeSbm1
-R1
-R2
-R12
-R13
-R14
-L0 38
+R5
 R6
+R15
+R16
+R17
+L0 38
+R10
 r1
 !s85 0
 31
-R7
-Z24 !s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v|
-R15
-!i113 0
-R10
 R11
+R18
+R19
+!i113 0
+R14
+R2
+vttb_TASK_as_tb_bit4FA
+R4
+!i10b 1
+!s100 ^9UebI4_1oj[FHLFiSXaH2
+I<mVb9R69:<AB8S9IzkIS11
+R5
+R6
+R26
+R27
+R28
+L0 26
+R10
+r1
+!s85 0
+31
+R11
+R29
+R30
+!i113 0
+R14
+R2
+nttb_@t@a@s@k_as_tb_bit4@f@a
 vxor_as_buffer_inverter
-R0
+R4
 !i10b 1
 !s100 LZI:M_o6eA?YY3cE^QQ<D1
 I_Lj[mFMTQ?il_kb6QH=bQ2
-R1
-R2
-Z25 w1675064297
-Z26 8D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_xor_as_not_buffer.v
-Z27 FD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_xor_as_not_buffer.v
-L0 1
+R5
 R6
+Z31 w1675064297
+Z32 8D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_xor_as_not_buffer.v
+Z33 FD:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_xor_as_not_buffer.v
+L0 1
+R10
 r1
 !s85 0
 31
-R20
-Z28 !s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_xor_as_not_buffer.v|
-Z29 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_xor_as_not_buffer.v|
-!i113 0
-R10
 R11
+Z34 !s107 D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_xor_as_not_buffer.v|
+Z35 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_xor_as_not_buffer.v|
+!i113 0
+R14
+R2
 vxor_as_buffer_inverter_tb
-R0
+R4
 !i10b 1
 !s100 7SH@g3Y:FTic61;>Pcf3[0
 I1?SDVC[bQHaoiX3hUdOB_0
-R1
-R2
-R25
-R26
-R27
-L0 24
+R5
 R6
+R31
+R32
+R33
+L0 24
+R10
 r1
 !s85 0
 31
-R20
-R28
-R29
-!i113 0
-R10
 R11
+R34
+R35
+!i113 0
+R14
+R2

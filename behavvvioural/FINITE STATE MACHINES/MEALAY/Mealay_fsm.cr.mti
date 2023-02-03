@@ -1,0 +1,17 @@
+{D:/Obsi/verilogg/behavvvioural/FINITE STATE MACHINES/MEALAY/mealay_101_overlap.v} {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101_overlap.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mealay_101_overlap
+-- Compiling module tb_mealay_101_overlap
+
+Top level modules:
+	tb_mealay_101_overlap
+
+} {} {}} {D:/Obsi/verilogg/behavvvioural/FINITE STATE MACHINES/MEALAY/mealay_101.v} {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mealay_101_nonoverlap
+-- Compiling module tb_mealay_101_nonoverlap
+
+Top level modules:
+	tb_mealay_101_nonoverlap
+
+} {} {}}
