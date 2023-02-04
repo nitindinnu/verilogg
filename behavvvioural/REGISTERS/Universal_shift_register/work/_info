@@ -1,0 +1,63 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Obsi/verilogg/behavvvioural/FINITE STATE MACHINES/MEALAY
+T_opt
+!s110 1675535123
+Vo1WAzi=W;P4M>_Rohc:?g2
+04 27 4 work tb_Universal_shift_register fast 0
+=1-50814090a273-63dea313-193-4850
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vtb_Universal_shift_register
+Z1 !s110 1675535117
+!i10b 1
+!s100 e?9KzYXBTPmOn[gA0Mb@i1
+IQ8FdQ=b@DV<YMZ=e=gN4O2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Obsi/verilogg/behavvvioural/REGISTERS/Universal_shift_register
+Z4 w1675535106
+Z5 8D:\Obsi\verilogg\behavvvioural\REGISTERS\Universal_shift_register\Universal_shift_register.v
+Z6 FD:\Obsi\verilogg\behavvvioural\REGISTERS\Universal_shift_register\Universal_shift_register.v
+L0 22
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1675535117.000000
+Z9 !s107 D:\Obsi\verilogg\behavvvioural\REGISTERS\Universal_shift_register\Universal_shift_register.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\REGISTERS\Universal_shift_register\Universal_shift_register.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+ntb_@universal_shift_register
+vUniversal_shift_register
+R1
+!i10b 1
+!s100 ;KIW8hW<8f:cS6DX09>Kj2
+IJGc4<e7TlB8YiIY_lNLDn3
+R2
+R3
+R4
+R5
+R6
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R0
+n@universal_shift_register
