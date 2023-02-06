@@ -1,4 +1,4 @@
-module RAM_basic #(parameter datawidth =8 ,adresswidth=10)(
+    module RAM_basic #(parameter datawidth =8 ,adresswidth=10)(
     input clk,reset,wr_en,
     input [adresswidth-1:0]addressline,
     input [datawidth-1:0]din,

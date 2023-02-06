@@ -1,0 +1,295 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Obsi/verilogg/behavvvioural/FINITE STATE MACHINES/MEALAY
+T_opt
+!s110 1675668766
+VomVa@Mh5mBmL@z<dhDRG80
+04 16 4 work tb_moore_ol_10x1 fast 0
+=1-50814090a273-63e0ad1e-dd-c78
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1675671923
+VJAN6EaT@F]_QZnVdG6b[i0
+04 18 4 work tb_moore_ol_10x1_a fast 0
+=1-50814090a273-63e0b973-f7-11a0
+R1
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1675667475
+VIHIW99_5P]hhYKGnHfW8M1
+04 6 4 work tb_ALU fast 0
+=1-50814090a273-63e0a813-196-458c
+R1
+R2
+n@_opt2
+R3
+R0
+vALU
+Z4 !s110 1675670226
+!i10b 1
+!s100 XX:0^WnZP`R0b<n9U33fn3
+IhFKY3AZ9U5=?;HY5HkRBh1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Obsi/verilogg/vt33_test_04
+Z7 w1675667464
+Z8 8D:\Obsi\verilogg\vt33_test_04\ALU.v
+Z9 FD:\Obsi\verilogg\vt33_test_04\ALU.v
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1675670226.000000
+Z12 !s107 D:\Obsi\verilogg\vt33_test_04\ALU.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\vt33_test_04\ALU.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@l@u
+vmoore_ol_10x1
+R4
+!i10b 1
+!s100 IVWeMIP6K<hD6Jk6o5ikk3
+IGGDG>NI?:`6LY_QZ;e7K72
+R5
+R6
+Z15 w1675669329
+Z16 8D:\Obsi\verilogg\vt33_test_04\moore_ol_10x1.v
+Z17 FD:\Obsi\verilogg\vt33_test_04\moore_ol_10x1.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+Z18 !s107 D:\Obsi\verilogg\vt33_test_04\moore_ol_10x1.v|
+Z19 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\vt33_test_04\moore_ol_10x1.v|
+!i113 0
+R14
+R2
+vmoore_ol_10x1_a
+Z20 !s110 1675671917
+!i10b 1
+!s100 hLPHo:ofbzYEg``i14oj`0
+I76oMW3>Z@SMKhQLTJ^0T;1
+R5
+R6
+Z21 w1675671912
+Z22 8D:\Obsi\verilogg\vt33_test_04\moore_ol_10x1_2.v
+Z23 FD:\Obsi\verilogg\vt33_test_04\moore_ol_10x1_2.v
+L0 1
+R10
+r1
+!s85 0
+31
+Z24 !s108 1675671916.000000
+Z25 !s107 D:\Obsi\verilogg\vt33_test_04\moore_ol_10x1_2.v|
+Z26 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\vt33_test_04\moore_ol_10x1_2.v|
+!i113 0
+R14
+R2
+vRAM_512B
+R4
+!i10b 1
+!s100 OJ>Rc<Jd]>Fi>kE05Y?8V2
+Ih5@3YkU7K18[:>g5ccMi_2
+R5
+R6
+Z27 w1675666554
+Z28 8D:\Obsi\verilogg\vt33_test_04\ram_512B.v
+Z29 FD:\Obsi\verilogg\vt33_test_04\ram_512B.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+Z30 !s107 D:\Obsi\verilogg\vt33_test_04\ram_512B.v|
+Z31 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\vt33_test_04\ram_512B.v|
+!i113 0
+R14
+R2
+n@r@a@m_512@b
+vserial_adder
+R4
+!i10b 1
+!s100 >6FNDP@BL47Aj^Xl3jLlb2
+ISB9iZ=?Xl8:RH1lG<T]:g1
+R5
+R6
+Z32 w1675665837
+Z33 8D:\Obsi\verilogg\vt33_test_04\serial_adder_4bit.v
+Z34 FD:\Obsi\verilogg\vt33_test_04\serial_adder_4bit.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+Z35 !s107 D:\Obsi\verilogg\vt33_test_04\serial_adder_4bit.v|
+Z36 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\vt33_test_04\serial_adder_4bit.v|
+!i113 0
+R14
+R2
+vserial_adder_tb
+R4
+!i10b 1
+!s100 7B]NGT`?G80Bo?[W1`h[C2
+InE9FCZU^zKl]cYZBWIAPO3
+R5
+R6
+R32
+R33
+R34
+Z37 L0 20
+R10
+r1
+!s85 0
+31
+R11
+R35
+R36
+!i113 0
+R14
+R2
+vtb_ALU
+R4
+!i10b 1
+!s100 >PB8SoJiST^KU7;RO=?5z3
+IYNol88@SE2@Dgkni29QSB2
+R5
+R6
+R7
+R8
+R9
+R37
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2
+ntb_@a@l@u
+vtb_moore_ol_10x1
+R4
+!i10b 1
+!s100 2CRcQhmaP<ElM4aQTUUgO2
+I8nNiXNl[QlO^3N39i7>G@0
+R5
+R6
+R15
+R16
+R17
+L0 33
+R10
+r1
+!s85 0
+31
+R11
+R18
+R19
+!i113 0
+R14
+R2
+vtb_moore_ol_10x1_a
+R20
+!i10b 1
+!s100 ZY3B7;kMSQK8iE2Un@VH_1
+IXI_>7Y4?>YSML9k:XgXU20
+R5
+R6
+R21
+R22
+R23
+L0 40
+R10
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 0
+R14
+R2
+vtb_RAM_512B
+R4
+!i10b 1
+!s100 39fE;9_Dd0Fnh[O8Lf0nm0
+IAWl?XPNUYRLBIBhT7=8N]0
+R5
+R6
+R27
+R28
+R29
+L0 24
+R10
+r1
+!s85 0
+31
+R11
+R30
+R31
+!i113 0
+R14
+R2
+ntb_@r@a@m_512@b
+vusr
+R4
+!i10b 1
+!s100 ^K__[^FJPlMGe5PK9_h_I2
+Io4WUe<X<Kz0T?14ZM<e101
+R5
+R6
+Z38 w1675665326
+Z39 8D:\Obsi\verilogg\vt33_test_04\usr.v
+Z40 FD:\Obsi\verilogg\vt33_test_04\usr.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+Z41 !s107 D:\Obsi\verilogg\vt33_test_04\usr.v|
+Z42 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\vt33_test_04\usr.v|
+!i113 0
+R14
+R2
+vusr_tb
+R4
+!i10b 1
+!s100 h02:K4VljYn?WWZ@0W>UP2
+I?F1b>IkHEVRY3OJM??[6S1
+R5
+R6
+R38
+R39
+R40
+R37
+R10
+r1
+!s85 0
+31
+R11
+R41
+R42
+!i113 0
+R14
+R2

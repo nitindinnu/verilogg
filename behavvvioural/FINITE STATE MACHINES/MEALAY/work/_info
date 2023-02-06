@@ -9,77 +9,66 @@ z2
 cModel Technology
 Z0 dC:/questasim64_10.7c/examples
 T_opt
-!s110 1675405473
-VN0:_0_9aPdM]R1Tg[H5O33
-04 24 4 work tb_mealay_101_nonoverlap fast 0
-=1-50814090a273-63dca8a0-3ce-4428
+!s110 1675617428
+VUff:L76KO2hMaoH?IAaOF1
+04 24 4 work gpt_mealy_overlap_101_tb fast 0
+=1-50814090a273-63dfe494-17a-17e4
 Z1 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
 Z3 OL;O;10.7c;67
 R0
 T_opt1
-!s110 1675407663
-V;N1i0M]55zg<ihm165CgM0
-04 21 4 work tb_mealay_101_overlap fast 0
-=1-50814090a273-63dcb12f-1ef-36c8
+!s110 1675621776
+VeV0]oX>LOQcUJf6V>dUIN3
+04 23 4 work tb_mealay_10x10_overlap fast 0
+=1-50814090a273-63dff590-2ff-51a0
 R1
 R2
 n@_opt1
 R3
-vmealay_101_nonoverlap
-Z4 !s110 1675407656
+T_opt2
+!s110 1675616183
+V@e2@0Uaka1UT?0>dSHPcD2
+04 22 4 work mealy_overlap_10010_tb fast 0
+=1-50814090a273-63dfdfb7-251-1d30
+R1
+R2
+n@_opt2
+R3
+R0
+vgpt_mealy_overlap_101
+Z4 !s110 1675621770
 !i10b 1
-!s100 ZmWkCWC=6E@lUXlDTU<=42
-I18_R0kCZb55mWAMNM0B>H2
+!s100 7@fF]697QlI8kz>SG>OPC3
+ISzcXi]RhISaFG0Tim20Q>2
 Z5 VDg1SIo80bB@j0V0VzS_@n1
 Z6 dD:/Obsi/verilogg/behavvvioural/FINITE STATE MACHINES/MEALAY
-Z7 w1675405457
-Z8 8D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101.v
-Z9 FD:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101.v
+Z7 w1675617419
+Z8 8D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay101ol_chatgpt.v
+Z9 FD:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay101ol_chatgpt.v
 L0 1
 Z10 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z11 !s108 1675407656.000000
-Z12 !s107 D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101.v|
-Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101.v|
+Z11 !s108 1675621770.000000
+Z12 !s107 D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay101ol_chatgpt.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay101ol_chatgpt.v|
 !i113 0
 Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
-vmealay_101_overlap
+vgpt_mealy_overlap_101_tb
 R4
 !i10b 1
-!s100 b5Bog?dS;[e0Mbaf8R3gc2
-IEFWRc[=h6@<2N>UhOkPa23
-R5
-R6
-Z15 w1675407653
-Z16 8D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101_overlap.v
-Z17 FD:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101_overlap.v
-L0 1
-R10
-r1
-!s85 0
-31
-R11
-Z18 !s107 D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101_overlap.v|
-Z19 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101_overlap.v|
-!i113 0
-R14
-R2
-vtb_mealay_101_nonoverlap
-R4
-!i10b 1
-!s100 QORE^Vb8F4m<MGVk9ZdMQ2
-Iece4g?n@O56G6A0d>`M[13
+!s100 d:MW]ZL5YS<4b]IKHCdG20
+Ib7UomYLh6df_:zOlPSN7O0
 R5
 R6
 R7
 R8
 R9
-L0 29
+L0 38
 R10
 r1
 !s85 0
@@ -90,17 +79,122 @@ R13
 !i113 0
 R14
 R2
-vtb_mealay_101_overlap
+vmealay_101_nonoverlap
 R4
 !i10b 1
-!s100 0>14EHCX6DnF7Q;?lR4G;0
-IJ;73Dd_F92_mn:4<aD5a[0
+!s100 ZmWkCWC=6E@lUXlDTU<=42
+IAZVGeJ;`gUDZlD`S?3CWT0
+R5
+R6
+Z15 w1675405457
+Z16 8D:/Obsi/verilogg/behavvvioural/FINITE STATE MACHINES/MEALAY/mealay_101.v
+Z17 FD:/Obsi/verilogg/behavvvioural/FINITE STATE MACHINES/MEALAY/mealay_101.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+Z18 !s107 D:/Obsi/verilogg/behavvvioural/FINITE STATE MACHINES/MEALAY/mealay_101.v|
+Z19 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/behavvvioural/FINITE STATE MACHINES/MEALAY/mealay_101.v|
+!i113 0
+R14
+R2
+vmealay_101_overlap
+R4
+!i10b 1
+!s100 b5Bog?dS;[e0Mbaf8R3gc2
+IEFWRc[=h6@<2N>UhOkPa23
+R5
+R6
+Z20 w1675407653
+Z21 8D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101_overlap.v
+Z22 FD:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101_overlap.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+Z23 !s107 D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101_overlap.v|
+Z24 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_101_overlap.v|
+!i113 0
+R14
+R2
+vmealay_10x10_overlap
+R4
+!i10b 1
+!s100 PWQS8[h5OfNWWF_OAZL]K3
+IQTkg?oWLbWJ7C?]coTonn2
+R5
+R6
+Z25 w1675621766
+Z26 8D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_10x10_overlap.v
+Z27 FD:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_10x10_overlap.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+Z28 !s107 D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_10x10_overlap.v|
+Z29 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_10x10_overlap.v|
+!i113 0
+R14
+R2
+vmealy_overlap_10010
+R4
+!i10b 1
+!s100 ^2CN_;OCM;P0J^gFblE`V3
+I@[=bZUSOKC51HBUR`cUB]2
+R5
+R6
+Z30 w1675616169
+Z31 8D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_10010_overlap.v
+Z32 FD:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_10010_overlap.v
+L0 1
+R10
+r1
+!s85 0
+31
+R11
+Z33 !s107 D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_10010_overlap.v|
+Z34 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\behavvvioural\FINITE STATE MACHINES\MEALAY\mealay_10010_overlap.v|
+!i113 0
+R14
+R2
+vmealy_overlap_10010_tb
+R4
+!i10b 1
+!s100 fT3XW3Vk4e<YPATFaKheK0
+I3H<VnS;54XjMNbl@j<mhj3
+R5
+R6
+R30
+R31
+R32
+L0 32
+R10
+r1
+!s85 0
+31
+R11
+R33
+R34
+!i113 0
+R14
+R2
+vtb_mealay_101_nonoverlap
+R4
+!i10b 1
+!s100 QORE^Vb8F4m<MGVk9ZdMQ2
+I>ZZ:UPFa_k7A_X3<a`k=G1
 R5
 R6
 R15
 R16
 R17
-L0 25
+L0 29
 R10
 r1
 !s85 0
@@ -108,6 +202,48 @@ r1
 R11
 R18
 R19
+!i113 0
+R14
+R2
+vtb_mealay_101_overlap
+R4
+!i10b 1
+!s100 0>14EHCX6DnF7Q;?lR4G;0
+IJ;73Dd_F92_mn:4<aD5a[0
+R5
+R6
+R20
+R21
+R22
+L0 25
+R10
+r1
+!s85 0
+31
+R11
+R23
+R24
+!i113 0
+R14
+R2
+vtb_mealay_10x10_overlap
+R4
+!i10b 1
+!s100 GofQM;[9l^=jE`OG6oE^@1
+InD:V]3bQoC0]aeX9BUgCV2
+R5
+R6
+R25
+R26
+R27
+L0 34
+R10
+r1
+!s85 0
+31
+R11
+R28
+R29
 !i113 0
 R14
 R2

@@ -1,0 +1,41 @@
+D:/Obsi/verilogg/vt33_test_04/moore_ol_10x1.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\vt33_test_04\moore_ol_10x1.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module moore_ol_10x1
+-- Compiling module tb_moore_ol_10x1
+
+Top level modules:
+	tb_moore_ol_10x1
+
+} {} {}} D:/Obsi/verilogg/vt33_test_04/ram_512B.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\vt33_test_04\ram_512B.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module RAM_512B
+-- Compiling module tb_RAM_512B
+
+Top level modules:
+	tb_RAM_512B
+
+} {} {}} D:/Obsi/verilogg/vt33_test_04/moore_ol_10x1_2.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\vt33_test_04\moore_ol_10x1_2.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module moore_ol_10x1_a
+-- Compiling module tb_moore_ol_10x1_a
+
+Top level modules:
+	tb_moore_ol_10x1_a
+
+} {} {}} D:/Obsi/verilogg/vt33_test_04/ALU.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\vt33_test_04\ALU.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module ALU
+-- Compiling module tb_ALU
+
+Top level modules:
+	tb_ALU
+
+} {} {}} D:/Obsi/verilogg/vt33_test_04/usr.v {1 {vlog -work work -vopt -stats=none {D:\Obsi\verilogg\vt33_test_04\usr.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module usr
+-- Compiling module usr_tb
+
+Top level modules:
+	usr_tb
+
+} {} {}}
