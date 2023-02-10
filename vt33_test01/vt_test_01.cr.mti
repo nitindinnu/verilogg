@@ -1,0 +1,71 @@
+D:/Obsi/verilogg/vt33_test01/tb_priority_bit_gen.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33_test01/tb_priority_bit_gen.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_priority_bit_gen
+
+Top level modules:
+	tb_priority_bit_gen
+
+} {} {}} D:/Obsi/verilogg/vt33_test01/dut_universal_gates_using_mux.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33_test01/dut_universal_gates_using_mux.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module dut_universal_gates_using_mux
+
+Top level modules:
+	dut_universal_gates_using_mux
+
+} {} {}} D:/Obsi/verilogg/vt33_test01/dut_fullsubtractor_using_mux.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33_test01/dut_fullsubtractor_using_mux.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module fs_implementation_in_mux_dut
+
+Top level modules:
+	fs_implementation_in_mux_dut
+
+} {} {}} D:/Obsi/verilogg/vt33_test01/tb_universal_gates_using_mux.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33_test01/tb_universal_gates_using_mux.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_universal_gates_using_mux
+
+Top level modules:
+	tb_universal_gates_using_mux
+
+} {} {}} D:/Obsi/verilogg/vt33_test01/tb_fullsubtractor_using_mux.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33_test01/tb_fullsubtractor_using_mux.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module fs_implementation_in_mux_tb
+
+Top level modules:
+	fs_implementation_in_mux_tb
+
+} {} {}} D:/Obsi/verilogg/vt33_test01/dut_binary_to_grey3bit.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33_test01/dut_binary_to_grey3bit.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module dut_binary_to_grey3bit
+
+Top level modules:
+	dut_binary_to_grey3bit
+
+} {} {}} D:/Obsi/verilogg/vt33_test01/tb_binary_to_grey3bit.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33_test01/tb_binary_to_grey3bit.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_binary_to_grey3bit
+
+Top level modules:
+	tb_binary_to_grey3bit
+
+} {} {}} D:/Obsi/verilogg/vt33_test01/dut_decimal_to_bcd_encoder.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33_test01/dut_decimal_to_bcd_encoder.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module dut_decimal_to_bcd_encoder
+
+Top level modules:
+	dut_decimal_to_bcd_encoder
+
+} {} {}} D:/Obsi/verilogg/vt33_test01/tb_decimal_to_bcd_encoder.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33_test01/tb_decimal_to_bcd_encoder.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_decimal_to_bcd_encoder
+
+Top level modules:
+	tb_decimal_to_bcd_encoder
+
+} {} {}} D:/Obsi/verilogg/vt33_test01/dut_priority_bit_gen.v {1 {vlog -work work -vopt -stats=none D:/Obsi/verilogg/vt33_test01/dut_priority_bit_gen.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module dut_priority_bit_gen
+
+Top level modules:
+	dut_priority_bit_gen
+
+} {} {}}

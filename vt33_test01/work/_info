@@ -7,234 +7,214 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/questasim64_10.7c/examples
-T_opt
-!s110 1672815466
-VHA>o=AXEZa6JkFT<CVcEI3
-04 25 4 work tb_decimal_to_bcd_encoder fast 0
-=1-50814090a273-63b5236a-30-3460
-Z1 o-quiet -auto_acc_if_foreign -work work +acc
-Z2 tCvgOpt 0
-n@_opt
-Z3 OL;O;10.7c;67
-R0
-T_opt1
-!s110 1672816378
-VjRj]zBm]faBhhE^UaC2=z3
-04 19 4 work tb_priority_bit_gen fast 0
-=1-50814090a273-63b526f9-372-3d78
-R1
-R2
-n@_opt1
-R3
-R0
+dC:/questasim64_10.7c/examples
 vdut_binary_to_grey3bit
-Z4 !s110 1672900101
+Z0 !s110 1676035262
 !i10b 1
 !s100 Oon[k`O5>[H<L<1eUinVe1
-IoGEIJ1F:Rn>ogCNb:^^SF3
-Z5 VDg1SIo80bB@j0V0VzS_@n1
-Z6 dD:/Obsi/verilogg/dataflow/nitin_vt33_verilogtest1
+I^2XPLCQkWkc9D?EE5CO<40
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Obsi/verilogg/vt33_test01
 w1672813078
-8dut_binary_to_grey3bit.v
-Fdut_binary_to_grey3bit.v
+8D:/Obsi/verilogg/vt33_test01/dut_binary_to_grey3bit.v
+FD:/Obsi/verilogg/vt33_test01/dut_binary_to_grey3bit.v
 L0 1
-Z7 OL;L;10.7c;67
+Z3 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z8 !s108 1672900101.000000
-Z9 !s107 tb_universal_gates_using_mux.v|tb_priority_bit_gen.v|tb_fullsubtractor_using_mux.v|tb_decimal_to_bcd_encoder.v|tb_binary_to_grey3bit.v|dut_universal_gates_using_mux.v|dut_priority_bit_gen.v|dut_fullsubtractor_using_mux.v|dut_decimal_to_bcd_encoder.v|dut_binary_to_grey3bit.v|
-Z10 !s90 -reportprogress|300|dut_binary_to_grey3bit.v|dut_decimal_to_bcd_encoder.v|dut_fullsubtractor_using_mux.v|dut_priority_bit_gen.v|dut_universal_gates_using_mux.v|tb_binary_to_grey3bit.v|tb_decimal_to_bcd_encoder.v|tb_fullsubtractor_using_mux.v|tb_priority_bit_gen.v|tb_universal_gates_using_mux.v|
+Z4 !s108 1676035262.000000
+!s107 D:/Obsi/verilogg/vt33_test01/dut_binary_to_grey3bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33_test01/dut_binary_to_grey3bit.v|
 !i113 0
-Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
 vdut_decimal_to_bcd_encoder
-R4
+R0
 !i10b 1
 !s100 _]S0S?O;:gl?FPKF3KeUd0
-I6T5KgPAARJ2;KD^NjK?2L1
-R5
-R6
+IZmTCIg2TRU`nKCIX`<mka3
+R1
+R2
 w1672815454
-8dut_decimal_to_bcd_encoder.v
-Fdut_decimal_to_bcd_encoder.v
+8D:/Obsi/verilogg/vt33_test01/dut_decimal_to_bcd_encoder.v
+FD:/Obsi/verilogg/vt33_test01/dut_decimal_to_bcd_encoder.v
 L0 1
-R7
+R3
 r1
 !s85 0
 31
-R8
-R9
-R10
-!i113 0
-R11
-R2
-vdut_priority_bit_gen
 R4
+!s107 D:/Obsi/verilogg/vt33_test01/dut_decimal_to_bcd_encoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33_test01/dut_decimal_to_bcd_encoder.v|
+!i113 0
+R5
+R6
+vdut_priority_bit_gen
+Z7 !s110 1676035263
 !i10b 1
 !s100 BReh2lH6gFcCgOleT<7Yj0
-I3E3`R`45D4g?TBm?GX@hc3
-R5
-R6
+I5GianTzN_f_l>D4WTgEz;2
+R1
+R2
 w1672816202
-8dut_priority_bit_gen.v
-Fdut_priority_bit_gen.v
+8D:/Obsi/verilogg/vt33_test01/dut_priority_bit_gen.v
+FD:/Obsi/verilogg/vt33_test01/dut_priority_bit_gen.v
 L0 1
-R7
+R3
 r1
 !s85 0
 31
-R8
-R9
-R10
+Z8 !s108 1676035263.000000
+!s107 D:/Obsi/verilogg/vt33_test01/dut_priority_bit_gen.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33_test01/dut_priority_bit_gen.v|
 !i113 0
-R11
-R2
+R5
+R6
 vdut_universal_gates_using_mux
-R4
+R7
 !i10b 1
 !s100 l_:VGKK0[E[;6L?l8M=ES3
-IQUFA8Q4?E?a8k0MBL<kza0
-R5
-R6
+IQ><XmSDbW^3H<La>Z_2>:3
+R1
+R2
 w1672812129
-8dut_universal_gates_using_mux.v
-Fdut_universal_gates_using_mux.v
+8D:/Obsi/verilogg/vt33_test01/dut_universal_gates_using_mux.v
+FD:/Obsi/verilogg/vt33_test01/dut_universal_gates_using_mux.v
 L0 1
-R7
+R3
 r1
 !s85 0
 31
 R8
-R9
-R10
+!s107 D:/Obsi/verilogg/vt33_test01/dut_universal_gates_using_mux.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33_test01/dut_universal_gates_using_mux.v|
 !i113 0
-R11
-R2
+R5
+R6
 vfs_implementation_in_mux_dut
-R4
+R0
 !i10b 1
 !s100 fSej;XUd]LCVOQXl6JM?A1
-IP5C?IEXhFg:lMV7QdmSLG1
-R5
-R6
+IGm0?H7TQ9DG`n9=eh3TCZ2
+R1
+R2
 w1672812551
-8dut_fullsubtractor_using_mux.v
-Fdut_fullsubtractor_using_mux.v
+8D:/Obsi/verilogg/vt33_test01/dut_fullsubtractor_using_mux.v
+FD:/Obsi/verilogg/vt33_test01/dut_fullsubtractor_using_mux.v
 L0 1
-R7
+R3
 r1
 !s85 0
 31
-R8
-R9
-R10
-!i113 0
-R11
-R2
-vfs_implementation_in_mux_tb
 R4
+!s107 D:/Obsi/verilogg/vt33_test01/dut_fullsubtractor_using_mux.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33_test01/dut_fullsubtractor_using_mux.v|
+!i113 0
+R5
+R6
+vfs_implementation_in_mux_tb
+R7
 !i10b 1
 !s100 a;OcPO;EWP08QPK=lGAYB1
-IS4e2C<5h^fUc1Ub:G6>hI2
-R5
-R6
+IDOP7@jzLS_[eCk]7ebm2Z0
+R1
+R2
 w1672812526
-8tb_fullsubtractor_using_mux.v
-Ftb_fullsubtractor_using_mux.v
+8D:/Obsi/verilogg/vt33_test01/tb_fullsubtractor_using_mux.v
+FD:/Obsi/verilogg/vt33_test01/tb_fullsubtractor_using_mux.v
 L0 1
-R7
+R3
 r1
 !s85 0
 31
 R8
-R9
-R10
+!s107 D:/Obsi/verilogg/vt33_test01/tb_fullsubtractor_using_mux.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33_test01/tb_fullsubtractor_using_mux.v|
 !i113 0
-R11
-R2
+R5
+R6
 vtb_binary_to_grey3bit
-R4
+R7
 !i10b 1
 !s100 7bVlC20JTmb:n8Jn1EW2e3
-IbRO2BRgA3P>ZdXHhQ6cV[1
-R5
-R6
+IB4[=KCG:DoEcX1=_>E`6d2
+R1
+R2
 w1672813259
-8tb_binary_to_grey3bit.v
-Ftb_binary_to_grey3bit.v
+8D:/Obsi/verilogg/vt33_test01/tb_binary_to_grey3bit.v
+FD:/Obsi/verilogg/vt33_test01/tb_binary_to_grey3bit.v
 L0 1
-R7
+R3
 r1
 !s85 0
 31
 R8
-R9
-R10
+!s107 D:/Obsi/verilogg/vt33_test01/tb_binary_to_grey3bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33_test01/tb_binary_to_grey3bit.v|
 !i113 0
-R11
-R2
+R5
+R6
 vtb_decimal_to_bcd_encoder
-R4
+R7
 !i10b 1
 !s100 =gK?mla?c9lVSAXETmjc01
-IGaE4<0Q1EN4a34FfG0Y;C2
-R5
-R6
+Ig:2b[BNh0Cl;O4L`17PCT3
+R1
+R2
 w1672815061
-8tb_decimal_to_bcd_encoder.v
-Ftb_decimal_to_bcd_encoder.v
+8D:/Obsi/verilogg/vt33_test01/tb_decimal_to_bcd_encoder.v
+FD:/Obsi/verilogg/vt33_test01/tb_decimal_to_bcd_encoder.v
 L0 1
-R7
+R3
 r1
 !s85 0
 31
 R8
-R9
-R10
+!s107 D:/Obsi/verilogg/vt33_test01/tb_decimal_to_bcd_encoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33_test01/tb_decimal_to_bcd_encoder.v|
 !i113 0
-R11
-R2
+R5
+R6
 vtb_priority_bit_gen
-R4
+R7
 !i10b 1
 !s100 bzHaH;;:4OlEXeE63mN722
-Io5oZL?HHU5U5P5e]>AW[G2
-R5
-R6
+IKIB@mP=HJ`zgUaCQFocM?1
+R1
+R2
 w1672816311
-8tb_priority_bit_gen.v
-Ftb_priority_bit_gen.v
+8D:/Obsi/verilogg/vt33_test01/tb_priority_bit_gen.v
+FD:/Obsi/verilogg/vt33_test01/tb_priority_bit_gen.v
 L0 1
-R7
+R3
 r1
 !s85 0
 31
 R8
-R9
-R10
+!s107 D:/Obsi/verilogg/vt33_test01/tb_priority_bit_gen.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33_test01/tb_priority_bit_gen.v|
 !i113 0
-R11
-R2
+R5
+R6
 vtb_universal_gates_using_mux
-R4
+R7
 !i10b 1
 !s100 @]1lNXDzBWgW_o206mJZV3
-I6`jGEWIY[cOPKQV3j]Uih2
-R5
-R6
+I12=j=lLhkJ7<gZ?UH8UZX1
+R1
+R2
 w1672811914
-8tb_universal_gates_using_mux.v
-Ftb_universal_gates_using_mux.v
+8D:/Obsi/verilogg/vt33_test01/tb_universal_gates_using_mux.v
+FD:/Obsi/verilogg/vt33_test01/tb_universal_gates_using_mux.v
 L0 1
-R7
+R3
 r1
 !s85 0
 31
 R8
-R9
-R10
+!s107 D:/Obsi/verilogg/vt33_test01/tb_universal_gates_using_mux.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/vt33_test01/tb_universal_gates_using_mux.v|
 !i113 0
-R11
-R2
+R5
+R6
