@@ -1,5 +1,6 @@
 ignore01/
 **/work/
-*.wlf
-*.mpf
+**/.wlf
+**/.mpf
 **vsim.wlf
+**/.obsidian/
