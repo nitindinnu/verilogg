@@ -89,7 +89,52 @@
 	4. 
 13. [designing ALU 8 bit](<behavvvioural/ALU_normal/ALU_8bit.v>)
 # Dataflow_model
-1. 
+1. [carry look ahead adder](<dataflow/carry_look_ahead_adder/dut_carry_look_ahead_adder_4bit.v>) [TB](<dataflow/carry_look_ahead_adder/tb_carry_look_ahead_adder_4bit.v>)
+2. comparator
+	1. [1bit](<dataflow/comparator/dut_comparator_1bit.v>)
+	2. [3bit](<dataflow/comparator/dut_comparator_3bit.v>)
+	3. [4bit](<dataflow/comparator/dut_comparator_4bit.v>)
+	4. [4bit using 2bit comparator](<dataflow/comparator/dut_comp_4bit_u_2bit.v>)
+3. [decoder 2to4 ](<dataflow/decoder/decoder2to4.v>) - [TB](<dataflow/decoder/decoder2to4_tb.v>)
+4. decoder by left shift
+	1. [decoder 2to4 by left shift](<dataflow/decoder_by_leftshift/dut_decoder_2to4_by_shift.v>)
+	2. [decoder 4to16 by left shift](<dataflow/decoder_by_leftshift/dut_decoder_2to4_by_shift.v>)
+5. demux
+	1. [demux 1 to 2](<dataflow/demux/demux1to2_dut.v>)
+	2. [demux 1 to 4](<dataflow/demux/demux1to4_dut.v>)
+6. encoder by conditional
+	1. [encoder 4 to 2 using terenary operator](<dataflow/encoder_by_conditional/dut_encoder_4to2_by_shift.v>)
+	2. [priority encoder 4 to2](<dataflow/encoder_by_conditional/dut_priorityencoder_4to2.v>)
+	3. [encoder 4 to 2](<dataflow/encoders/encoder4to2.v>)
+7. Adders
+	1. [HA](<dataflow/half_adder/halfadder_dut.v>)
+	2. [FA](<dataflow/full_adder/fa_dut.v>)
+	3. [fa using ha](<dataflow/fa_using_ha/fa_using_ha_dut.v>)
+	4. [fa using mux](<dataflow/fa_using_mux/fa_using_mux_dut.v>)
+	5. [Ripple carry Adder](<dataflow/RCA/dut_rca_4bit.v>)
+8. Subtractors
+	1. [HS](<dataflow/half_subtractor/hs_dut.v>)
+	2. [FS](<dataflow/half_subtractor/fs_dut.v>)
+	3. [FS using HS](<dataflow/half_subtractor/fs_using_hs_dut.v>)
+	4. [Mux as FS](<dataflow/number_conversions/mux_as_fs_dut.v>)
+9. [FA FS using  MUX](<dataflow/fafs_using_mux/fafs_using_mux_dut.v>)
+10. [FS using FA](<dataflow/fs_using_fa/fs_using_fa_dut.v>)
+11. MUX
+	1. [mux 2x1](<dataflow/mux/mux2x1_dut.v>)
+	2. [mux 4x1 using terenary](<dataflow/mux/mux4x1_using_terinary_dut.v>)
+	3. [mux 5x1 using 2x1](<dataflow/mux/mux5x1_using_2x1.v>)
+	4. [mux 8x1](<dataflow/mux/mux8x1dut.v>)
+	5. [mux 4x1 using vectors](<dataflow/mux_using_vectors/mux4x1_dut.v>)
+	6. [mux 8x1 using 4x1](<dataflow/mux_using_vectors/mux8x1_using_2x1_dut.v>)
+	7. [mux 16x1](<dataflow/mux_using_vectors/mux16x1_dut.v>)
+	8. [mux 4x1 using 2x1 terenary](<dataflow/mux4x1_using_mux2x1/mux4x1_using_mux2x1_dut.v>)
+	9. [mux 7x1 using 2x1](<dataflow/mux7x1using2x1/mux7x1using2x1_dut.v>)
+12. Number Conversions
+	1. Binary to Gray
+		1. [3bit](<dataflow/number_conversions/binary_to_gray.v>)
+		2. [4bit](<dataflow/number_conversions/binary_to_gray_4bit_dut.v>)
+13. [All logic gates using MUX](<dataflow/number_conversions/logicgates_using_mux_dut.v>)
+	
 # Gate-Level-and-Structural-Mixed_Model
 1. 
 # Switch_level
