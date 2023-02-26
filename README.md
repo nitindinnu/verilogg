@@ -8,7 +8,7 @@
 
 
 
-## Behavioural model
+# Behavioural model
 1. [Flip-FLops](<behavvvioural/FLIP_FLOPS>)
 	1. D- FF
 		1. [D- FF sync](<behavvvioural/FLIP_FLOPS/D/D_FF_SYNC.v>)
@@ -27,9 +27,9 @@
 2. Serial Adder
 	1. [serial adder 01](<behavvvioural/serial_adder/serial_adder.v>)
 	2. [serial adder 02](<behavvvioural/serial_adder/serial_adder2.v>)
-## Dataflow model
+# Dataflow model
 1. l
-## Gate Level and Structural - Mixed Model
+# Gate Level and Structural - Mixed Model
 1. 
-## Switch level
+# Switch level
 1. 
