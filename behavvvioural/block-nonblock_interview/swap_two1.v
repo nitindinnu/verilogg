@@ -1,4 +1,4 @@
-module swap2nonblocking (
+module swap2nonblocking (//! using non blocking
 );
     integer a=1,b=2;
     always @(*) begin
@@ -18,7 +18,7 @@ endmodule
 display 2 1
 */
 
-module swap2blocking (
+module swap2blocking ( //! using blocking stmnts
 );
     integer a=1,b=2;
     always @(*) begin

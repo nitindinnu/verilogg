@@ -28,6 +28,56 @@
 2. Serial Adder
 	1. [serial adder 01](<behavvvioural/serial_adder/serial_adder.v>)
 	2. [serial adder 02](<behavvvioural/serial_adder/serial_adder2.v>)
+3. [D latch using mux](<behavvvioural/DLATCH_using_Mux/DLATCH_using_Mux.v>)
+4. even odd prime print [even odd  in verilog](<behavvvioural/even_odd_prime/even_odd.v>)  [prime in verilog](behavvvioural/even_odd_prime/prime.v)
+5. Tasks and Functions
+	1. Functions in Verilog
+		1. [function mux4x1](<behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_Mux4X1.v>)
+		2. [Function mux16x1](behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_MUX16x1.v)
+		3. [Function not as xor and buffer](<behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_xor_as_not_buffer.v>) 
+		4. [Function decoder 4x16 from 3x16](<behavvvioural/TASK_AND_FUNCTIONS/FUNCTION_decoder4x16_from_3x8.v>)
+		5. [Task 4 bit FA](behavvvioural/TASK_AND_FUNCTIONS/TASK_as_tb_bit4FA.v)
+		6. [Task as TB 4bitFA](<behavvvioural/TASK_AND_FUNCTIONS/TASK_as_tb_bit4FA.v>)
+		7. [Task calling a task](<behavvvioural/TASK_AND_FUNCTIONS/TASK_calling_a_TASK.v>)
+		8. [Task decoder 4x16 using 3x8](<behavvvioural/TASK_AND_FUNCTIONS/TASK_decoder4x16__using_3x8.v>)
+6. Registers
+	1. [PISO](<behavvvioural/REGISTERS/PISO/PISO.v>)
+	2. [SISO](<behavvvioural/REGISTERS/SISO/SISO.v>)
+	3. SIPO
+	4. PIPO
+	5. [Universal shift register](<behavvvioural/REGISTERS/Universal_shift_register/Universal_shift_register.v>)
+7. Memories
+	1. [FIFO sync](<behavvvioural/MEMORIES/FIFO_sync/FIFO_synchronous.v>)
+	2. [RAM](behavvvioural/MEMORIES/RAM/RAM_basic.v)
+	3. ROM
+		1. [rom 8x8](<behavvvioural/MEMORIES/ROM/ROM_8x8.v>)
+		2. [ROM 10KB](<behavvvioural/MEMORIES/ROM/ROM_10KB.v>)
+8. FSMs
+	1. MEALAY
+		1. 101
+			1. [101 non overlap](<behavvvioural/FINITE STATE MACHINES/MEALAY/mealay_101_nonoverlap.v>)
+			2. [101 overlap](<behavvvioural/FINITE STATE MACHINES/MEALAY/mealay_101_overlap.v>)
+			3. [101 ol another aproach](<behavvvioural/FINITE STATE MACHINES/MEALAY/mealay101ol_chatgpt.v>)
+			4. [10010 overlap](<behavvvioural/FINITE STATE MACHINES/MEALAY/mealay_10010_overlap.v>)
+			5. [10x10 overlap](behavvvioural/FINITE STATE MACHINES/MEALAY/mealay_10x10_overlap.v)
+	2. MOORE
+		1. [1001 overlap](<behavvvioural/FINITE STATE MACHINES/MOORE/MOORE_1001_nonoverlap.v>)
+		2. [1001 non overlap](<behavvvioural/FINITE STATE MACHINES/MOORE/MOORE_1001_nonoverlap.v>)
+		3. [1x01 overlap](<behavvvioural/FINITE STATE MACHINES/MOORE/moore_1x01_overlap.v>)
+9. combinational
+	1. [decoder2x4](behavvvioural/COMBINATIONAL/Decoder2x4/decoder2x4.v)
+	2. [mux 2x1 using if](<behavvvioural/COMBINATIONAL/muxNx1/mux2x1_using_if.v>)
+	3. [Mux 4x1](<behavvvioural/COMBINATIONAL/muxNx1/mux4x1.v>)
+	4. [mux Nx1](behavvvioural/COMBINATIONAL/muxNx1/muxNx1.v)
+10. block non blocking stmnts 
+	1. [blk non block](behavvvioural/block-nonblock_interview/blc-nonblk.v)
+	2. [checking execution b/w blking and non blocking](<behavvvioural/block-nonblock_interview/interview_ques1.v>)
+	3. [Mux sel lines as input,reg,real,wire](behavvvioural/block-nonblock_interview/mux_selectionlines_as_input,real,reg,wire.v)
+	4. [swapping two vars using non-blocking stmnts](<behavvvioural/block-nonblock_interview/swap_two_var.v>)
+	5. [swaping using blocking and non blocking](<behavvvioural/block-nonblock_interview/swap_two1.v>)
+	6. [swapping of vector variables uning xor](<behavvvioural/block-nonblock_interview/swapp_var_vector.v>)
+11. [Array sorting](<behavvvioural/array_sorting/Ascendingly_sort.v>)
+12. [designing ALU 8 bit](<behavvvioural/ALU_normal/ALU_8bit.v>)
 # Dataflow_model
 1. l
 # Gate-Level-and-Structural-Mixed_Model
