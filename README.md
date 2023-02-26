@@ -4,7 +4,7 @@
 
 1. [Behavioural model ](#Behavioural_model)
 2. [Dataflow model](#Dataflow_model)
-3. [Gate Level and Structural - Mixed Model](#Gate-Level-and-Structural_Mixed Model)
+3. [Gate Level and Structural - Mixed Model](#Gate-Level-and-Structural-Mixed_Model)
 4. [Switch level](<#Switch_level>)
 
 
@@ -30,7 +30,7 @@
 	2. [serial adder 02](<behavvvioural/serial_adder/serial_adder2.v>)
 # Dataflow_model
 1. l
-# Gate-Level-and-Structural_Mixed Model
+# Gate-Level-and-Structural-Mixed_Model
 1. 
 # Switch_level
 1. 
