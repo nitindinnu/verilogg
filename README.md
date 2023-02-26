@@ -59,7 +59,7 @@
 			2. [101 overlap](<behavvvioural/FINITE STATE MACHINES/MEALAY/mealay_101_overlap.v>)
 			3. [101 ol another aproach](<behavvvioural/FINITE STATE MACHINES/MEALAY/mealay101ol_chatgpt.v>)
 			4. [10010 overlap](<behavvvioural/FINITE STATE MACHINES/MEALAY/mealay_10010_overlap.v>)
-			5. [10x10 overlap](behavvvioural/FINITE STATE MACHINES/MEALAY/mealay_10x10_overlap.v)
+			5. [10x10 overlap](<behavvvioural/FINITE STATE MACHINES/MEALAY/mealay_10x10_overlap.v>)
 	2. MOORE
 		1. [1001 overlap](<behavvvioural/FINITE STATE MACHINES/MOORE/MOORE_1001_nonoverlap.v>)
 		2. [1001 non overlap](<behavvvioural/FINITE STATE MACHINES/MOORE/MOORE_1001_nonoverlap.v>)
