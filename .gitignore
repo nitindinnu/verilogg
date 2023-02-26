@@ -4,3 +4,4 @@ ignore01/
 **/.mpf
 **vsim.wlf
 **/.obsidian/
+*.qpg

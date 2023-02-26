@@ -1,0 +1,11 @@
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+Start time: 13:19:34 on Feb 26,2023
+vlog -reportprogress 300 D_FF_ASYNC.v "+acc" -l D_FF_SYNC.log 
+-- Compiling module D_FF_ASYNC
+-- Compiling module D_FF_ASYNC_tb
+
+Top level modules:
+	D_FF_ASYNC
+	D_FF_ASYNC_tb
+End time: 13:19:34 on Feb 26,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

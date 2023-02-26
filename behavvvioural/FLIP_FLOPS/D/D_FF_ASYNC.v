@@ -26,6 +26,7 @@ module D_FF_ASYNC_tb (
     end
     always #4 d=~d;
     always #10 async_reset=~async_reset;
+    initial #200 $stop;
 
     D_FF_SYNC a1(d,clk,async_reset,q,qb);
 endmodule //D_FF_SYNC

@@ -28,6 +28,7 @@ module D_FF_SYNC_tb (
 
     initial #100 sync_reset=1;
     always #4 d=~d;
+    initial #200 $stop;
 
     D_FF_SYNC a1(d,clk,sync_reset,q,qb);
 endmodule //D_FF_SYNC
