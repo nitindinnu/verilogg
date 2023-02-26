@@ -15,33 +15,14 @@
 # //
 # OpenFile D:/Obsi/verilogg/dataflow/comparator/comparator.mpf
 # Loading project comparator
-vsim -voptargs=+acc work.tb_comp_4bit_u_2bit
-# vsim -voptargs="+acc" work.tb_comp_4bit_u_2bit 
-# Start time: 12:07:45 on Jan 06,2023
-# ** Note: (vsim-8009) Loading existing optimized design _opt2
-# Loading work.tb_comp_4bit_u_2bit(fast)
-# Loading work.dut_comp_4bit_u_2bit(fast)
-# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'L'. The port definition is at: D:/Obsi/verilogg/dataflow/comparator/dut_comp_4bit_u_2bit.v(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_comp_4bit_u_2bit/a1 File: D:/Obsi/verilogg/dataflow/comparator/tb_comp_4bit_u_2bit.v Line: 8
-# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'G'. The port definition is at: D:/Obsi/verilogg/dataflow/comparator/dut_comp_4bit_u_2bit.v(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_comp_4bit_u_2bit/a1 File: D:/Obsi/verilogg/dataflow/comparator/tb_comp_4bit_u_2bit.v Line: 8
-# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'E'. The port definition is at: D:/Obsi/verilogg/dataflow/comparator/dut_comp_4bit_u_2bit.v(2).
-#    Time: 0 ns  Iteration: 0  Instance: /tb_comp_4bit_u_2bit/a1 File: D:/Obsi/verilogg/dataflow/comparator/tb_comp_4bit_u_2bit.v Line: 8
-add wave -position insertpoint  \
-sim:/tb_comp_4bit_u_2bit/a \
-sim:/tb_comp_4bit_u_2bit/b \
-sim:/tb_comp_4bit_u_2bit/Lesser \
-sim:/tb_comp_4bit_u_2bit/Greater \
-sim:/tb_comp_4bit_u_2bit/Equal \
-sim:/tb_comp_4bit_u_2bit/L \
-sim:/tb_comp_4bit_u_2bit/G \
-sim:/tb_comp_4bit_u_2bit/E
-run
-# ** Note: $stop    : D:/Obsi/verilogg/dataflow/comparator/tb_comp_4bit_u_2bit.v(16)
-#    Time: 50 ns  Iteration: 0  Instance: /tb_comp_4bit_u_2bit
-# Break in Module tb_comp_4bit_u_2bit at D:/Obsi/verilogg/dataflow/comparator/tb_comp_4bit_u_2bit.v line 16
-# End time: 12:36:37 on Jan 06,2023, Elapsed time: 0:28:52
-# Errors: 0, Warnings: 3
-# Closing project D:/Obsi/verilogg/dataflow/comparator/comparator.mpf
-# reading C:/questasim64_10.7c/win64/../modelsim.ini
-quit
+vsim -debugDB comparator_3bit_dut
+# vsim -debugDB comparator_3bit_dut 
+# Start time: 12:38:24 on Feb 21,2023
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# Loading work.comparator_3bit_dut(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# End time: 13:25:10 on Feb 21,2023, Elapsed time: 0:46:46
+# Errors: 0, Warnings: 2

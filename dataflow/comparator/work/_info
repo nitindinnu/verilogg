@@ -9,34 +9,34 @@ z2
 cModel Technology
 Z0 dC:/questasim64_10.7c/examples
 T_opt
-!s110 1672904090
-V5kjH4W`k;7gd6ZF@Dn?8L3
-04 18 4 work comparator_3bit_tb fast 0
-=1-50814090a273-63b67d9a-dc-2b18
-Z1 o-quiet -auto_acc_if_foreign -work work +acc
-Z2 tCvgOpt 0
+!s110 1676963305
+VHHVUNYkX2D?1g@K5GgB^<0
+04 19 4 work comparator_3bit_dut fast 0
+=1-50814090a273-63f46de9-6c-4a88
+o-quiet -auto_acc_if_foreign -work work -debugdb
+Z1 tCvgOpt 0
 n@_opt
-Z3 OL;O;10.7c;67
-R0
+Z2 OL;O;10.7c;67
 T_opt1
 !s110 1672912474
 V:GKX4Zk>Z5PQh3:AbLGFz3
 04 18 4 work comparator_4bit_tb fast 0
 =1-50814090a273-63b69e5a-2c0-550
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
 R1
-R2
 n@_opt1
-R3
+R2
 R0
 T_opt2
 !s110 1672980728
 V4AbcLjfO0CIE9>OG^doa]0
 04 19 4 work tb_comp_4bit_u_2bit fast 0
 =1-50814090a273-63b7a8f7-3a6-3d60
-R1
-R2
-n@_opt2
 R3
+R1
+n@_opt2
+R2
+R0
 vcomparator_1bit_dut
 Z4 !s110 1672980720
 !i10b 1
@@ -57,7 +57,7 @@ Z8 !s108 1672980720.000000
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/comparator/dut_comparator_1bit.v|
 !i113 0
 Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+R1
 vcomparator_1bit_tb
 R4
 !i10b 1
@@ -78,7 +78,7 @@ R8
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/comparator/tb_comparator_1bit.v|
 !i113 0
 R9
-R2
+R1
 vcomparator_3bit_dut
 R4
 !i10b 1
@@ -99,7 +99,7 @@ R8
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/comparator/dut_comparator_3bit.v|
 !i113 0
 R9
-R2
+R1
 vcomparator_3bit_tb
 R4
 !i10b 1
@@ -120,7 +120,7 @@ R8
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Obsi/verilogg/dataflow/comparator/tb_comparator_3bit.v|
 !i113 0
 R9
-R2
+R1
 vcomparator_4bit_tb
 R4
 !i10b 1
@@ -141,7 +141,7 @@ R8
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\comparator\tb_comparator_4bit.v|
 !i113 0
 R9
-R2
+R1
 vdut_4bit_u_2bit
 !s110 1672914300
 !i10b 1
@@ -162,7 +162,7 @@ Z12 !s107 D:\Obsi\verilogg\dataflow\comparator\dut_comp_4bit_u_2bit.v|
 Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\comparator\dut_comp_4bit_u_2bit.v|
 !i113 0
 R9
-R2
+R1
 vdut_comp_4bit_u_2bit
 Z14 !s110 1672980721
 !i10b 1
@@ -183,7 +183,7 @@ R12
 R13
 !i113 0
 R9
-R2
+R1
 vdut_comparator_4bit
 R4
 !i10b 1
@@ -204,7 +204,7 @@ R8
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\comparator\dut_comparator_4bit.v|
 !i113 0
 R9
-R2
+R1
 vtb_comp_4bit_u_2bit
 R14
 !i10b 1
@@ -225,4 +225,4 @@ r1
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\Obsi\verilogg\dataflow\comparator\tb_comp_4bit_u_2bit.v|
 !i113 0
 R9
-R2
+R1

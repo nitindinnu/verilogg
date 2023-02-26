@@ -1,1 +1,4 @@
 ignore01/
+**/work/
+**/.mpf
+**/.obsidian/
