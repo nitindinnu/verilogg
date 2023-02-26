@@ -1,0 +1,10 @@
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+Start time: 12:28:23 on Feb 26,2023
+vlog -reportprogress 300 and_dut.v "+acc" -l and_transcript.log 
+-- Compiling module and_dut
+-- Compiling module and_tb
+
+Top level modules:
+	and_tb
+End time: 12:28:23 on Feb 26,2023, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

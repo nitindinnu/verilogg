@@ -17,8 +17,9 @@ o-quiet -auto_acc_if_foreign -work work
 Z1 tCvgOpt 0
 n@_opt
 OL;O;10.7c;67
+R0
 vand_dut
-Z2 !s110 1677394067
+Z2 !s110 1677394703
 !i10b 1
 !s100 AZ::eP=aGTmBSkhf54><z2
 IV>hLHBF>ohzAdoJ>7_6ED2
@@ -32,11 +33,11 @@ Z7 OL;L;10.7c;67
 r1
 !s85 0
 31
-Z8 !s108 1677394067.000000
-Z9 !s107 and_dut.v|
-Z10 !s90 -reportprogress|300|and_dut.v|+acc|
+Z8 !s108 1677394703.000000
+!s107 and_dut.v|
+Z9 !s90 -reportprogress|300|and_dut.v|+acc|-l|and_transcript.log|
 !i113 0
-Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
 vand_tb
 R2
@@ -54,8 +55,8 @@ r1
 !s85 0
 31
 R8
+Z11 !s107 and_dut.v|
 R9
-R10
 !i113 0
-R11
+R10
 R1

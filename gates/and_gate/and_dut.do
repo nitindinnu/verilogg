@@ -1,5 +1,5 @@
 vlib work
-vlog and_dut.v +acc
+vlog and_dut.v +acc -l and_transcript.log
 vsim work.and_tb 
 add wave -r *
 run -all
